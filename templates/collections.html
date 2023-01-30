@@ -1,0 +1,77 @@
+{% extends "_base.html" %}
+{% block body %}
+<section class="cards pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-lg-4">
+        <a
+          href="http://docs.ansible.com/ansible/latest/collections/index.html"
+        >
+          <div class="card border">
+            <div class="card-body">
+              <h4 class="card-title">Ansible Collections Index</h4>
+              <p class="card-text">
+                Collections are the workhorse of any playbook. You can find
+                the complete set of Ansible collections for sysadmins,
+                network, cloud, and security teams.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="http://docs.ansible.com/ansible/latest/collections/index.html"
+                class="btn btn-outline-black"
+                >Visit the documentation</a
+              >
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <a href="http://docs.ansible.com/ansible/latest/network/">
+          <div class="card border">
+            <div class="card-body">
+              <h4 class="card-title">Ansible Network Collections</h4>
+              <p class="card-text">
+                Ansible Network collections can configure your network
+                stack, test and validate existing network state, and
+                discover and correct network configuration drift.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="http://docs.ansible.com/ansible/latest/network/"
+                class="btn btn-outline-black"
+                >Visit the documentation</a
+              >
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <a
+          href="http://docs.ansible.com/ansible/latest/scenario_guides/virt_guides.html"
+        >
+          <div class="card border">
+            <div class="card-body">
+              <h4 class="card-title">
+                Ansible Virtualization and Containerization
+              </h4>
+              <p class="card-text">
+                Manage virtualization such as VMware and Kubernetes with
+                Ansible collections.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="http://docs.ansible.com/ansible/latest/scenario_guides/virt_guides.html"
+                class="btn btn-outline-black"
+                >Learn more</a
+              >
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
