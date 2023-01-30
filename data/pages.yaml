@@ -1,0 +1,16 @@
+index:
+  welcome: Welcome to Ansible documentation
+  about_ansible: Ansible is a radically simple IT automation tool. Ansible can deploy software, configure systems, orchestrate advanced operations like continuous deployments and zero downtime rolling upgrades.
+  novice_button:
+    button_one: Learn more about Ansible automation
+    button_two: Get started with Ansible in a few easy steps
+    button_three: Install Ansible
+  user_main_heading: Ansible users
+  user_body: Ansible playbooks are blueprints for automation. Lorem ipsum text to replace with abstract that matches persona high-level goals.
+  user_secondary_heading: User tools
+  user_secondary_body: Lorem ipsum text to replace with high-level overview of the Ansible user tools.
+  user_button:
+    button_one: Build an inventory of managed nodes
+    button_two: Write playbooks that deploy and configure nodes
+    button_three: Use Ansible modules and plugins
+    button_four: Explore Ansible projects

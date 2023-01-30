@@ -5,22 +5,19 @@
   <div class="row justify-content-center">
     <div class="w-50 p-0">
       <div class="card-body">
-        <h4>Welcome to Ansible documentation</h4>
-        <p class="card-text">
-          Ansible is a radically simple IT automation tool. Ansible can deploy
-          software, configure systems, orchestrate advanced operations like
-          continuous deployments and zero downtime rolling upgrades.
-        </p>
+        <h4>{{ pages.index.welcome }}</h4>
+        <p class="card-text">{{ pages.index.about_ansible }}</p>
         <div class="btn-group-vertical" role="group" aria-label="Ansible novice group">
-            <a class="btn btn-primary" href="{{ links.core_docs.index }}" role="button">Learn more about Ansible automation</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.start }}" role="button">Get started with Ansible in a few easy steps</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.install }}" role="button">Install Ansible</a>
+            <a class="btn btn-primary" href="{{ links.core_docs.index }}" role="button">{{ pages.index.novice_button.button_one }}</a>
+            <a class="btn btn-primary" href="{{ links.core_docs.start }}" role="button">{{ pages.index.novice_button.button_two }}</a>
+            <a class="btn btn-primary" href="{{ links.core_docs.install }}" role="button">{{ pages.index.novice_button.button_three }}</a>
         </div>
       </div>
     </div>
+    <!--Ansible version and pip installation clipboard-->
     <div class="w-25 p-0">
       <div class="card-body">
-        <h4>Ansible {{ base.ansible_version }} is now available</h4>
+        <h4>Ansible {{ base.ansible_version }} is available</h4>
         <div class="clipboard">
           <pre><code id="clip">pip install ansible</code><button class="btn" data-clipboard-action="copy" data-clipboard-target="#clip"> <i class='far fa-clipboard'></i></button></pre>
         </div>
@@ -31,26 +28,20 @@
   <div class="row justify-content-center">
     <div class="w-50 p-0">
       <div class="card-body">
-        <h5>Ansible users <i class="fas fa-cogs"></i></h5>
-        <p class="card-text">
-          Ansible playbooks are blueprints for automation. Lorem ipsum text to
-          replace with abstract that matches persona high-level goals.
-        </p>
+        <h5>{{ pages.index.user_main_heading }} <i class="fas fa-cogs"></i></h5>
+        <p class="card-text">{{ pages.index.user_body }}</p>
         <div class="btn-group-vertical" role="group" aria-label="User group">
-            <a class="btn btn-primary" href="{{ links.core_docs.inventory_guide }}" role="button">Build an inventory of managed nodes</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.playbook_guide }}" role="button">Write playbooks that deploy and configure nodes</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.collections_index }}" role="button">Use Ansible modules and plugins</a>
+            <a class="btn btn-primary" href="{{ links.core_docs.inventory_guide }}" role="button">{{ pages.index.user_button.button_one }}</a>
+            <a class="btn btn-primary" href="{{ links.core_docs.playbook_guide }}" role="button">{{ pages.index.user_button.button_two }}</a>
+            <a class="btn btn-primary" href="{{ links.core_docs.collections_index }}" role="button">{{ pages.index.user_button.button_three }}</a>
         </div>
       </div>
     </div>
     <div class="w-25 p-0">
       <div class="card-body">
-        <h5>User tools</h5>
-        <p class="card-text">
-          Lorem ipsum text to replace with high-level overview of the Ansible
-          user tools.
-        </p>
-        <a class="btn btn-primary" href="{{ base.pages.user }}" role="button">Explore Ansible projects</a>
+        <h5>{{ pages.index.user_secondary_heading }}</h5>
+        <p class="card-text">{{ pages.index.user_secondary_body }}</p>
+        <a class="btn btn-primary" href="{{ base.pages.user }}" role="button">{{ pages.index.user_button.button_four }}</a>
       </div>
     </div>
   </div>

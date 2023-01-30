@@ -7,7 +7,8 @@ from yaml import Loader, load
 def data():
     return {
         "base": load(open("data/base.yaml"), Loader=Loader),
-        "links": load(open("data/links.yaml"), Loader=Loader)
+        "links": load(open("data/links.yaml"), Loader=Loader),
+        "pages": load(open("data/pages.yaml"), Loader=Loader)
     }
 
 if __name__ == "__main__":
