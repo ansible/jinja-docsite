@@ -1,0 +1,9 @@
+ansible_version: 7
+pages:
+  collections: collections.html
+  community: community.html
+  core: core.html
+  developer: developer.html
+  ecosystem: ecosystem.html
+  index: index.html
+  user: user.html

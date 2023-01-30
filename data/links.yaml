@@ -1,0 +1,12 @@
+core_docs:
+  index: "https://docs.ansible.com/ansible/latest/index.html"
+  start: "https://docs.ansible.com/ansible/latest/getting_started/index.html"
+  install: "https://docs.ansible.com/ansible/latest/installation_guide/index.html"
+  inventory_guide: "https://docs.ansible.com/ansible/latest/inventory_guide/index.html"
+  playbook_guide: "https://docs.ansible.com/ansible/latest/playbook_guide/index.html"
+  collections_index: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
+  developer_guide: "https://docs.ansible.com/ansible/latest/dev_guide/index.html"
+dev_docs:
+  environment_setup: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#environment-setup"
+  developing_modules: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#developing-modules-general"
+  ansible_architecture: "https://docs.ansible.com/ansible/latest/dev_guide/overview_architecture.html"
