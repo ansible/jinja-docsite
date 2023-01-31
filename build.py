@@ -1,3 +1,4 @@
+import os
 import shutil
 
 from staticjinja import Site
@@ -11,9 +12,11 @@ def data():
         "pages": load(open("data/pages.yaml"), Loader=Loader)
     }
 
-if __name__ == "__main__":
+def build_dir():
+    shutil.rmtree("build")
+    os.makedirs("build")
 
-    shutil.rmtree('build')
+if __name__ == "__main__":
 
     site = Site.make_site()
     site.outpath="build"
