@@ -1,4 +1,4 @@
-name: Ansible package docs build
+name: Ansible docsite
 on:
   push:
     branches:
