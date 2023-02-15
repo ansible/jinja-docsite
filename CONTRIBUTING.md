@@ -1,6 +1,7 @@
 # Contributing
 
-Hello. This is the place where you can contribute to the Ansible docsite.
+Hello. This is the place where you can contribute **ideas** for a new  Ansible docsite.
+This is currently a place for rapid prototyping of what we can do for a future docsite.
 
 We love it when people submit new ideas, make improvements, and fix our mistakes. So welcome!
 
