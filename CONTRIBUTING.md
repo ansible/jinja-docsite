@@ -1,7 +1,6 @@
 # Contributing
 
-Hello. This is the place where you can contribute **ideas** for a new  Ansible docsite.
-This is currently a place for rapid prototyping of what we can do for a future docsite.
+Hello. This is the place where you can contribute ideas for an update to the Ansible docsite look and feel.
 
 We love it when people submit new ideas, make improvements, and fix our mistakes. So welcome!
 
@@ -11,14 +10,16 @@ We love it when people submit new ideas, make improvements, and fix our mistakes
 - Take care to make sure no merge commits are in your submission. Use `git rebase` vs `git merge` for this reason.
 - We ask all of our community members and contributors to adhere to the [Ansible code of conduct]. If you have questions, or need assistance, please reach out to our community team at [codeofconduct@ansible.com].
 
-## Building the docsite locally
+## Building the docsite
 
-Test your changes to the Ansible docsite.
+Test your changes to the Ansible docsite locally.
 
 ```bash
 $ pip install -r requirements.txt
 $ python build.py
 ```
+
+Merging to the `devel` branch automatically updates GitHub pages here: https://ansible.github.io/jinja-docsite/
 
 [Ansible code of conduct]: http://docs.ansible.com/ansible/latest/community/code_of_conduct.html
 [codeofconduct@ansible.com]: mailto:codeofconduct@ansible.com
