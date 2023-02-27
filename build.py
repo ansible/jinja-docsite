@@ -2,10 +2,9 @@ import os
 import shutil
 import sass
 
+from pathlib import Path
 from staticjinja import Site
 from yaml import Loader, load
-
-sass.compile(dirname=('scss', 'static/css'))
 
 def data():
     return {
@@ -14,10 +13,11 @@ def data():
         "pages": load(open("data/pages.yaml"), Loader=Loader)
     }
 
-if __name__ == "__main__":
-
+buildpath = Path('build')
+if buildpath.exists() and buildpath.is_dir():
     shutil.rmtree("build")
-    os.makedirs("build")
+
+if __name__ == "__main__":
 
     site = Site.make_site()
     site.outpath="build"
@@ -25,4 +25,6 @@ if __name__ == "__main__":
     # disable automatic reloading
     site.render(use_reloader=False)
 
+
     shutil.copytree('static', 'build/static')
+    sass.compile(dirname=('scss', 'build/static/css'))
