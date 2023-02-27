@@ -4,13 +4,12 @@ on:
     branches:
       - 'devel'
   workflow_dispatch:
-
 jobs:
   build-docsite:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
@@ -22,7 +21,8 @@ jobs:
     - name: Generate docsite
       run: python build.py
     - name: Deploy to GH pages
-      uses: JamesIves/github-pages-deploy-action@v4
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        folder: build
-        branch: main
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: build
+        publish_branch: main
