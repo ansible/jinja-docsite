@@ -1,9 +1,11 @@
 import os
 import shutil
+import sass
 
 from staticjinja import Site
 from yaml import Loader, load
 
+sass.compile(dirname=('scss', 'static/css'))
 
 def data():
     return {
@@ -12,11 +14,10 @@ def data():
         "pages": load(open("data/pages.yaml"), Loader=Loader)
     }
 
-def build_dir():
+if __name__ == "__main__":
+
     shutil.rmtree("build")
     os.makedirs("build")
-
-if __name__ == "__main__":
 
     site = Site.make_site()
     site.outpath="build"
