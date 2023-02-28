@@ -1,0 +1,177 @@
+@import "colors";
+@import "fonts";
+
+body {
+	background: $navy;
+	color: $white;
+	font-weight: 300;
+	font-family: $redhat-text;
+}
+html {
+	background: $navy;
+	color: $white;
+	font-weight: 300;
+	font-family: $redhat-text;
+}
+nav {
+	background: $navy;
+	color: $white;
+	font-size: 1.25rem;
+	.navbar-toggler {
+		color: $white;
+		outline: none;
+		.icon-bar {
+			display: block;
+			width: 1.375rem;
+			height: 0.125rem;
+			border-radius: 1px;
+			background-color: $white;
+			transition: all 300ms ease-in-out;
+			transform: rotate(0);
+			opacity: 1;
+			margin-top: 0.3125rem;
+		}
+		.icon-bar.top {
+			margin-top: 0.625rem;
+			transform: rotate(45deg);
+		}
+		.icon-bar.center {
+			opacity: 0;
+		}
+		.icon-bar.bottom {
+			margin-top: -0.5rem;
+			transform: rotate(-45deg);
+		}
+	}
+	.navbar-toggler.collapsed {
+		.icon-bar {
+			transform: rotate(0);
+			opacity: 1;
+			margin-top: 0.5rem;
+		}
+	}
+	.nav-link {
+		color: $white;
+		font-size: 1rem;
+	}
+}
+.navbar {
+	.container {
+		max-width: 75%;
+	}
+}
+h1 {
+	font-family: $redhat-display;
+	font-size: 2.5rem;
+}
+h2 {
+	font-family: $redhat-display;
+	font-size: 2.25rem;
+}
+h3 {
+	font-family: $redhat-display;
+}
+h4 {
+	font-family: $redhat-display;
+	font-size: 1.5rem;
+	margin-bottom: 1.2rem;
+}
+h5 {
+	font-family: $redhat-display;
+}
+h6 {
+	font-family: $redhat-display;
+}
+.subhead {
+	font-size: 1.5rem;
+	font-family: $redhat-display;
+}
+.cards {
+	.row {
+		background: #102441;
+	}
+	.card-body {
+		z-index: 2;
+		a {
+			color: $white;
+			&:hover {
+				text-decoration: underline;
+				color: $cyan;
+			}
+		}
+	}
+	.card-quick-link {
+		font-size: large;
+		font-family: $redhat-display;
+		text-align: center;
+	}
+	.card-text {
+		font-size: large;
+		font-family: $redhat-display;
+		text-align: justify;
+	}
+	.btn {
+		background-color: $navy;
+		border: 0px;
+		cursor: pointer;
+		font-size: medium;
+		font-family: $redhat-display;
+		font-weight: normal;
+		text-align: left;
+		&:hover {
+			color: $white !important;
+			background-color: $pool;
+		}
+	}
+}
+.clipboard {
+	font-size: large;
+	font-family: $redhat-display;
+	text-align: left;
+	pre {
+		background-color: $pool;
+		color: $white;
+		padding-top: 10px;
+		padding-left: 20px;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+		position: relative;
+		width: 90%;
+		text-align: left;
+		display: inline-block;
+	}
+	code {
+		background: none;
+	}
+	.btn {
+		background-color: $pool;
+		border: 0px;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		cursor: pointer;
+		&:hover {
+			background-color: $pool;
+		}
+	}
+	.fa-clipboard {
+		color: $white;
+	}
+}
+.footer {
+	iframe {
+		width: 100%;
+		height: 800px;
+		border: 0px;
+	}
+}
+@media (min-width: 768px) {
+	nav.main {
+		.navbar-nav {
+			.nav-link {
+				padding-right: 0.75rem;
+				padding-left: 0.75rem;
+			}
+		}
+	}
+}
