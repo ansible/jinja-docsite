@@ -1,3 +1,6 @@
+site_title: Ansible Documentation
+site_description: Ansible Documentation
+site_author: Ansible Community
 ansible_version: 7
 pages:
   collections: collections.html

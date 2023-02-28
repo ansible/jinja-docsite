@@ -1,16 +1,31 @@
 index:
   welcome: Welcome to Ansible documentation
-  about_ansible: Ansible is a radically simple IT automation tool. Ansible can deploy software, configure systems, orchestrate advanced operations like continuous deployments and zero downtime rolling upgrades.
-  novice_button:
-    button_one: Learn more about Ansible automation
-    button_two: Get started with Ansible in a few easy steps
-    button_three: Install Ansible
-  user_main_heading: Ansible users
-  user_body: Ansible playbooks are blueprints for automation. Lorem ipsum text to replace with abstract that matches persona high-level goals.
-  user_secondary_heading: User tools
-  user_secondary_body: Lorem ipsum text to replace with high-level overview of the Ansible user tools.
-  user_button:
-    button_one: Build an inventory of managed nodes
-    button_two: Write playbooks that deploy and configure nodes
-    button_three: Use Ansible modules and plugins
-    button_four: Explore Ansible projects
+  about_ansible: Ansible offers powerful and flexible automation that is simple, decentralized, and easy.
+  #Ansible novice
+  novice_actions:
+    #Labels provide meaningful descriptions of elements for accessibility purposes.
+    action_label: Button group that links to documentation for new Ansible users.
+    action_one: Understand the fundamentals of Ansible automation
+    action_two: Set up an Ansible automation project
+    action_three: Write your first playbook in a few easy steps
+  #Ansible user
+  user_persona_heading: Ansible users
+  user_base_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
+  user_base_actions:
+    #Labels provide meaningful descriptions of elements for accessibility purposes.
+    action_label: Button group that links to base Ansible user documentation.
+    action_one: Start writing Ansible playbooks
+    action_two: Learn which plugins to use for your tasks
+    action_three: Build inventory files to manage multiple hosts
+  user_resources_heading: User resources
+  user_resources_body: Structure your project with roles, improve content quality, re-use existing automation, and more.
+  user_resources_action: Unleash your automation
+  #Ansible developer
+  dev_main_heading:
+  dev_body:
+  dev_secondary_heading:
+  dev_secondary_body:
+  dev_button:
+    button_one:
+    button_two:
+    button_three:

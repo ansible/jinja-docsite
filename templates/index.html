@@ -7,41 +7,41 @@
       <div class="card-body">
         <h4>{{ pages.index.welcome }}</h4>
         <p class="card-text">{{ pages.index.about_ansible }}</p>
-        <div class="btn-group-vertical" role="group" aria-label="Ansible novice group">
-            <a class="btn btn-primary" href="{{ links.core_docs.index }}" role="button">{{ pages.index.novice_button.button_one }}</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.start }}" role="button">{{ pages.index.novice_button.button_two }}</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.install }}" role="button">{{ pages.index.novice_button.button_three }}</a>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.novice_actions.action_label }}">
+            <a class="btn btn-primary" href="{{ links.core_docs.index }}" role="button">{{ pages.index.novice_actions.action_one }}</a>
+            <a class="btn btn-primary" href="{{ links.core_docs.start }}" role="button">{{ pages.index.novice_actions.action_two }}</a>
+            <a class="btn btn-primary" href="{{ links.core_docs.install }}" role="button">{{ pages.index.novice_actions.action_three }}</a>
         </div>
       </div>
     </div>
     <!--Ansible version and pip installation clipboard-->
     <div class="w-25 p-0">
       <div class="card-body">
-        <h4>Ansible {{ base.ansible_version }} is available</h4>
+        <h4>Ansible {{ base.ansible_version }} is now available</h4>
         <div class="clipboard">
           <pre><code id="clip">pip install ansible</code><button class="btn" data-clipboard-action="copy" data-clipboard-target="#clip"> <i class='far fa-clipboard'></i></button></pre>
         </div>
       </div>
     </div>
   </div>
-  <!--Start users cards-->
+  <!--Start Ansible user section-->
   <div class="row justify-content-center">
     <div class="w-50 p-0">
       <div class="card-body">
-        <h5>{{ pages.index.user_main_heading }} <i class="fas fa-cogs"></i></h5>
-        <p class="card-text">{{ pages.index.user_body }}</p>
-        <div class="btn-group-vertical" role="group" aria-label="User group">
-            <a class="btn btn-primary" href="{{ links.core_docs.inventory_guide }}" role="button">{{ pages.index.user_button.button_one }}</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.playbook_guide }}" role="button">{{ pages.index.user_button.button_two }}</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.collections_index }}" role="button">{{ pages.index.user_button.button_three }}</a>
+        <h5>{{ pages.index.user_persona_heading }} <i class="fas fa-cogs"></i></h5>
+        <p class="card-text">{{ pages.index.user_base_body }}</p>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.user_base_actions.action_label }}">
+            <a class="btn btn-primary" href="{{ links.core_docs.inventory_guide }}" role="button">{{ pages.index.user_base_actions.action_one }}</a>
+            <a class="btn btn-primary" href="{{ links.core_docs.playbook_guide }}" role="button">{{ pages.index.user_base_actions.action_two }}</a>
+            <a class="btn btn-primary" href="{{ links.core_docs.collections_index }}" role="button">{{ pages.index.user_base_actions.action_three }}</a>
         </div>
       </div>
     </div>
     <div class="w-25 p-0">
       <div class="card-body">
-        <h5>{{ pages.index.user_secondary_heading }}</h5>
-        <p class="card-text">{{ pages.index.user_secondary_body }}</p>
-        <a class="btn btn-primary" href="{{ base.pages.user }}" role="button">{{ pages.index.user_button.button_four }}</a>
+        <h5>{{ pages.index.user_resources_heading }}</h5>
+        <p class="card-text">{{ pages.index.user_resources_body }}</p>
+        <a class="btn btn-primary" href="{{ base.pages.user }}" role="button">{{ pages.index.user_resources_action }}</a>
       </div>
     </div>
   </div>
@@ -72,7 +72,7 @@
       </div>
     </div>
   </div>
-  <!--Start collections cards-->
+  <!--Start community maintainer cards-->
   <div class="row justify-content-center">
     <div class="w-50 p-0">
       <div class="card-body">
