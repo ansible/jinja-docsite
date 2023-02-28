@@ -1,15 +1,16 @@
 .redhat-footer {
   background-color: #000000;
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
   text-align: center; }
   .redhat-footer .grid-wrapper {
-    padding: .5rem 0; }
+    padding: 0.5rem 0; }
   .redhat-footer .licence {
     grid-column: 5/9;
     align-self: center;
     justify-self: center; }
     .redhat-footer .licence a {
       color: #ffffff;
-      font-size: .75rem;
+      font-size: 0.75rem;
       font-weight: 200; }
     @media screen and (max-width: 1024px) {
       .redhat-footer .licence {
@@ -24,7 +25,7 @@
     grid-column: 9/12;
     align-self: center;
     justify-self: end;
-    font-size: .75rem;
+    font-size: 0.75rem;
     font-weight: 200;
     color: #ffffff; }
     @media screen and (max-width: 1024px) {
