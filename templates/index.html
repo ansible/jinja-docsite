@@ -7,6 +7,7 @@
       <div class="card-body">
         <h4>{{ pages.index.welcome }}</h4>
         <p class="card-text">{{ pages.index.about_ansible }}</p>
+        <!--Start novice section-->
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.novice_actions.action_label }}">
             <a class="btn btn-primary" href="{{ links.core_docs.index }}" role="button">{{ pages.index.novice_actions.action_one }}</a>
             <a class="btn btn-primary" href="{{ links.core_docs.start }}" role="button">{{ pages.index.novice_actions.action_two }}</a>
@@ -24,11 +25,11 @@
       </div>
     </div>
   </div>
-  <!--Start Ansible user section-->
+  <!--Start user section-->
   <div class="row justify-content-center">
     <div class="w-50 p-0">
       <div class="card-body">
-        <h5>{{ pages.index.user_persona_heading }} <i class="fas fa-cogs"></i></h5>
+        <h5>{{ pages.index.user_heading }} <i class="fas fa-cogs"></i></h5>
         <p class="card-text">{{ pages.index.user_base_body }}</p>
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.user_base_actions.action_label }}">
             <a class="btn btn-primary" href="{{ links.core_docs.inventory_guide }}" role="button">{{ pages.index.user_base_actions.action_one }}</a>
@@ -45,84 +46,45 @@
       </div>
     </div>
   </div>
-  <!--Start developers cards-->
+  <!--Start developer section-->
   <div class="row justify-content-center">
     <div class="w-50 p-0">
       <div class="card-body">
-        <h5>Developers <i class="fas fa-code"></i></h5>
-        <p class="card-text">
-          Add Ansible functionality with plugins and modules. Lorem ipsum text
-          to replace with abstract that matches persona high-level goals.
-        </p>
-        <div class="btn-group-vertical" role="group" aria-label="Developer group">
-            <a class="btn btn-primary" href="{{ links.dev_docs.ansible_architecture }}" role="button">Learn Ansible architecture</a>
-            <a class="btn btn-primary" href="{{ links.dev_docs.environment_setup }}" role="button">Set up a Python environment</a>
-            <a class="btn btn-primary" href="{{ links.dev_docs.developing_modules }}" role="button">Start coding plugins</a>
+        <h5>{{ pages.index.developer_heading }} <i class="fas fa-code"></i></h5>
+        <p class="card-text">{{ pages.index.developer_base_body }}</p>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.developer_base_actions.action_label }}">
+            <a class="btn btn-primary" href="{{ links.dev_docs.ansible_architecture }}" role="button">{{ pages.index.developer_base_actions.action_one }}</a>
+            <a class="btn btn-primary" href="{{ links.dev_docs.environment_setup }}" role="button">{{ pages.index.developer_base_actions.action_two }}</a>
+            <a class="btn btn-primary" href="{{ links.dev_docs.developing_modules }}" role="button">{{ pages.index.developer_base_actions.action_three }}</a>
         </div>
       </div>
     </div>
     <div class="w-25 p-0">
       <div class="card-body">
-        <h5>Developer resources</h5>
-        <p class="card-text">
-          Lorem ipsum text to replace with high-level overview of the Ansible
-          developer resources.
-        </p>
-        <a class="btn btn-primary" href="{{ base.pages.developer }}" role="button">Explore Ansible projects</a>
+        <h5>{{ pages.index.developer_resources_heading }}</h5>
+        <p class="card-text">{{ pages.index.user_resources_body }}</p>
+        <a class="btn btn-primary" href="{{ base.pages.developer }}" role="button">{{ pages.index.developer_resources_action }}</a>
       </div>
     </div>
   </div>
-  <!--Start community maintainer cards-->
+  <!--Start community maintainer section-->
   <div class="row justify-content-center">
     <div class="w-50 p-0">
       <div class="card-body">
-        <h5>Collections <i class="fas fa-project-diagram"></i></h5>
-        <p class="card-text">
-          Extend automation with Ansible collections. Lorem ipsum text to
-          replace with abstract that matches persona high-level goals.
-        </p>
-        <div class="btn-group-vertical" role="group" aria-label="Collections group">
-          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/inventory_guide/index.html" role="button">Finding and using Ansible collections</a>
-          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/playbook_guide/index.html" role="button">Contributing to collections</a>
-          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/collections/all_plugins.html" role="button">Maintaining collections</a>
+        <h5>{{ pages.index.maintainer_heading }} <i class="fas fa-project-diagram"></i></h5>
+        <p class="card-text">{{ pages.index.maintainer_base_body }}</p>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.maintainer_base_actions.action_label }}">
+          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/inventory_guide/index.html" role="button">{{ pages.index.maintainer_base_actions.action_one }}</a>
+          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/playbook_guide/index.html" role="button">{{ pages.index.maintainer_base_actions.action_two }}</a>
+          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/collections/all_plugins.html" role="button">{{ pages.index.maintainer_base_actions.action_three }}</a>
         </div>
       </div>
     </div>
     <div class="w-25 p-0">
       <div class="card-body">
-        <h5>Collections resources</h5>
-        <p class="card-text">
-          Lorem ipsum text to replace with high-level overview of the Ansible
-          collections resources.
-        </p>
-        <a class="btn btn-primary" href="{{ base.pages.collections }}" role="button">Explore Ansible projects</a>
-      </div>
-    </div>
-  </div>
-  <!--Start community cards-->
-  <div class="row justify-content-center">
-    <div class="w-50 p-0">
-      <div class="card-body">
-        <h5>Community <i class="fas fa-users"></i></h5>
-        <p class="card-text">
-          Join the Ansible community with this call to action. Lorem ipsum text to
-          replace with abstract that matches persona high-level goals.
-        </p>
-        <div class="btn-group-vertical" role="group" aria-label="Community group">
-          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/inventory_guide/index.html" role="button">Finding and using Ansible collections</a>
-          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/playbook_guide/index.html" role="button">Contributing to collections</a>
-          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/collections/all_plugins.html" role="button">Maintaining collections</a>
-        </div>
-      </div>
-    </div>
-    <div class="w-25 p-0">
-      <div class="card-body">
-        <h5>Ansible community resources</h5>
-        <p class="card-text">
-          Lorem ipsum text to replace with high-level overview of the Ansible
-          community resources.
-        </p>
-        <a class="btn btn-primary" href="{{ base.pages.community }}" role="button">Join the Ansible community</a>
+        <h5>{{ pages.index.maintainer_resources_heading }}</h5>
+        <p class="card-text">{{ pages.index.maintainer_resources_body }}</p>
+        <a class="btn btn-primary" href="{{ base.pages.maintainer }}" role="button">{{ pages.index.maintainer_resources_action }}</a>
       </div>
     </div>
   </div>
