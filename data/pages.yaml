@@ -8,6 +8,8 @@ index:
     action_one: Understand the fundamentals of Ansible automation
     action_two: Set up an Ansible automation project
     action_three: Write your first playbook in a few easy steps
+  #Ansible installation
+  install_action: Go to the installation guide
   #Ansible user
   user_heading: Ansible users
   user_base_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
