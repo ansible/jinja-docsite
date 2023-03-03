@@ -10,7 +10,8 @@ def data():
     return {
         "base": load(open("data/base.yaml"), Loader=Loader),
         "links": load(open("data/links.yaml"), Loader=Loader),
-        "pages": load(open("data/pages.yaml"), Loader=Loader)
+        "pages": load(open("data/pages.yaml"), Loader=Loader),
+        "projects": load(open("data/projects.yaml"), Loader=Loader)
     }
 
 buildpath = Path('build')

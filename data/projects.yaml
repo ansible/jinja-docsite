@@ -1,0 +1,42 @@
+name:
+  als: Ansible Language Server
+  awx: AWX
+  awx_operator: AWX Operator
+  builder: Ansible Builder
+  compat: Ansible Compat
+  core: Ansible Core
+  eda: Event-Driven Ansible Server
+  galaxy: Galaxy
+  galaxy_ng: Galaxy NG
+  lint: Ansible Lint
+  molecule: Molecule
+  navigator: Ansible Navigator
+  pinakes: Pinakes
+  pylibssh: Ansible Pylibssh
+  receptor: Receptor
+  rulebook: Ansible Rulebook
+  runner: Ansible Runner
+  sdk: Ansible SDK
+  sign: Ansible Sign
+  vscode: Ansible VS Code Extension
+description:
+  als: Ansible Language Server implements language server protocol (LSP) to highlight and check Ansible syntax.
+  awx: AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.
+  awx_operator: Ansible AWX Operator offers built-in intelligence and operational best practices for deploying on Kubernetes environments.
+  builder: Ansible Builder lets you create Execution Environments, which are container images that act as Ansible control nodes.
+  compat: Compat is a Python package that assists with compatibility between different Ansible releases, starting at version 2.9.
+  core: Ansible Core is the language and runtime that powers automation.
+  eda: Event-Driven Ansible Server offers scalable and flexible automation that can subscribe to a wide variety of event sources.
+  galaxy: Galaxy provides a hub for discovering and sharing Ansible community content.
+  galaxy_ng: Galaxy NG jumpstarts automation projects with Ansible community content.
+  lint: Lint improves code quality through proven best practices, patterns, and behaviors so that your Ansible content results in reliable and consistent automation.
+  molecule: Molecule helps you develop and test Ansible roles.
+  navigator: Ansible Navigator is a command-line tool for creating, reviewing, and troubleshooting Ansible content.
+  pinakes: Pinakes lets you make Ansible job templates and workflows available to business users with an added layer of governance.
+  pylibssh: Ansible Pylibssh provides Python bindings for Ansible with the libssh project.
+  receptor: Receptor is an overlay network that distributes workloads across a large and dispersed collection of nodes.
+  rulebook: Ansible Rulebook is a command-line tool that listens to events so your automation can react when software or system states change.
+  runner: Ansible Runner provides a stable and consistent interface abstraction to Ansible.
+  sdk: Ansible SDK is a toolkit that lets you harness the power and simplicity of Ansible automation directly from your applications.
+  sign: Ansible Sign is a utility for signing and verifying Ansible content.
+  vscode: The VS Code extention adds Ansible language support to Visual Studio Code and OpenVSX compatible editors.
