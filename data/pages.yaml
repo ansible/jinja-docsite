@@ -24,7 +24,7 @@ index:
   user_resources_action: Find user resources
   #Ansible developer
   developer_heading: Ansible developers
-  developer_base_body: Ansible is open-source. You can add code that fixes bugs, implements new features, or extends the benefits of simple, agentless automation.
+  developer_base_body: Ansible is open source. You can add code that fixes bugs, implements new features, or extends the benefits of simple, agentless automation.
   developer_base_actions:
     #Labels provide meaningful descriptions of elements for accessibility purposes.
     action_label: Button group that links to base Ansible developer documentation.
