@@ -36,7 +36,7 @@ index:
   developer_resources_action: Find developer resources
   #Community maintainer
   maintainer_heading: Community maintainers
-  maintainer_base_body: Ansible maintainers are responsible for the ongoing quality of collections and play a vital role in guiding the direction of the wider community.
+  maintainer_base_body: Ansible maintainers are responsible for the ongoing quality of  Ansible projects and collections and play a vital role in guiding the direction of the wider community.
   maintainer_base_actions:
     #Labels provide meaningful descriptions of elements for accessibility purposes.
     action_label: Button group that links to base Ansible community maintainer documentation.
