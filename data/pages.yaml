@@ -1,51 +1,67 @@
+# Latest Ansible package version.
+ansible_pkg:
+  announce: Ansible 7 is now available
+  pip_install: pip install ansible
+# Base docsite page names.
+site:
+  index: index.html
+  user: user.html
+  developer: developer.html
+  maintainer: maintainer.html
+  collections: collections.html
+  community: community.html
+  core: core.html
+  ecosystem: ecosystem.html
+# Content for the index page.
 index:
   welcome: Welcome to Ansible documentation
   about_ansible: Ansible offers powerful and flexible automation that is simple, decentralized, and easy.
-  #Ansible novice
+  # Ansible novice
   novice_actions:
-    #Labels provide meaningful descriptions of elements for accessibility purposes.
-    action_label: Button group that links to documentation for new Ansible users.
-    action_one: Understand the fundamentals of Ansible automation
-    action_two: Set up an Ansible automation project
-    action_three: Write your first playbook in a few easy steps
-  #Ansible installation
-  install_action: Go to the installation guide
-  #Ansible user
+    # Labels provide meaningful descriptions of elements for accessibility purposes.
+    label: Button group that links to documentation for new Ansible users.
+    learn: Understand the fundamentals of Ansible automation
+    setup: Set up an Ansible automation project
+    start: Write your first playbook in a few easy steps
+  # Ansible installation
+  install_action: Find more installation options
+  # Ansible user
   user_heading: Ansible users
-  user_base_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
-  user_base_actions:
-    #Labels provide meaningful descriptions of elements for accessibility purposes.
-    action_label: Button group that links to base Ansible user documentation.
-    action_one: Start writing Ansible playbooks
-    action_two: Learn which plugins to use for your tasks
-    action_three: Build inventory files to manage multiple hosts
+  user_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
+  user_actions:
+    # Labels provide meaningful descriptions of elements for accessibility purposes.
+    label: Button group that links to base Ansible user documentation.
+    automate: Start writing Ansible playbooks
+    evaluate_plugins: Learn which plugins to use for your tasks
+    build_inventory: Build inventory files to manage multiple hosts
   user_resources_heading: User resources
   user_resources_body: Structure your project with roles, improve content quality, re-use existing automation, and more.
-  user_resources_action: Find user resources
-  #Ansible developer
+  user_resources_action: Find more resources for Ansible users
+  # Ansible developer
   developer_heading: Ansible developers
-  developer_base_body: Ansible is open source. You can add code that fixes bugs, implements new features, or extends the benefits of simple, agentless automation.
-  developer_base_actions:
-    #Labels provide meaningful descriptions of elements for accessibility purposes.
-    action_label: Button group that links to base Ansible developer documentation.
-    action_one: Set up your development environment
-    action_two: Review the Ansible contributor guidelines
-    action_three: Write custom modules or plugins
+  developer_body: Ansible is open source. You can add code that fixes bugs, implements new features, or extends the benefits of simple, agentless automation.
+  developer_actions:
+    # Labels provide meaningful descriptions of elements for accessibility purposes.
+    label: Button group that links to base Ansible developer documentation.
+    setup: Set up your development environment
+    guidelines: Review the Ansible contributor guidelines
+    start: Write custom modules or plugins
   developer_resources_heading: Developer resources
   developer_resources_body: Contribute to an Ansible project or collection, run sanity tests, write integration and unit tests, and more.
-  developer_resources_action: Find developer resources
-  #Community maintainer
+  developer_resources_action: Find more resources for developing with Ansible
+  # Community maintainer
   maintainer_heading: Community maintainers
-  maintainer_base_body: Ansible maintainers are responsible for the ongoing quality of  Ansible projects and collections and play a vital role in guiding the direction of the wider community.
-  maintainer_base_actions:
-    #Labels provide meaningful descriptions of elements for accessibility purposes.
-    action_label: Button group that links to base Ansible community maintainer documentation.
-    action_one: Learn about the Ansible community
-    action_two: Review and agree to the code of conduct
-    action_three: Join or start a discussion that interests you
+  maintainer_body: Ansible maintainers are responsible for the ongoing quality of  Ansible projects and collections and play a vital role in guiding the direction of the wider community.
+  maintainer_actions:
+    # Labels provide meaningful descriptions of elements for accessibility purposes.
+    label: Button group that links to base Ansible community maintainer documentation.
+    overview: Understand Ansible contributor paths
+    learn: Learn about community maintainer responsibilities
+    join: Join or start a discussion that interests you
   maintainer_resources_heading: Community maintainer resources
   maintainer_resources_body: Handle project lifecycles, ensure the health of collections, join the Ansible steering committee, and more.
-  maintainer_resources_action: Find maintainer resources
+  maintainer_resources_action: Find more resources for Ansible community maintainers
+# Ansible ecosystem page.
 ecosystem:
   title: Ansible Ecosystem
   intro: Projects in the Ansible ecosystem let you expand automation to a virtually unlimited set of use cases.

@@ -1,13 +1,3 @@
 site_title: Ansible Documentation
 site_description: Ansible Documentation
 site_author: Ansible Community
-ansible_version: 7
-pages:
-  user: user.html
-  developer: developer.html
-  maintainer: maintainer.html
-  collections: collections.html
-  community: community.html
-  core: core.html
-  ecosystem: ecosystem.html
-  index: index.html

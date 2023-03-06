@@ -8,21 +8,21 @@
         <h4>{{ pages.index.welcome }}</h4>
         <p class="card-text">{{ pages.index.about_ansible }}</p>
         <!--Start novice section-->
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.novice_actions.action_label }}">
-            <a class="btn btn-primary" href="{{ links.core_docs.index }}" role="button">{{ pages.index.novice_actions.action_one }}</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.start }}" role="button">{{ pages.index.novice_actions.action_two }}</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.install }}" role="button">{{ pages.index.novice_actions.action_three }}</a>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.novice_actions.label }}">
+            <a class="btn btn-primary" href="{{ links.novice_actions.learn }}" role="button">{{ pages.index.novice_actions.learn }}</a>
+            <a class="btn btn-primary" href="{{ links.novice_actions.setup }}" role="button">{{ pages.index.novice_actions.setup }}</a>
+            <a class="btn btn-primary" href="{{ links.novice_actions.start }}" role="button">{{ pages.index.novice_actions.start }}</a>
         </div>
       </div>
     </div>
     <!--Ansible version and pip installation clipboard-->
     <div class="w-25 p-0">
       <div class="card-body">
-        <h4>Ansible {{ base.ansible_version }} is now available</h4>
+        <h4>{{ pages.ansible_pkg.announce }}</h4>
         <div class="clipboard">
-          <pre><code id="clip">pip install ansible</code><button class="btn" data-clipboard-action="copy" data-clipboard-target="#clip"> <i class='far fa-clipboard'></i></button></pre>
+          <pre><code id="clip">{{ pages.ansible_pkg.pip_install }}</code><button class="btn" data-clipboard-action="copy" data-clipboard-target="#clip"> <i class='far fa-clipboard'></i></button></pre>
         </div>
-        <a class="btn btn-primary" href="{{ links.core_docs.install }}" role="button">{{ pages.index.install_action }}</a>
+        <a class="btn btn-primary" href="{{ links.pkg_docs.install }}" role="button">{{ pages.index.install_action }}</a>
       </div>
     </div>
   </div>
@@ -31,11 +31,11 @@
     <div class="w-50 p-0">
       <div class="card-body">
         <h5>{{ pages.index.user_heading }} <i class="fas fa-cogs"></i></h5>
-        <p class="card-text">{{ pages.index.user_base_body }}</p>
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.user_base_actions.action_label }}">
-            <a class="btn btn-primary" href="{{ links.core_docs.inventory_guide }}" role="button">{{ pages.index.user_base_actions.action_one }}</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.playbook_guide }}" role="button">{{ pages.index.user_base_actions.action_two }}</a>
-            <a class="btn btn-primary" href="{{ links.core_docs.collections_index }}" role="button">{{ pages.index.user_base_actions.action_three }}</a>
+        <p class="card-text">{{ pages.index.user_body }}</p>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.user_actions.label }}">
+            <a class="btn btn-primary" href="{{ links.user_actions.automate }}" role="button">{{ pages.index.user_actions.automate }}</a>
+            <a class="btn btn-primary" href="{{ links.user_actions.evaluate_plugins }}" role="button">{{ pages.index.user_actions.evaluate_plugins }}</a>
+            <a class="btn btn-primary" href="{{ links.user_actions.build_inventory }}" role="button">{{ pages.index.user_actions.build_inventory }}</a>
         </div>
       </div>
     </div>
@@ -43,7 +43,7 @@
       <div class="card-body">
         <h5>{{ pages.index.user_resources_heading }}</h5>
         <p class="card-text">{{ pages.index.user_resources_body }}</p>
-        <a class="btn btn-primary" href="{{ base.pages.user }}" role="button">{{ pages.index.user_resources_action }}</a>
+        <a class="btn btn-primary" href="{{ pages.site.user }}" role="button">{{ pages.index.user_resources_action }}</a>
       </div>
     </div>
   </div>
@@ -52,11 +52,11 @@
     <div class="w-50 p-0">
       <div class="card-body">
         <h5>{{ pages.index.developer_heading }} <i class="fas fa-code"></i></h5>
-        <p class="card-text">{{ pages.index.developer_base_body }}</p>
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.developer_base_actions.action_label }}">
-            <a class="btn btn-primary" href="{{ links.dev_docs.ansible_architecture }}" role="button">{{ pages.index.developer_base_actions.action_one }}</a>
-            <a class="btn btn-primary" href="{{ links.dev_docs.environment_setup }}" role="button">{{ pages.index.developer_base_actions.action_two }}</a>
-            <a class="btn btn-primary" href="{{ links.dev_docs.developing_modules }}" role="button">{{ pages.index.developer_base_actions.action_three }}</a>
+        <p class="card-text">{{ pages.index.developer_body }}</p>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.developer_actions.label }}">
+            <a class="btn btn-primary" href="{{ links.developer_actions.setup }}" role="button">{{ pages.index.developer_actions.setup }}</a>
+            <a class="btn btn-primary" href="{{ links.developer_actions.guidelines }}" role="button">{{ pages.index.developer_actions.guidelines }}</a>
+            <a class="btn btn-primary" href="{{ links.developer_actions.start }}" role="button">{{ pages.index.developer_actions.start }}</a>
         </div>
       </div>
     </div>
@@ -64,7 +64,7 @@
       <div class="card-body">
         <h5>{{ pages.index.developer_resources_heading }}</h5>
         <p class="card-text">{{ pages.index.developer_resources_body }}</p>
-        <a class="btn btn-primary" href="{{ base.pages.developer }}" role="button">{{ pages.index.developer_resources_action }}</a>
+        <a class="btn btn-primary" href="{{ pages.site.developer }}" role="button">{{ pages.index.developer_resources_action }}</a>
       </div>
     </div>
   </div>
@@ -73,11 +73,11 @@
     <div class="w-50 p-0">
       <div class="card-body">
         <h5>{{ pages.index.maintainer_heading }} <i class="fas fa-project-diagram"></i></h5>
-        <p class="card-text">{{ pages.index.maintainer_base_body }}</p>
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.maintainer_base_actions.action_label }}">
-          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/inventory_guide/index.html" role="button">{{ pages.index.maintainer_base_actions.action_one }}</a>
-          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/playbook_guide/index.html" role="button">{{ pages.index.maintainer_base_actions.action_two }}</a>
-          <a class="btn btn-primary" href="https://docs.ansible.com/ansible/latest/collections/all_plugins.html" role="button">{{ pages.index.maintainer_base_actions.action_three }}</a>
+        <p class="card-text">{{ pages.index.maintainer_body }}</p>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.maintainer_actions.label }}">
+          <a class="btn btn-primary" href="{{ links.maintainer_actions.overview }}" role="button">{{ pages.index.maintainer_actions.overview}}</a>
+          <a class="btn btn-primary" href="{{ links.maintainer_actions.learn }}" role="button">{{ pages.index.maintainer_actions.learn }}</a>
+          <a class="btn btn-primary" href="{{ links.maintainer_actions.join }}" role="button">{{ pages.index.maintainer_actions.join }}</a>
         </div>
       </div>
     </div>
@@ -85,7 +85,7 @@
       <div class="card-body">
         <h5>{{ pages.index.maintainer_resources_heading }}</h5>
         <p class="card-text">{{ pages.index.maintainer_resources_body }}</p>
-        <a class="btn btn-primary" href="{{ base.pages.maintainer }}" role="button">{{ pages.index.maintainer_resources_action }}</a>
+        <a class="btn btn-primary" href="{{ pages.site.maintainer }}" role="button">{{ pages.index.maintainer_resources_action }}</a>
       </div>
     </div>
   </div>
