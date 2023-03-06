@@ -9,7 +9,8 @@ pkg_docs:
   developer_guide: "https://docs.ansible.com/ansible/latest/dev_guide/index.html"
 novice_actions:
   learn: "https://docs.ansible.com/ansible/latest/index.html"
-  setup: "https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible"
+  setup: ""
+  install: "https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible"
   start: "https://docs.ansible.com/ansible/latest/getting_started/index.html"
 user_actions:
   automate: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#playbook-syntax"

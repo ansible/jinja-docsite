@@ -21,7 +21,7 @@ index:
     # Labels provide meaningful descriptions of elements for accessibility purposes.
     label: Button group that links to documentation for new Ansible users.
     learn: Understand the fundamentals of Ansible automation
-    setup: Install the Ansible package
+    install: Install the Ansible package
     start: Write your first playbook in a few easy steps
   # Ansible installation
   install_action: Find more installation options
