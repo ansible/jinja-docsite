@@ -65,3 +65,41 @@ index:
 ecosystem:
   title: Ansible Ecosystem
   intro: Projects in the Ansible ecosystem let you expand automation to a virtually unlimited set of use cases.
+# Developer page
+developer:
+  title: Developer resources
+  intro: Extend automation with custom Ansible modules, add functionality to existing modules, or fix bugs to improve existing code.
+  milestone:
+    start: Start writing code
+    contribute: Contribute code to an Ansible project
+    test: Test plugins and modules
+    create_collection: Create new collections
+  start:
+    intro: Ready to start writing code for Ansible? Follow these steps to get started.
+    label: Button group that links to starting developer documentation.
+    overview: Understand the Ansible architecture
+    setup: Set up your development environment
+    conduct: Review code of conduct and contributor guidelines
+  contribute:
+    intro: Contribute your code to an Ansible project or collection.
+    label: Button group that links to developer contribution documentation.
+    checklist: Contribute your module to an existing collection
+    lifecycle: Review the lifecycle of an Ansible module or plugin
+    review: Review issues and PRs in an Ansible project
+    fix: Fix issues and implement new features in an Ansible project, collection, or module
+  test:
+    intro: Test Ansible to help fix bugs and enforce coding standards and requirements.
+    label: Button group that links to test documentation.
+    learn: Understand testing in Ansible
+    run: Run sanity tests
+    integration: Write integration tests
+    unit: Write unit tests
+  create_collection:
+    intro: Create a new collection that distributes Ansible content for specific use cases.
+    label: Button group that links to documentation for creating collections.
+    skeleton: Set things up with the collection skeleton
+    test: Test your collection for code quality
+    distribute: Publish your collection on a distribution server
+    gh_actions: Use GitHub actions to set up testing workflows
+    troubleshoot: Troubleshoot collections with ansible-navigator
+    request_inclusion: Request a collection be added to the Ansible package
