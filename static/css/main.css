@@ -193,19 +193,23 @@ body {
 
 h1 {
   font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  text-transform: none; }
 
 h2 {
   font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
-  font-size: 2.25rem; }
+  font-size: 2.25rem;
+  text-transform: none; }
 
 h3 {
-  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif; }
+  font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
+  text-transform: none; }
 
 h4 {
   font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
   font-size: 1.5rem;
-  margin-bottom: 1.2rem; }
+  margin-bottom: 1.2rem;
+  text-transform: none; }
 
 h5 {
   font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
