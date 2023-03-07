@@ -45,3 +45,25 @@ project_doc_home:
   sdk: "https://ansible-sdk.readthedocs.io/en/latest/"
   sign: "https://ansible.github.io/ansible-sign/"
   vscode: "https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
+developer:
+  start:
+    overview: "https://docs.ansible.com/ansible/latest/dev_guide/overview_architecture.html"
+    setup: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#preparing-an-environment-for-developing-ansible-modules"
+    conduct: "https://docs.ansible.com/ansible/latest/community/code_of_conduct.html"
+  contribute:
+    checklist: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_checklist.html"
+    lifecycle: "https://docs.ansible.com/ansible/latest/dev_guide/module_lifecycle.html"
+    review: ""
+    fix: ""
+  test:
+    learn: "https://docs.ansible.com/ansible/latest/dev_guide/testing.html#why-test-your-ansible-contributions"
+    run: "https://docs.ansible.com/ansible/latest/dev_guide/testing_sanity.html"
+    integration: "https://docs.ansible.com/ansible/latest/dev_guide/testing_integration.html#testing-integration"
+    unit: "https://docs.ansible.com/ansible/latest/dev_guide/testing_units.html#testing-units"
+  create_collection:
+    skeleton: "https://docs.ansible.com/ansible/latest/dev_guide/developing_collections_creating.html#creating-collections-skeleton"
+    test: "https://docs.ansible.com/ansible/latest/dev_guide/developing_collections_testing.html"
+    distribute: "https://docs.ansible.com/ansible/devel/dev_guide/developing_collections_distributing.html#initial-configuration-of-your-distribution-server-or-servers"
+    gh_actions: ""
+    troubleshoot: ""
+    request_inclusion: "https://github.com/ansible-collections/ansible-inclusion"
