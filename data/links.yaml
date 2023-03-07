@@ -1,15 +1,30 @@
 core_docs:
+  index: "https://docs.ansible.com/ansible-core/devel/index.html"
+pkg_docs:
   index: "https://docs.ansible.com/ansible/latest/index.html"
-  start: "https://docs.ansible.com/ansible/latest/getting_started/index.html"
   install: "https://docs.ansible.com/ansible/latest/installation_guide/index.html"
+  collections_index: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
   inventory_guide: "https://docs.ansible.com/ansible/latest/inventory_guide/index.html"
   playbook_guide: "https://docs.ansible.com/ansible/latest/playbook_guide/index.html"
-  collections_index: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
   developer_guide: "https://docs.ansible.com/ansible/latest/dev_guide/index.html"
-dev_docs:
-  environment_setup: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#environment-setup"
-  developing_modules: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#developing-modules-general"
-  ansible_architecture: "https://docs.ansible.com/ansible/latest/dev_guide/overview_architecture.html"
+novice_actions:
+  learn: "https://docs.ansible.com/ansible/latest/index.html"
+  setup: ""
+  install: "https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible"
+  start: "https://docs.ansible.com/ansible/latest/getting_started/index.html"
+user_actions:
+  automate: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#playbook-syntax"
+  evaluate_plugins: "https://docs.ansible.com/ansible/latest/module_plugin_guide/modules_intro.html"
+  build_inventory: "https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html"
+developer_actions:
+  setup: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#environment-setup"
+  guidelines: "https://docs.ansible.com/ansible/latest/community/getting_started.html"
+  start: "https://docs.ansible.com/ansible/latest/dev_guide/developing_locally.html"
+  learn: "https://docs.ansible.com/ansible/latest/dev_guide/overview_architecture.html"
+maintainer_actions:
+  overview: "https://docs.ansible.com/ansible/latest/community/contributor_path.html"
+  learn: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html"
+  join: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#weekly-community-matrix-irc-meetings"
 project_doc_home:
   als: "https://als.readthedocs.io/en/latest/"
   awx: "https://github.com/ansible/awx"
