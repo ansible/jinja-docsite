@@ -40,12 +40,6 @@ index:
   # Ansible developer
   developer_heading: Ansible developers
   developer_body: Ansible is open source. You can add code that fixes bugs, implements new features, or extends the benefits of simple, agentless automation.
-  developer_actions:
-    # Labels provide meaningful descriptions of elements for accessibility purposes.
-    label: Button group that links to base Ansible developer documentation.
-    setup: Set up your development environment
-    guidelines: Review the Ansible contributor guidelines
-    start: Write custom modules or plugins
   developer_resources_heading: Developer resources
   developer_resources_body: Contribute to an Ansible project or collection, run sanity tests, write integration and unit tests, and more.
   developer_resources_action: Find more resources for developing with Ansible
@@ -75,11 +69,12 @@ developer:
     test: Test plugins and modules
     create_collection: Create new collections
   start:
-    intro: Ready to start writing code for Ansible? Follow these steps to get started.
     label: Button group that links to starting developer documentation.
-    overview: Understand the Ansible architecture
+    intro: Ready to start writing code for Ansible? Follow these steps to get started.
     setup: Set up your development environment
-    conduct: Review code of conduct and contributor guidelines
+    conduct: Review the Ansible contributor guidelines
+    learn: Understand the Ansible architecture
+    code: Write custom modules or plugins
   contribute:
     intro: Contribute your code to an Ansible project or collection.
     label: Button group that links to developer contribution documentation.
