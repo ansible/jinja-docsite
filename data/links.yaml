@@ -7,7 +7,7 @@ pkg_docs:
   inventory_guide: "https://docs.ansible.com/ansible/latest/inventory_guide/index.html"
   playbook_guide: "https://docs.ansible.com/ansible/latest/playbook_guide/index.html"
   developer_guide: "https://docs.ansible.com/ansible/latest/dev_guide/index.html"
-novice_actions:
+novice:
   learn: "https://docs.ansible.com/ansible/latest/index.html"
   setup: ""
   install: "https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible"

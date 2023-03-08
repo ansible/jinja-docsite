@@ -16,21 +16,12 @@ site:
 index:
   welcome: Welcome to Ansible documentation
   about_ansible: Ansible offers powerful and flexible automation that is simple, decentralized, and easy.
-  # Ansible novice
-  novice_actions:
-    # Labels provide meaningful descriptions of elements for accessibility purposes.
-    label: Button group that links to documentation for new Ansible users.
-    learn: Understand the fundamentals of Ansible automation
-    install: Install the Ansible package
-    start: Write your first playbook in a few easy steps
   # Ansible installation
   install_action: Find more installation options
   # Ansible user
   user_heading: Ansible users
   user_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
   user_actions:
-    # Labels provide meaningful descriptions of elements for accessibility purposes.
-    label: Button group that links to base Ansible user documentation.
     automate: Start writing Ansible playbooks
     evaluate_plugins: Learn which plugins to use for your tasks
     build_inventory: Build inventory files to manage multiple hosts
@@ -47,8 +38,6 @@ index:
   maintainer_heading: Community maintainers
   maintainer_body: Ansible maintainers are responsible for the ongoing quality of  Ansible projects and collections and play a vital role in guiding the direction of the wider community.
   maintainer_actions:
-    # Labels provide meaningful descriptions of elements for accessibility purposes.
-    label: Button group that links to base Ansible community maintainer documentation.
     overview: Understand Ansible contributor paths
     learn: Learn about community maintainer responsibilities
     join: Join or start a discussion that interests you
@@ -59,6 +48,11 @@ index:
 ecosystem:
   title: Ansible Ecosystem
   intro: Projects in the Ansible ecosystem let you expand automation to a virtually unlimited set of use cases.
+# Resources for Ansible novice journeys
+novice:
+  learn: Understand the fundamentals of Ansible automation
+  install: Install the Ansible package
+  start: Write your first playbook in a few easy steps
 # Developer page
 developer:
   title: Developer resources
@@ -69,7 +63,6 @@ developer:
     test: Test plugins and modules
     create_collection: Create new collections
   start:
-    label: Button group that links to starting developer documentation.
     intro: Ready to start writing code for Ansible? Follow these steps to get started.
     setup: Set up your development environment
     conduct: Review the Ansible contributor guidelines
@@ -77,24 +70,24 @@ developer:
     code: Write custom modules or plugins
   contribute:
     intro: Contribute your code to an Ansible project or collection.
-    label: Button group that links to developer contribution documentation.
     checklist: Contribute your module to an existing collection
     lifecycle: Review the lifecycle of an Ansible module or plugin
     review: Review issues and PRs in an Ansible project
     fix: Fix issues and implement new features in an Ansible project, collection, or module
   test:
     intro: Test Ansible to help fix bugs and enforce coding standards and requirements.
-    label: Button group that links to test documentation.
     learn: Understand testing in Ansible
     run: Run sanity tests
     integration: Write integration tests
     unit: Write unit tests
   create_collection:
     intro: Create a new collection that distributes Ansible content for specific use cases.
-    label: Button group that links to documentation for creating collections.
     skeleton: Set things up with the collection skeleton
     test: Test your collection for code quality
     distribute: Publish your collection on a distribution server
     gh_actions: Use GitHub actions to set up testing workflows
     troubleshoot: Troubleshoot collections with ansible-navigator
     request_inclusion: Request a collection be added to the Ansible package
+# Labels provide meaningful descriptions of elements for accessibility purposes.
+labels:
+  button_group: Button group that links to Ansible community documentation.

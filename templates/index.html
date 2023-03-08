@@ -8,10 +8,10 @@
         <h4>{{ pages.index.welcome }}</h4>
         <p class="card-text">{{ pages.index.about_ansible }}</p>
         <!--Start novice section-->
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.novice_actions.label }}">
-            <a class="btn btn-primary" href="{{ links.novice_actions.learn }}" role="button">{{ pages.index.novice_actions.learn }}</a>
-            <a class="btn btn-primary" href="{{ links.novice_actions.install }}" role="button">{{ pages.index.novice_actions.install }}</a>
-            <a class="btn btn-primary" href="{{ links.novice_actions.start }}" role="button">{{ pages.index.novice_actions.start }}</a>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+            <a class="btn btn-primary" href="{{ links.novice.learn }}" role="button">{{ pages.novice.learn }}</a>
+            <a class="btn btn-primary" href="{{ links.novice.install }}" role="button">{{ pages.novice.install }}</a>
+            <a class="btn btn-primary" href="{{ links.novice.start }}" role="button">{{ pages.novice.start }}</a>
         </div>
       </div>
     </div>
@@ -32,7 +32,7 @@
       <div class="card-body">
         <h5>{{ pages.index.user_heading }} <i class="fas fa-cogs"></i></h5>
         <p class="card-text">{{ pages.index.user_body }}</p>
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.user_actions.label }}">
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
             <a class="btn btn-primary" href="{{ links.user_actions.automate }}" role="button">{{ pages.index.user_actions.automate }}</a>
             <a class="btn btn-primary" href="{{ links.user_actions.evaluate_plugins }}" role="button">{{ pages.index.user_actions.evaluate_plugins }}</a>
             <a class="btn btn-primary" href="{{ links.user_actions.build_inventory }}" role="button">{{ pages.index.user_actions.build_inventory }}</a>
@@ -53,7 +53,7 @@
       <div class="card-body">
         <h5>{{ pages.index.developer_heading }} <i class="fas fa-code"></i></h5>
         <p class="card-text">{{ pages.index.developer_body }}</p>
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.developer.start.label }}">
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
             <a class="btn btn-primary" href="{{ links.developer.start.setup }}" role="button">{{ pages.developer.start.setup }}</a>
             <a class="btn btn-primary" href="{{ links.developer.start.conduct }}" role="button">{{ pages.developer.start.conduct }}</a>
             <a class="btn btn-primary" href="{{ links.developer.start.code }}" role="button">{{ pages.developer.start.code }}</a>
@@ -74,7 +74,7 @@
       <div class="card-body">
         <h5>{{ pages.index.maintainer_heading }} <i class="fas fa-project-diagram"></i></h5>
         <p class="card-text">{{ pages.index.maintainer_body }}</p>
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.index.maintainer_actions.label }}">
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
           <a class="btn btn-primary" href="{{ links.maintainer_actions.overview }}" role="button">{{ pages.index.maintainer_actions.overview}}</a>
           <a class="btn btn-primary" href="{{ links.maintainer_actions.learn }}" role="button">{{ pages.index.maintainer_actions.learn }}</a>
           <a class="btn btn-primary" href="{{ links.maintainer_actions.join }}" role="button">{{ pages.index.maintainer_actions.join }}</a>
