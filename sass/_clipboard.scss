@@ -3,8 +3,8 @@
 	font-family: $redhat-display;
 	text-align: left;
 	pre {
-		background-color: $pool;
-		color: $white;
+		background-color: $white;
+		color: $black;
 		padding-top: 10px;
 		padding-left: 20px;
 		padding-bottom: 10px;
@@ -18,14 +18,14 @@
 		background: none;
 	}
 	.btn {
-		background-color: $pool;
+		background-color: $cyan;
 		border: 0px;
 		position: absolute;
 		top: 0px;
 		right: 0px;
 		cursor: pointer;
 		&:hover {
-			background-color: $pool;
+			background-color: $white;
 		}
 	}
 	.fa-clipboard {
