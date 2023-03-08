@@ -16,11 +16,6 @@ user_actions:
   automate: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#playbook-syntax"
   evaluate_plugins: "https://docs.ansible.com/ansible/latest/module_plugin_guide/modules_intro.html"
   build_inventory: "https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html"
-developer_actions:
-  setup: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#environment-setup"
-  guidelines: "https://docs.ansible.com/ansible/latest/community/getting_started.html"
-  start: "https://docs.ansible.com/ansible/latest/dev_guide/developing_locally.html"
-  learn: "https://docs.ansible.com/ansible/latest/dev_guide/overview_architecture.html"
 maintainer_actions:
   overview: "https://docs.ansible.com/ansible/latest/community/contributor_path.html"
   learn: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html"
@@ -47,9 +42,10 @@ project_doc_home:
   vscode: "https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
 developer:
   start:
-    overview: "https://docs.ansible.com/ansible/latest/dev_guide/overview_architecture.html"
-    setup: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#preparing-an-environment-for-developing-ansible-modules"
+    setup: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#environment-setup"
     conduct: "https://docs.ansible.com/ansible/latest/community/code_of_conduct.html"
+    learn: "https://docs.ansible.com/ansible/latest/dev_guide/overview_architecture.html"
+    code: "https://docs.ansible.com/ansible/latest/dev_guide/developing_locally.html"
   contribute:
     checklist: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_checklist.html"
     lifecycle: "https://docs.ansible.com/ansible/latest/dev_guide/module_lifecycle.html"
