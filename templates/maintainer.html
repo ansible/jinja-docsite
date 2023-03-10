@@ -1,15 +1,18 @@
 {% extends "_base.html" %}
 {% block body %}
 <div class="container">
-    <div class="page-title">
-      <h2>{{ pages.maintainer.title }}</h2>
-      <p>{{ pages.maintainer.intro }}</p>
-    </div>
     <div class="full-width-bg component">
       <div class="grid-wrapper">
+      <div class="width-3-12 width-12-12-m">
+        <img class="page-logo" src="static/images/community_logo.svg">
+      </div>
+      <div class="width-9-12 width-12-12-m">
+        <h2 class="page-title">{{ pages.maintainer.title }}</h2>
+        <p class="intropara">{{ pages.maintainer.intro }}</p>
+      </div>
         <div class="width-6-12 width-12-12-m">
           <h3>{{ pages.maintainer.milestone.learn }}</h3>
-          <p>{{ pages.maintainer.learn.intro }}</p>
+          <!--<p>{{ pages.maintainer.learn.intro }}</p>-->
           <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
             <a class="btn" href="{{ links.maintainer.learn.guidelines }}" role="button">{{ pages.maintainer.learn.guidelines }}</a>
             <a class="btn" href="{{ links.maintainer.learn.backports }}" role="button">{{ pages.maintainer.learn.backports }}</a>
@@ -19,7 +22,7 @@
         </div>
         <div class="width-6-12 width-12-12-m">
           <h3>{{ pages.maintainer.milestone.build_community }}</h3>
-          <p>{{ pages.maintainer.build_community.intro }}</p>
+          <!--<p>{{ pages.maintainer.build_community.intro }}</p>-->
           <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
             <a class="btn" href="{{ links.maintainer.build_community.communication }}" role="button">{{ pages.maintainer.build_community.communication }}</a>
             <a class="btn" href="{{ links.maintainer.build_community.contributor_paths }}" role="button">{{ pages.maintainer.build_community.contributor_paths }}</a>
@@ -28,7 +31,7 @@
         </div>
         <div class="width-6-12 width-12-12-m">
           <h3>{{ pages.maintainer.milestone.collection_inclusion }}</h3>
-          <p>{{ pages.maintainer.collection_inclusion.intro }}</p>
+          <!--<p>{{ pages.maintainer.collection_inclusion.intro }}</p>-->
           <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
             <a class="btn" href="{{ links.maintainer.collection_inclusion.process }}" role="button">{{ pages.maintainer.collection_inclusion.process }}</a>
             <a class="btn" href="{{ links.maintainer.collection_inclusion.review }}" role="button">{{ pages.maintainer.collection_inclusion.review }}</a>
@@ -36,7 +39,7 @@
         </div>
         <div class="width-6-12 width-12-12-m">
           <h3>{{ pages.maintainer.milestone.participate }}</h3>
-          <p>{{ pages.maintainer.participate.intro }}</p>
+          <!--<p>{{ pages.maintainer.participate.intro }}</p>-->
           <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
             <a class="btn" href="{{ links.maintainer.participate.join }}" role="button">{{ pages.maintainer.participate.join }}</a>
           </div>

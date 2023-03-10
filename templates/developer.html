@@ -1,14 +1,17 @@
 {% extends "_base.html" %} {% block body %}
 <div class="container">
-  <div class="page-title">
-    <h2>{{ pages.developer.title }}</h2>
-    <p>{{ pages.developer.intro }}</p>
-  </div>
   <div class="full-width-bg component">
     <div class="grid-wrapper">
+      <div class="width-3-12 width-12-12-m">
+        <img class="page-logo" src="static/images/community_logo.svg">
+      </div>
+      <div class="width-9-12 width-12-12-m">
+        <h2 class="page-title">{{ pages.developer.title }}</h2>
+        <p class="intropara">{{ pages.developer.intro }}</p>
+      </div>
       <div class="width-6-12 width-12-12-m">
         <h3>{{ pages.developer.milestone.start }}</h3>
-        <p>{{ pages.developer.start.intro }}</p>
+        <!--<p>{{ pages.developer.start.intro }}</p>-->
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
           <a class="btn" href="{{ links.developer.start.setup }}" role="button">{{ pages.developer.start.setup }}</a>
           <a class="btn" href="{{ links.developer.start.conduct }}" role="button">{{ pages.developer.start.conduct }}</a>
@@ -18,7 +21,7 @@
       </div>
       <div class="width-6-12 width-12-12-m">
         <h3>{{ pages.developer.milestone.contribute }}</h3>
-        <p>{{ pages.developer.contribute.intro }}</p>
+        <!--<p>{{ pages.developer.contribute.intro }}</p>-->
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
           <a class="btn" href="{{ links.developer.contribute.checklist }}" role="button">{{ pages.developer.contribute.checklist }}</a>
           <a class="btn" href="{{ links.developer.contribute.lifecycle }}" role="button">{{ pages.developer.contribute.lifecycle }}</a>
@@ -26,7 +29,7 @@
       </div>
       <div class="width-6-12 width-12-12-m">
         <h3>{{ pages.developer.milestone.test }}</h3>
-        <p>{{ pages.developer.test.intro }}</p>
+        <!--<p>{{ pages.developer.test.intro }}</p>-->
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
           <a class="btn" href="{{ links.developer.test.learn }}" role="button">{{ pages.developer.test.learn }}</a>
           <a class="btn" href="{{ links.developer.test.run }}" role="button">{{ pages.developer.test.run }}</a>
@@ -36,7 +39,7 @@
       </div>
       <div class="width-6-12 width-12-12-m">
         <h3>{{ pages.developer.milestone.create_collection }}</h3>
-        <p>{{ pages.developer.create_collection.intro }}</p>
+        <!--<p>{{ pages.developer.create_collection.intro }}</p>-->
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
           <a class="btn" href="{{ links.developer.create_collection.skeleton }}" role="button">{{ pages.developer.create_collection.skeleton }}</a>
           <a class="btn" href="{{ links.developer.create_collection.test }}" role="button">{{ pages.developer.create_collection.test }}</a>
