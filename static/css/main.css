@@ -1,22 +1,24 @@
 .btn {
-  background-color: #102441;
+  background-color: #ffffff;
+  color: #000000;
   border: 0px;
   cursor: pointer;
   font-size: medium;
   font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
   font-weight: normal;
-  text-align: left; }
+  text-align: left;
+  text-decoration: underline; }
   .btn:hover {
-    color: #ffffff !important;
-    background-color: #5cbec1; }
+    background-color: #ffffff;
+    color: #000000 !important; }
 
 .cards .row {
-  background: #102441; }
+  background: #ffffff; }
 
 .cards .card-body {
   z-index: 2; }
   .cards .card-body a {
-    color: #ffffff; }
+    color: #000000; }
     .cards .card-body a:hover {
       text-decoration: underline;
       color: #004080; }
@@ -36,30 +38,30 @@
   font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
   text-align: left; }
   .clipboard pre {
-    background-color: #5cbec1;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
     padding-bottom: 10px;
     margin-bottom: 10px;
     position: relative;
-    width: 90%;
+    width: 75%;
     text-align: left;
     display: inline-block; }
   .clipboard code {
     background: none; }
   .clipboard .btn {
-    background-color: #5cbec1;
+    background-color: #ffffff;
     border: 0px;
     position: absolute;
     top: 0px;
     right: 0px;
     cursor: pointer; }
     .clipboard .btn:hover {
-      background-color: #5cbec1; }
+      background-color: #ffffff; }
   .clipboard .fa-clipboard {
-    color: #ffffff;
-    background-color: #5cbec1; }
+    color: #000000;
+    background-color: #ffffff; }
 
 nav {
   background: #102441;
@@ -186,8 +188,8 @@ nav {
     grid-column: span 12; } }
 
 body {
-  background: #102441;
-  color: #ffffff;
+  background: #ffffff;
+  color: #000000;
   font-weight: 300;
   font-family: RedHatText, "Red Hat Text", Overpass, "Helvetica Neue", Arial, sans-serif; }
 
