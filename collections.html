@@ -20,38 +20,40 @@
   <body>
     <nav class="navbar navbar-expand-md p-1">
   <div class="container">
-    <span class="navbar-brand d-flex justify-content-center">
-      <svg
-        version="1.1"
-        id="Layer_1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        x="0px"
-        y="0px"
-        width="28"
-        height="28"
-        viewBox="0 0 28 28"
-        style="enable-background: new 0 0 28 28"
-        xml:space="preserve"
-        class="mr-1"
-      >
-        <style type="text/css">
-          .ansHeader {
-            fill: #ffffff;
-          }
-        </style>
-        <circle class="ansHeader" cx="14" cy="14" r="13.5" />
-        <path
-          d="M20.4,19.3L15,6.4c-0.2-0.4-0.5-0.6-0.8-0.6c-0.4,0-0.7,0.2-0.9,0.6L7.5,20.6h2l2.3-5.8l7,5.6c0.3,0.2,0.5,0.3,0.7,0.3c0.5,0,1-0.4,1-1C20.5,19.6,20.4,19.5,20.4,19.3z M14.2,8.7l3.5,8.6l-5.3-4.1L14.2,8.7z"
-        />
-      </svg>
-      <p class="m-0">Ansible documentation</p>
-    </span>
+    <a class="nav-link" href="index.html">
+      <span class="navbar-brand d-flex justify-content-center">
+        <svg
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          width="28"
+          height="28"
+          viewBox="0 0 28 28"
+          style="enable-background: new 0 0 28 28"
+          xml:space="preserve"
+          class="mr-1"
+        >
+          <style type="text/css">
+            .ansHeader {
+              fill: #ffffff;
+            }
+          </style>
+          <circle class="ansHeader" cx="14" cy="14" r="13.5" />
+          <path
+            d="M20.4,19.3L15,6.4c-0.2-0.4-0.5-0.6-0.8-0.6c-0.4,0-0.7,0.2-0.9,0.6L7.5,20.6h2l2.3-5.8l7,5.6c0.3,0.2,0.5,0.3,0.7,0.3c0.5,0,1-0.4,1-1C20.5,19.6,20.4,19.5,20.4,19.3z M14.2,8.7l3.5,8.6l-5.3-4.1L14.2,8.7z"
+          />
+        </svg>
+        <p class="m-0">Ansible documentation</p>
+      </span>
+    </a>
 
     <div class="collapse navbar-collapse" id="main-menu">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="blog-link-goes-here">Blog</a>
+          <a class="nav-link" href="blog.html">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="core.html">Ansible core</a>
@@ -67,80 +69,13 @@
   </div>
 </nav>
     
-<section class="cards pt-0">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-lg-4">
-        <a
-          href="http://docs.ansible.com/ansible/latest/collections/index.html"
-        >
-          <div class="card border">
-            <div class="card-body">
-              <h4 class="card-title">Ansible Collections Index</h4>
-              <p class="card-text">
-                Collections are the workhorse of any playbook. You can find
-                the complete set of Ansible collections for sysadmins,
-                network, cloud, and security teams.
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="http://docs.ansible.com/ansible/latest/collections/index.html"
-                class="btn btn-outline-black"
-                >Visit the documentation</a
-              >
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <a href="http://docs.ansible.com/ansible/latest/network/">
-          <div class="card border">
-            <div class="card-body">
-              <h4 class="card-title">Ansible Network Collections</h4>
-              <p class="card-text">
-                Ansible Network collections can configure your network
-                stack, test and validate existing network state, and
-                discover and correct network configuration drift.
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="http://docs.ansible.com/ansible/latest/network/"
-                class="btn btn-outline-black"
-                >Visit the documentation</a
-              >
-            </div>
-          </div>
-        </a>
-      </div>
-      <div class="col-md-6 col-lg-4">
-        <a
-          href="http://docs.ansible.com/ansible/latest/scenario_guides/virt_guides.html"
-        >
-          <div class="card border">
-            <div class="card-body">
-              <h4 class="card-title">
-                Ansible Virtualization and Containerization
-              </h4>
-              <p class="card-text">
-                Manage virtualization such as VMware and Kubernetes with
-                Ansible collections.
-              </p>
-            </div>
-            <div class="card-footer">
-              <a
-                href="http://docs.ansible.com/ansible/latest/scenario_guides/virt_guides.html"
-                class="btn btn-outline-black"
-                >Learn more</a
-              >
-            </div>
-          </div>
-        </a>
-      </div>
-    </div>
+<div class="container">
+  <div class="full-width-bg component">
+    <p>Under construction. Want to help out? Visit:
+      <a href="https://github.com/ansible/jinja-docsite" target="_blank">Ansible community docsite prototype</a>
+    </p>
   </div>
-</section>
+</div>
 
     <div class="content-slim redhat-footer">
   <span class="licence">

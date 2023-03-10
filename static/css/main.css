@@ -223,9 +223,9 @@ h6 {
 .container {
   max-width: 75%; }
 
-a {
+a.nav-link {
   color: #ffffff; }
-  a:hover {
+  a.nav-link:hover {
     color: #5cbec1; }
 
 .full-width-bg {
