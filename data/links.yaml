@@ -7,35 +7,40 @@ pkg_docs:
   inventory_guide: "https://docs.ansible.com/ansible/latest/inventory_guide/index.html"
   playbook_guide: "https://docs.ansible.com/ansible/latest/playbook_guide/index.html"
   developer_guide: "https://docs.ansible.com/ansible/latest/dev_guide/index.html"
+# Novice actions
 novice:
   learn: "https://docs.ansible.com/ansible/latest/index.html"
   setup: ""
   install: "https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible"
   start: "https://docs.ansible.com/ansible/latest/getting_started/index.html"
-user_actions:
-  automate: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#playbook-syntax"
-  evaluate_plugins: "https://docs.ansible.com/ansible/latest/module_plugin_guide/modules_intro.html"
-  build_inventory: "https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html"
-project_doc_home:
-  als: "https://als.readthedocs.io/en/latest/"
-  awx: "https://github.com/ansible/awx"
-  awx_operator: "https://github.com/ansible/awx-operator"
-  builder: "https://ansible-builder.readthedocs.io/en/latest/"
-  compat: "https://ansible-compat.readthedocs.io/en/latest/"
-  eda: "https://github.com/ansible/eda-server"
-  galaxy: "https://galaxy.ansible.com/docs/"
-  galaxy_ng: "https://galaxyng.netlify.app/"
-  lint: "https://ansible-lint.readthedocs.io/en/latest/"
-  molecule: "https://molecule.readthedocs.io/en/latest/"
-  navigator: "https://ansible-navigator.readthedocs.io/en/latest/"
-  pinakes: "https://github.com/ansible/pinakes"
-  pylibssh: "https://ansible-pylibssh.readthedocs.io/en/latest/"
-  receptor: "https://receptor.readthedocs.io/en/latest/index.html"
-  rulebook: "https://ansible-rulebook.readthedocs.io/en/latest/"
-  runner: "https://ansible-runner.readthedocs.io/en/stable/"
-  sdk: "https://ansible-sdk.readthedocs.io/en/latest/"
-  sign: "https://ansible.github.io/ansible-sign/"
-  vscode: "https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
+# User actions
+user:
+  automate:
+    start: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#playbook-syntax"
+    evaluate_plugins: "https://docs.ansible.com/ansible/latest/module_plugin_guide/modules_intro.html"
+  build_inventory:
+    multiple_hosts: "https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html"
+    dynamic: "https://docs.ansible.com/ansible/latest/inventory_guide/intro_dynamic_inventory.html"
+  organize:
+    roles: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html"
+  find:
+    explore_galaxy: "https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#finding-collections-on-galaxy"
+    install_roles: "https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#installing-roles-from-galaxy"
+    install_collections: "https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#installing-collections"
+    customize_content: ""
+  share:
+    create_roles: "https://docs.ansible.com/ansible/latest/dev_guide/migrating_roles.html"
+    create_collection: "https://docs.ansible.com/ansible/latest/dev_guide/developing_collections.html#developing-collections"
+    submit_roles: "https://galaxyng.netlify.app/community/userguide/#importing-roles"
+    upload_collection: "https://galaxyng.netlify.app/community/userguide/#uploading-collections"
+  awx:
+    on_demand_jobs: "https://github.com/ansible/awx/blob/devel/docs/tasks.md#awx-jobs"
+    schedule_jobs: "https://github.com/ansible/awx/blob/devel/docs/schedules.md#scheduled-jobs"
+    create_job_templates: ""
+  executor:
+    build_ees: "https://ansible-builder.readthedocs.io/en/latest/index.html"
+    use_ees: "https://ansible-runner.readthedocs.io/en/latest/execution_environments/"
+# Developer actions
 developer:
   start:
     setup: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#environment-setup"
@@ -59,6 +64,7 @@ developer:
     gh_actions: ""
     troubleshoot: ""
     request_inclusion: "https://github.com/ansible-collections/ansible-inclusion"
+# Community maintainer actions
 maintainer:
   learn:
     guidelines: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html"
@@ -74,3 +80,24 @@ maintainer:
     review: "https://github.com/ansible-collections/ansible-inclusion/blob/main/README.md#review-process"
   participate:
     join: "https://docs.ansible.com/ansible/latest/community/contributor_path.html#become-a-steering-committee-member"
+# Documentation home pages
+project_doc_home:
+  als: "https://als.readthedocs.io/en/latest/"
+  awx: "https://github.com/ansible/awx"
+  awx_operator: "https://github.com/ansible/awx-operator"
+  builder: "https://ansible-builder.readthedocs.io/en/latest/"
+  compat: "https://ansible-compat.readthedocs.io/en/latest/"
+  eda: "https://github.com/ansible/eda-server"
+  galaxy: "https://galaxy.ansible.com/docs/"
+  galaxy_ng: "https://galaxyng.netlify.app/"
+  lint: "https://ansible-lint.readthedocs.io/en/latest/"
+  molecule: "https://molecule.readthedocs.io/en/latest/"
+  navigator: "https://ansible-navigator.readthedocs.io/en/latest/"
+  pinakes: "https://github.com/ansible/pinakes"
+  pylibssh: "https://ansible-pylibssh.readthedocs.io/en/latest/"
+  receptor: "https://receptor.readthedocs.io/en/latest/index.html"
+  rulebook: "https://ansible-rulebook.readthedocs.io/en/latest/"
+  runner: "https://ansible-runner.readthedocs.io/en/stable/"
+  sdk: "https://ansible-sdk.readthedocs.io/en/latest/"
+  sign: "https://ansible.github.io/ansible-sign/"
+  vscode: "https://marketplace.visualstudio.com/items?itemName=redhat.ansible"

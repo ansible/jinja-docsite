@@ -1,8 +1,8 @@
-# Latest Ansible package version.
+# Latest Ansible package version
 ansible_pkg:
   announce: Ansible 7 is now available
   pip_install: pip install ansible
-# Base docsite page names.
+# Base docsite page names
 site:
   index: index.html
   user: user.html
@@ -12,7 +12,7 @@ site:
   community: community.html
   core: core.html
   ecosystem: ecosystem.html
-# Content for the index page.
+# Content for the index page
 index:
   welcome: Welcome to Ansible documentation
   about_ansible: Ansible offers powerful and flexible automation that is simple, decentralized, and easy.
@@ -21,10 +21,6 @@ index:
   # Ansible user
   user_heading: Ansible users
   user_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
-  user_actions:
-    automate: Start writing Ansible playbooks
-    evaluate_plugins: Learn which plugins to use for your tasks
-    build_inventory: Build inventory files to manage multiple hosts
   user_resources_heading: User resources
   user_resources_body: Structure your project with roles, improve content quality, re-use existing automation, and more.
   user_resources_action: Find more resources for Ansible users
@@ -40,16 +36,62 @@ index:
   maintainer_resources_heading: Community maintainer resources
   maintainer_resources_body: Handle project lifecycles, ensure the health of collections, join the Ansible steering committee, and more.
   maintainer_resources_action: Find more resources for Ansible community maintainers
-# Ansible ecosystem page.
-ecosystem:
-  title: Ansible Ecosystem
-  intro: Projects in the Ansible ecosystem let you expand automation to a virtually unlimited set of use cases.
-# Resources for Ansible novice journeys
+# Actions for novice journeys
 novice:
   learn: Understand the fundamentals of Ansible automation
   install: Install the Ansible package
   start: Write your first playbook in a few easy steps
-# Developer page
+# Actions for user journeys
+user:
+  title: User resources
+  intro: Automate the management of remote systems and control their desired state.
+  milestone:
+    automate: Create automation
+    build_inventory: Build inventories
+    organize: Organize automation projects
+    tooling: Use Ansible tooling
+    find: Find automation content
+    share: Share automation content
+    awx: Schedule and run automation jobs
+    executor: Embed automation in systems
+  automate:
+    intro: Write playbooks and develop content that automates complex tasks.
+    start: Start writing Ansible playbooks
+    evaluate_plugins: Learn which plugins to use for your tasks
+  build_inventory:
+    intro: Build inventories that list and describe your infrastructure.
+    multiple_hosts: Build inventory files to manage multiple hosts
+    dynamic: Use dynamic inventories
+  organize:
+    intro: Organize your automation project as it grows.
+    roles: Use roles to structure the automation project
+  tooling:
+    intro: Validate and improve your project for consistent, trusted automation.
+    lint: Use Ansible Lint to validate playbooks
+    molecule: Install Molecule to develop and test Ansible roles
+    navigator: Create and test playbooks with Ansible Navigator
+    vscode: Use Ansible with Visual Studio Code and OpenVSX compatible editors
+  find:
+    intro: Discover and use existing automation content.
+    explore_galaxy: Start exploring Ansible Galaxy
+    install_roles: Install and use roles
+    install_collections: Install and use collections
+    customize_content: Customize automation content
+  share:
+    intro: Share your automation content with others.
+    submit_roles: Submit roles to an existing collection
+    create_collection: Create a new collection
+    upload_collection: Upload a collection to Ansible Galaxy
+  awx:
+    intro: Use AWX for more convenient automation.
+    on_demand_jobs: Execute automation jobs on demand
+    schedule_jobs: Schedule automation jobs
+    create_job_templates: Create AWX job templates
+  executor:
+    intro: Invoke automation jobs from other systems.
+    build_ees: Build execution environment with specific dependencies
+    use_ees: Use execution environments with AWX jobs
+# Actions for developer journeys
 developer:
   title: Developer resources
   intro: Extend automation with custom Ansible modules, add functionality to existing modules, or fix bugs to improve existing code.
@@ -84,7 +126,7 @@ developer:
     gh_actions: Use GitHub actions to set up testing workflows
     troubleshoot: Troubleshoot collections with ansible-navigator
     request_inclusion: Request a collection be added to the Ansible package
-# Resources for community maintainer journeys.
+# Actions for community maintainer journeys
 maintainer:
   title: Ansible community maintainers
   intro: Community maintainers are trusted contributors who oversee project lifecycle and overall health.
@@ -95,26 +137,26 @@ maintainer:
     participate: Participate in cross-project governance
   learn:
     intro: Interested in becoming a community maintainer? Find out what's involved.
-    label: Button group that links to Ansible community maintainer documentation.
     guidelines: Review community maintainer responsibilities
     backports: Backport merged pull requests to stable branches
     release: Regularly release stable versions
     documentation: Look after collection documentation
   build_community:
     intro: Community maintainers play a special role to enable and encourage contributors.
-    label: Button group that links to base Ansible community maintainer documentation.
     communication: Join or start a community discussion
     contributor_paths: Understand Ansible contributor paths
     encourage: Attract and mentor new contributors
   collection_inclusion:
     intro: Satisfy requirements to get collections included in the Ansible package.
-    label: Button group that links to Ansible community maintainer documentation.
     process: Understand the inclusion process
     review: Go through inclusion review cycles
   participate:
     intro: Get involved in higher-level decision processes that guide the broader community.
-    label: Button group that links to Ansible community maintainer documentation.
     join: Join the Ansible steering committee
+# Ansible ecosystem
+ecosystem:
+  title: Ansible Ecosystem
+  intro: Projects in the Ansible ecosystem let you expand automation to a virtually unlimited set of use cases.
 # Labels provide meaningful descriptions of elements for accessibility purposes.
 labels:
   button_group: Button group that links to Ansible community documentation.
