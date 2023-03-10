@@ -3,14 +3,14 @@
 	font-family: $redhat-display;
 	text-align: left;
 	pre {
-		background-color: $pool;
-		color: $white;
+		background-color: $white;
+		color: $black;
 		padding-top: 10px;
-		padding-left: 20px;
+		padding-left: 10px;
 		padding-bottom: 10px;
 		margin-bottom: 10px;
 		position: relative;
-		width: 90%;
+		width: 75%;
 		text-align: left;
 		display: inline-block;
 	}
@@ -18,18 +18,18 @@
 		background: none;
 	}
 	.btn {
-		background-color: $pool;
+		background-color: $white;
 		border: 0px;
 		position: absolute;
 		top: 0px;
 		right: 0px;
 		cursor: pointer;
 		&:hover {
-			background-color: $pool;
+			background-color: $white;
 		}
 	}
 	.fa-clipboard {
-		color: $white;
-        background-color: $pool;
+		color: $black;
+        background-color: $white;
 	}
 }

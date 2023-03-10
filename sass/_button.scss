@@ -1,13 +1,15 @@
 .btn {
-    background-color: $navy;
+    background-color: $white;
+    color: $black;
     border: 0px;
     cursor: pointer;
     font-size: medium;
     font-family: $redhat-display;
     font-weight: normal;
     text-align: left;
+    text-decoration: underline;
     &:hover {
-        color: $white !important;
-        background-color: $pool;
+        background-color: $white;
+        color: $black !important;
     }
 }

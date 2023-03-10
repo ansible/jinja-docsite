@@ -1,11 +1,11 @@
 .cards {
 	.row {
-		background: $navy;
+		background: $white;
 	}
 	.card-body {
 		z-index: 2;
 		a {
-			color: $white;
+			color: $black;
 			&:hover {
 				text-decoration: underline;
 				color: $cyan;
