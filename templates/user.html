@@ -1,11 +1,14 @@
 {% extends "_base.html" %} {% block body %}
 <div class="container">
-  <div class="page-title">
-    <h2>{{ pages.user.title }}</h2>
-    <p>{{ pages.user.intro }}</p>
-  </div>
   <div class="full-width-bg component">
     <div class="grid-wrapper">
+      <div class="width-3-12 width-12-12-m">
+        <img class="page-logo" src="static/images/community_logo.svg">
+      </div>
+      <div class="width-9-12 width-12-12-m">
+        <h2 class="page-title">{{ pages.user.title }}</h2>
+        <p class="intropara">{{ pages.user.intro }}</p>
+      </div>
       <div class="width-6-12 width-12-12-m">
         <h3>{{ pages.user.milestone.automate }}</h3>
         <!--<p>{{ pages.user.automate.intro }}</p>-->

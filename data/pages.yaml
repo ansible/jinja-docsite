@@ -14,16 +14,15 @@ site:
   ecosystem: ecosystem.html
 # Content for the index page
 index:
-  welcome: Welcome to Ansible documentation
-  about_ansible: Ansible offers powerful and flexible automation that is simple, decentralized, and easy.
-  # Ansible installation
-  install_action: Find more installation options
+  title: Ansible community documentation
+  intro: Ansible offers powerful and flexible automation that is simple, decentralized, and easy.
+  novice_heading: Get started with Ansible
   # Ansible user
-  user_heading: Ansible users
+  user_heading: Using Ansible
   user_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
   user_resources_heading: User resources
   user_resources_body: Structure your project with roles, improve content quality, re-use existing automation, and more.
-  user_resources_action: Find more resources for Ansible users
+  user_resources_action: Find more resources for using Ansible
   # Ansible developer
   developer_heading: Ansible developers
   developer_body: Ansible is open source. You can add code that fixes bugs, implements new features, or extends the benefits of simple, agentless automation.

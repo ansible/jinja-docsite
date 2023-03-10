@@ -1,93 +1,63 @@
-{% extends "_base.html" %}
-{% block body %}
-<section class="cards pt-0">
-  <!--Start Ansible main cards-->
-  <div class="row justify-content-center">
-    <div class="w-50 p-0">
-      <div class="card-body">
-        <h4>{{ pages.index.welcome }}</h4>
-        <p class="card-text">{{ pages.index.about_ansible }}</p>
-        <!--Start novice section-->
+{% extends "_base.html" %} {% block body %}
+<div class="container">
+  <div class="full-width-bg component">
+    <div class="grid-wrapper">
+      <div class="width-3-12 width-12-12-m">
+        <img class="page-logo" src="static/images/community_logo.svg">
+      </div>
+      <div class="width-9-12 width-12-12-m">
+        <h2 class="page-title">{{ pages.index.title }}</h2>
+        <p class="intropara">{{ pages.index.intro }}</p>
+      </div>
+      <div class="width-6-12 width-12-12-m">
+        <h4>{{ pages.index.novice_heading }} <i class="fas fa-rocket"></i></h4>
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-            <a class="btn" href="{{ links.novice.learn }}" role="button">{{ pages.novice.learn }}</a>
-            <a class="btn" href="{{ links.novice.install }}" role="button">{{ pages.novice.install }}</a>
-            <a class="btn" href="{{ links.novice.start }}" role="button">{{ pages.novice.start }}</a>
+          <a class="btn" href="{{ links.novice.learn }}" role="button">{{ pages.novice.learn }}</a>
+          <a class="btn" href="{{ links.novice.install }}" role="button">{{ pages.novice.install }}</a>
+          <a class="btn" href="{{ links.novice.start }}" role="button">{{ pages.novice.start }}</a>
         </div>
       </div>
-    </div>
-    <!--Ansible version and pip installation clipboard-->
-    <div class="w-25 p-0">
-      <div class="card-body">
+      <div class="width-6-12 width-12-12-m">
         <h4>{{ pages.ansible_pkg.announce }}</h4>
         <div class="clipboard">
-          <pre><code id="clip">{{ pages.ansible_pkg.pip_install }}</code><button class="btn" data-clipboard-action="copy" data-clipboard-target="#clip"> <i class='far fa-clipboard'></i></button></pre>
+          <pre><code id="clip">{{ pages.ansible_pkg.pip_install }}</code><button class="btn" data-clipboard-action="copy" data-clipboard-target="#clip">
+            <i class="fa fa-clipboard" aria-hidden="true"></i></button>
+          </pre>
         </div>
-        <a class="btn" href="{{ links.pkg_docs.install }}" role="button">{{ pages.index.install_action }}</a>
       </div>
-    </div>
-  </div>
-  <!--Start user section-->
-  <div class="row justify-content-center">
-    <div class="w-50 p-0">
-      <div class="card-body">
-        <h5>{{ pages.index.user_heading }} <i class="fas fa-cogs"></i></h5>
-        <p class="card-text">{{ pages.index.user_body }}</p>
+      <!-- Start user section -->
+      <div class="width-6-12 width-12-12-m">
+        <h4>{{ pages.index.user_heading }} <i class="fas fa-cogs"></i></h4>
+        <!--<p class="card-text">{{ pages.index.user_body }}</p>-->
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-            <a class="btn" href="{{ links.user.automate.start }}" role="button">{{ pages.user.automate.start }}</a>
-            <a class="btn" href="{{ links.user.automate.evaluate_plugins }}" role="button">{{ pages.user.automate.evaluate_plugins }}</a>
-            <a class="btn" href="{{ links.user.build_inventory.multiple_hosts }}" role="button">{{ pages.user.build_inventory.multiple_hosts }}</a>
+          <a class="btn" href="{{ links.user.automate.start }}" role="button">{{ pages.user.automate.start }}</a>
+          <a class="btn" href="{{ links.user.automate.evaluate_plugins }}" role="button">{{ pages.user.automate.evaluate_plugins }}</a>
+          <a class="btn" href="{{ links.user.build_inventory.multiple_hosts }}" role="button">{{ pages.user.build_inventory.multiple_hosts }}</a> <a class="btn" href="{{ pages.site.user }}" role="button">{{ pages.index.user_resources_action }}</a>
         </div>
       </div>
-    </div>
-    <div class="w-25 p-0">
-      <div class="card-body">
-        <h5>{{ pages.index.user_resources_heading }}</h5>
-        <p class="card-text">{{ pages.index.user_resources_body }}</p>
-        <a class="btn" href="{{ pages.site.user }}" role="button">{{ pages.index.user_resources_action }}</a>
-      </div>
-    </div>
-  </div>
-  <!--Start developer section-->
-  <div class="row justify-content-center">
-    <div class="w-50 p-0">
-      <div class="card-body">
-        <h5>{{ pages.index.developer_heading }} <i class="fas fa-code"></i></h5>
-        <p class="card-text">{{ pages.index.developer_body }}</p>
+      <!-- Start developer section -->
+      <div class="width-6-12 width-12-12-m">
+        <h4>{{ pages.index.developer_heading }} <i class="fas fa-code"></i></h4>
+        <!--<p class="card-text">{{ pages.index.developer_body }}</p>-->
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-            <a class="btn" href="{{ links.developer.start.setup }}" role="button">{{ pages.developer.start.setup }}</a>
-            <a class="btn" href="{{ links.developer.start.conduct }}" role="button">{{ pages.developer.start.conduct }}</a>
-            <a class="btn" href="{{ links.developer.start.code }}" role="button">{{ pages.developer.start.code }}</a>
+          <a class="btn" href="{{ links.developer.start.setup }}" role="button">{{ pages.developer.start.setup }}</a>
+          <a class="btn" href="{{ links.developer.start.conduct }}" role="button">{{ pages.developer.start.conduct }}</a>
+          <a class="btn" href="{{ links.developer.start.code }}" role="button">{{ pages.developer.start.code }}</a>
+          <a class="btn" href="{{ pages.site.developer }}" role="button">{{ pages.index.developer_resources_action }}</a>
         </div>
       </div>
-    </div>
-    <div class="w-25 p-0">
-      <div class="card-body">
-        <h5>{{ pages.index.developer_resources_heading }}</h5>
-        <p class="card-text">{{ pages.index.developer_resources_body }}</p>
-        <a class="btn" href="{{ pages.site.developer }}" role="button">{{ pages.index.developer_resources_action }}</a>
-      </div>
-    </div>
-  </div>
-  <!--Start community maintainer section-->
-  <div class="row justify-content-center">
-    <div class="w-50 p-0">
-      <div class="card-body">
-        <h5>{{ pages.index.maintainer_heading }} <i class="fas fa-project-diagram"></i></h5>
-        <p class="card-text">{{ pages.index.maintainer_body }}</p>
+      <!-- Start community maintainer section -->
+      <div class="width-6-12 width-12-12-m">
+        <h4> {{ pages.index.maintainer_heading }} <i class="fas fa-project-diagram"></i>
+        </h4>
+        <!--<p class="card-text">{{ pages.index.maintainer_body }}</p>-->
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
           <a class="btn" href="{{ links.maintainer.learn.guidelines }}" role="button">{{ pages.maintainer.learn.guidelines }}</a>
           <a class="btn" href="{{ links.maintainer.build_community.contributor_paths }}" role="button">{{ pages.maintainer.build_community.contributor_paths }}</a>
-          <a class="btn" href="{{ links.maintainer.build_community.communication }}" role="button">{{ pages.maintainer.build_community.communication }}</a>
+          <a class="btn" href="{{ links.maintainer.build_community.communication }}" role="button">{{ pages.maintainer.build_community.communication }}</a> <a class="btn" href="{{ pages.site.maintainer }}" role="button">{{ pages.index.maintainer_resources_action }}</a>
         </div>
       </div>
     </div>
-    <div class="w-25 p-0">
-      <div class="card-body">
-        <h5>{{ pages.index.maintainer_resources_heading }}</h5>
-        <p class="card-text">{{ pages.index.maintainer_resources_body }}</p>
-        <a class="btn" href="{{ pages.site.maintainer }}" role="button">{{ pages.index.maintainer_resources_action }}</a>
-      </div>
-    </div>
   </div>
-</section>
+</div>
 {% endblock %}
