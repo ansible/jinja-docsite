@@ -37,10 +37,6 @@ index:
   # Community maintainer
   maintainer_heading: Community maintainers
   maintainer_body: Ansible maintainers are responsible for the ongoing quality of  Ansible projects and collections and play a vital role in guiding the direction of the wider community.
-  maintainer_actions:
-    overview: Understand Ansible contributor paths
-    learn: Learn about community maintainer responsibilities
-    join: Join or start a discussion that interests you
   maintainer_resources_heading: Community maintainer resources
   maintainer_resources_body: Handle project lifecycles, ensure the health of collections, join the Ansible steering committee, and more.
   maintainer_resources_action: Find more resources for Ansible community maintainers
@@ -88,6 +84,37 @@ developer:
     gh_actions: Use GitHub actions to set up testing workflows
     troubleshoot: Troubleshoot collections with ansible-navigator
     request_inclusion: Request a collection be added to the Ansible package
+# Resources for community maintainer journeys.
+maintainer:
+  title: Ansible community maintainers
+  intro: Community maintainers are trusted contributors who oversee project lifecycle and overall health.
+  milestone:
+    learn: Learn about community maintainer responsibilities
+    build_community: Expand community around a collection
+    collection_inclusion: Get collections included in the Ansible package
+    participate: Participate in cross-project governance
+  learn:
+    intro: Interested in becoming a community maintainer? Find out what's involved.
+    label: Button group that links to Ansible community maintainer documentation.
+    guidelines: Review community maintainer responsibilities
+    backports: Backport merged pull requests to stable branches
+    release: Regularly release stable versions
+    documentation: Look after collection documentation
+  build_community:
+    intro: Community maintainers play a special role to enable and encourage contributors.
+    label: Button group that links to base Ansible community maintainer documentation.
+    communication: Join or start a community discussion
+    contributor_paths: Understand Ansible contributor paths
+    encourage: Attract and mentor new contributors
+  collection_inclusion:
+    intro: Satisfy requirements to get collections included in the Ansible package.
+    label: Button group that links to Ansible community maintainer documentation.
+    process: Understand the inclusion process
+    review: Go through inclusion review cycles
+  participate:
+    intro: Get involved in higher-level decision processes that guide the broader community.
+    label: Button group that links to Ansible community maintainer documentation.
+    join: Join the Ansible steering committee
 # Labels provide meaningful descriptions of elements for accessibility purposes.
 labels:
   button_group: Button group that links to Ansible community documentation.

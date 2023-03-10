@@ -16,10 +16,6 @@ user_actions:
   automate: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#playbook-syntax"
   evaluate_plugins: "https://docs.ansible.com/ansible/latest/module_plugin_guide/modules_intro.html"
   build_inventory: "https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html"
-maintainer_actions:
-  overview: "https://docs.ansible.com/ansible/latest/community/contributor_path.html"
-  learn: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html"
-  join: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#weekly-community-matrix-irc-meetings"
 project_doc_home:
   als: "https://als.readthedocs.io/en/latest/"
   awx: "https://github.com/ansible/awx"
@@ -63,3 +59,18 @@ developer:
     gh_actions: ""
     troubleshoot: ""
     request_inclusion: "https://github.com/ansible-collections/ansible-inclusion"
+maintainer:
+  learn:
+    guidelines: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html"
+    backports: "https://docs.ansible.com/ansible/latest/community/maintainers_workflow.html#backporting"
+    release: "https://docs.ansible.com/ansible/latest/community/collection_contributors/collection_releasing.html#releasing"
+    documentation: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#maintaining-good-collection-documentation"
+  build_community:
+    communication: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#weekly-community-matrix-irc-meetings"
+    contributor_paths: "https://docs.ansible.com/ansible/latest/community/contributor_path.html"
+    encourage: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#encouraging-new-contributors"
+  collection_inclusion:
+    process: "https://github.com/ansible-collections/ansible-inclusion/blob/main/README.md#submission-process"
+    review: "https://github.com/ansible-collections/ansible-inclusion/blob/main/README.md#review-process"
+  participate:
+    join: "https://docs.ansible.com/ansible/latest/community/contributor_path.html#become-a-steering-committee-member"
