@@ -101,3 +101,13 @@ project_doc_home:
   sdk: "https://ansible-sdk.readthedocs.io/en/latest/"
   sign: "https://ansible.github.io/ansible-sign/"
   vscode: "https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
+# Automation Platform
+platform:
+  access: "https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/"
+  quickstart: "https://docs.ansible.com/automation-controller/latest/html/quickstart/index.html"
+  release_notes: "https://docs.ansible.com/automation-controller/latest/html/release-notes/index.html"
+  upgrade_migration: "https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/index.html"
+  user_guide: "https://docs.ansible.com/automation-controller/latest/html/userguide/index.html"
+  administration: "https://docs.ansible.com/automation-controller/latest/html/administration/index.html"
+  api: "https://docs.ansible.com/automation-controller/latest/html/controllerapi/index.html"
+  cli: "https://docs.ansible.com/automation-controller/latest/html/controllercli/index.html"

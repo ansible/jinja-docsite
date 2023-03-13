@@ -12,6 +12,7 @@ site:
   community: community.html
   core: core.html
   ecosystem: ecosystem.html
+  platform: platform.html
 # Content for the index page
 index:
   title: Ansible community documentation
@@ -156,6 +157,38 @@ maintainer:
 ecosystem:
   title: Ansible Ecosystem
   intro: Projects in the Ansible ecosystem let you expand automation to a virtually unlimited set of use cases.
+# Automation platform
+platform:
+  title: Red Hat Ansible Automation Platform
+  intro: Ansible Automation Platform centralizes automation infrastructure, adds enterprise-grade capabilities, and provides supported collections.
+  access:
+    title: Ansible Automation Platform
+    text: Red Hat provides documentation for Automation Platform including installation, Automation Hub, Services Catalog, and Insights.
+  controller:
+    quickstart:
+      title: Quickstart
+      text: Get Automation Controller up and running.
+    release_notes:
+      title: Release notes
+      text: View the changes made since the last release of Ansible Automation Controller.
+    upgrade_migration:
+      title: Upgrade and migration
+      text: Find out how to upgrade Ansible Automation Platform to the latest version.
+    user_guide:
+      title: User guide
+      text: Find the complete guide to using Ansible Automation Controller functionality.
+    administration:
+      title: Administration
+      text: Learn how to perform administration operations on Ansible Automation Controller with scripts, management jobs, and more.
+    api:
+      title: Automation Controller API
+      text: Learn and explore the Automation Controller API.
+    cli:
+      title: Automation Controller CLI
+      text: Learn how to use the command-line client for AWX and Ansible Automation Controller.
 # Labels provide meaningful descriptions of elements for accessibility purposes.
 labels:
   button_group: Button group that links to Ansible community documentation.
+buttons:
+  access_redhat: Go to access.redhat.com
+  visit_docs: Visit the documentation
