@@ -1,9 +1,46 @@
 {% extends "_base.html" %} {% block body %}
 <div class="container">
   <div class="full-width-bg component">
-    <p>Under construction. Want to help out? Visit:
-      <a href="https://github.com/ansible/jinja-docsite" target="_blank">Ansible community docsite prototype</a>
-    </p>
+    <div class="grid-wrapper">
+      <div class="width-3-12 width-12-12-m">
+        <img class="page-logo" src="static/images/community_logo.svg">
+      </div>
+      <div class="width-9-12 width-12-12-m">
+        <h2 class="page-title">{{ pages.community.title }}</h2>
+        <p class="intropara">{{ pages.community.intro }}</p>
+      </div>
+      <div class="width-6-12 width-12-12-m">
+        <h3>{{ pages.community.collaborate.title }}</h3>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+          <a class="btn" href="{{ links.community.collaborate.fork }}" role="button">{{ pages.community.collaborate.fork }}</a>
+          <a class="btn" href="{{ pages.site.ecosystem }}" role="button">{{ pages.community.collaborate.ecosystem }}</a>
+          <a class="btn" href="{{ links.community.collaborate.help }}" role="button">{{ pages.community.collaborate.help }}</a>
+        </div>
+      </div>
+      <div class="width-6-12 width-12-12-m">
+        <h3>{{ pages.community.discuss.title }}</h3>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+          <a class="btn" href="{{ links.community.discuss.email }}" role="button">{{ pages.community.discuss.email }}</a>
+          <a class="btn" href="{{ links.community.discuss.chat }}" role="button">{{ pages.community.discuss.chat }}</a>
+          <a class="btn" href="{{ links.community.discuss.irc }}" role="button">{{ pages.community.discuss.irc }}</a>
+        </div>
+      </div>
+      <div class="width-6-12 width-12-12-m">
+        <h3>{{ pages.community.join.title }}</h3>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+          <a class="btn" href="{{ links.community.join.conduct }}" role="button">{{ pages.community.join.conduct }}</a>
+          <a class="btn" href="{{ links.community.join.working_groups }}" role="button">{{ pages.community.join.working_groups }}</a>
+          <a class="btn" href="{{ links.community.join.public_meetings }}" role="button">{{ pages.community.join.public_meetings }}</a>
+        </div>
+      </div>
+      <div class="width-6-12 width-12-12-m">
+        <h3>{{ pages.community.subscribe.title }}</h3>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+          <a class="btn" href="{{ links.community.subscribe.bullhorn }}" role="button">{{ pages.community.subscribe.bullhorn }}</a>
+          <a class="btn" href="{{ links.community.subscribe.mailing_lists }}" role="button">{{ pages.community.subscribe.mailing_lists }}</a>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 {% endblock %}
