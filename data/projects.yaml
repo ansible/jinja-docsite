@@ -40,3 +40,8 @@ description:
   sdk: Ansible SDK is a toolkit that lets you harness the power and simplicity of Ansible automation directly from your applications.
   sign: Ansible Sign is a utility for signing and verifying Ansible content.
   vscode: The VS Code extention adds Ansible language support to Visual Studio Code and OpenVSX compatible editors.
+collections:
+  name: Ansible collections
+  description: Ansible collections offer distributions of playbooks, roles, modules, and plugins.
+  user_guide: Find out how to use collections
+  contributor_guide: Learn how to contribute to collections
