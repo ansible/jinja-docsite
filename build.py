@@ -28,4 +28,5 @@ if __name__ == "__main__":
 
 
     shutil.copytree('static', 'build/static')
+    shutil.copytree('oldsite', 'build/oldsite')
     sass.compile(dirname=('sass', 'build/static/css'))
