@@ -191,7 +191,9 @@ body {
   background: #ffffff;
   color: #000000;
   font-weight: 300;
-  font-family: RedHatText, "Red Hat Text", Overpass, "Helvetica Neue", Arial, sans-serif; }
+  font-family: RedHatText, "Red Hat Text", Overpass, "Helvetica Neue", Arial, sans-serif;
+  position: relative;
+  min-height: 100vh; }
 
 h1 {
   font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
