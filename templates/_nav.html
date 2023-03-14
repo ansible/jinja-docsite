@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md p-1">
   <div class="container">
-    <a class="nav-link" href="index.html">
+    <a class="nav-link" href="{{ links.site.index }}">
       <span class="navbar-brand d-flex justify-content-center">
         <svg
           version="1.1"
@@ -33,13 +33,16 @@
     <div class="collapse navbar-collapse" id="main-menu">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="ecosystem.html">Ansible ecosystem</a>
+          <a class="nav-link" href="{{ links.core_docs.index }}">Ansible core</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="platform.html">Ansible Automation Platform</a>
+          <a class="nav-link" href="{{ links.site.ecosystem }}">Ansible ecosystem</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="community.html">Join the community</a>
+          <a class="nav-link" href="{{ links.site.platform }}">Ansible automation platform</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ links.site.community }}">Join the community</a>
         </li>
       </ul>
     </div>
