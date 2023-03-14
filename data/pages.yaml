@@ -2,17 +2,6 @@
 ansible_pkg:
   announce: Ansible 7 is now available
   pip_install: pip install ansible
-# Base docsite page names
-site:
-  index: index.html
-  user: user.html
-  developer: developer.html
-  maintainer: maintainer.html
-  collections: collections.html
-  community: community.html
-  core: core.html
-  ecosystem: ecosystem.html
-  platform: platform.html
 # Content for the index page
 index:
   title: Ansible community documentation

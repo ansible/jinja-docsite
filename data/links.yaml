@@ -1,15 +1,26 @@
+# Base docsite page names
+site:
+  index: index.html
+  user: user.html
+  developer: developer.html
+  maintainer: maintainer.html
+  collections: collections.html
+  community: community.html
+  core: core.html
+  ecosystem: ecosystem.html
+  platform: platform.html
 core_docs:
   index: "https://docs.ansible.com/ansible-core/devel/index.html"
 pkg_docs:
   index: "https://docs.ansible.com/ansible/latest/index.html"
   install: "https://docs.ansible.com/ansible/latest/installation_guide/index.html"
-  collections_index: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
   inventory_guide: "https://docs.ansible.com/ansible/latest/inventory_guide/index.html"
   playbook_guide: "https://docs.ansible.com/ansible/latest/playbook_guide/index.html"
   developer_guide: "https://docs.ansible.com/ansible/latest/dev_guide/index.html"
 collections:
   user_guide: "https://docs.ansible.com/ansible/latest/collections_guide/index.html"
   contributor_guide: "https://docs.ansible.com/ansible/devel/community/contributions_collections.html#collections-contributions"
+  plugin_index: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
 # Novice actions
 novice:
   learn: "https://docs.ansible.com/ansible/latest/index.html"
