@@ -11,6 +11,14 @@
         <p class="intropara">{{ pages.ecosystem.intro }}</p>
       </div>
       <div class="width-6-12 width-12-12-m">
+        <h5>{{ projects.collections.name }}</h5>
+        <p>{{ projects.collections.description }}</p>
+        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+          <a class="btn" href="{{ links.collections.user_guide }}" role="button">{{ projects.collections.user_guide }}</a>
+          <a class="btn" href="{{ links.collections.contributor_guide }}" role="button">{{ projects.collections.contributor_guide }}</a>
+        </div>
+      </div>
+      <div class="width-6-12 width-12-12-m">
         <h5>{{ projects.name.core }}</h5>
         <p>{{ projects.description.core }}</p>
         <a class="btn" href="{{ links.core_docs.index }}" role="button">

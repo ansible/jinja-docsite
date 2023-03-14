@@ -7,6 +7,9 @@ pkg_docs:
   inventory_guide: "https://docs.ansible.com/ansible/latest/inventory_guide/index.html"
   playbook_guide: "https://docs.ansible.com/ansible/latest/playbook_guide/index.html"
   developer_guide: "https://docs.ansible.com/ansible/latest/dev_guide/index.html"
+collections:
+  user_guide: "https://docs.ansible.com/ansible/latest/collections_guide/index.html"
+  contributor_guide: "https://docs.ansible.com/ansible/devel/community/contributions_collections.html#collections-contributions"
 # Novice actions
 novice:
   learn: "https://docs.ansible.com/ansible/latest/index.html"
