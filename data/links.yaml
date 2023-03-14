@@ -118,9 +118,9 @@ community:
     working_groups: "https://docs.ansible.com/ansible/latest/community/communication.html#working-groups"
     public_meetings: "https://docs.ansible.com/ansible/latest/community/communication.html#meetings-on-chat"
   subscribe:
-    bullhorn: "https://eepurl.com/gZmiEP"
+    bullhorn: "https://bit.ly/subscribe-bullhorn"
     mailing_lists: "https://docs.ansible.com/ansible/latest/community/communication.html#mailing-list-information"
-# Automation Platform
+# Automation platform
 platform:
   access: "https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/"
   quickstart: "https://docs.ansible.com/automation-controller/latest/html/quickstart/index.html"
