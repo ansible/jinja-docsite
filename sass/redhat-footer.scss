@@ -2,6 +2,9 @@
 @import "fonts";
 
 .redhat-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   background-color: $black;
   font-family: $redhat-display;
   text-align: center;
