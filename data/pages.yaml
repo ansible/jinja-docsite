@@ -157,6 +157,29 @@ maintainer:
 ecosystem:
   title: Ansible Ecosystem
   intro: Projects in the Ansible ecosystem let you expand automation to a virtually unlimited set of use cases.
+# Ansible community
+community:
+  title: Join the Ansible community
+  intro: Open-source and collaboration are at the heart of the Ansible community, helping more people experience the power of automation and work better and faster together.
+  collaborate:
+    title: Collaborate with the community
+    fork: Fork the Ansible repository
+    ecosystem: Find an Ansible project
+    help: Explore other ways you can help
+  discuss:
+    title: Participate in community discussions
+    email: Get in touch by email
+    chat: Find us on Matrix
+    irc: Use the IRC bridge on Libera Chat
+  join:
+    title: Get involved
+    conduct: Read the code of conduct
+    working_groups: Take part in a working group
+    public_meetings: Come to a public meeting
+  subscribe:
+    title: Follow Ansible community news and announcements
+    bullhorn: Subscribe to the Bullhorn
+    mailing_lists: Subscribe to an Ansible community mailing list
 # Automation platform
 platform:
   title: Red Hat Ansible Automation Platform
