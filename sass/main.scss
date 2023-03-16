@@ -99,14 +99,16 @@ p.feedback {
 
 img.page-logo {
   display: flex;
-  margin-bottom: 1.2rem;
-  margin-left: 7rem;
-  width: 575px;
+  width: 200px;
+  @media screen and (max-width: 990px) {
+    display: none;
+  }
 }
 
 img.rh-logo {
   display: flex;
-  margin-bottom: 1.2rem;
-  margin-left: 7rem;
   width: 200px;
+  @media screen and (max-width: 990px) {
+    display: none;
+  }
 }
