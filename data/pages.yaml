@@ -204,3 +204,4 @@ labels:
 buttons:
   access_redhat: Go to access.redhat.com
   visit_docs: Visit the documentation
+feedback: <i class="fas fa-comments"></i> Got thoughts or feedback on the new documentation landing pages? We want to hear from you! <br /> Join us in the <a href="https://matrix.to/#/#docs:ansible.com" target="_blank">docs channel on Matrix</a> or open a <a href="https://github.com/ansible/docsite/issues" target="_blank">GitHub issue</a> in the docsite repository.
