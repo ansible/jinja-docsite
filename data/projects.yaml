@@ -18,6 +18,7 @@ name:
   runner: Ansible Runner
   sdk: Ansible SDK
   sign: Ansible Sign
+  test: Ansible Test
   vscode: Ansible VS Code Extension
 description:
   als: Ansible Language Server implements language server protocol (LSP) to highlight and check Ansible syntax.
@@ -39,6 +40,7 @@ description:
   runner: Ansible Runner provides a stable and consistent interface abstraction to Ansible.
   sdk: Ansible SDK is a toolkit that lets you harness the power and simplicity of Ansible automation directly from your applications.
   sign: Ansible Sign is a utility for signing and verifying Ansible content.
+  test: Ansible Test is a command-line tool for performing sanity, unit, and integration testing with Ansible Core and collections.
   vscode: The VS Code extention adds Ansible language support to Visual Studio Code and OpenVSX compatible editors.
 collections:
   name: Ansible collections
