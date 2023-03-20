@@ -1,21 +1,38 @@
-{% extends "_base.html" %} {% block body %}
+{% extends "_base.html" %}
+{% block body %}
 <div class="container">
   <div class="full-width-bg component">
-    <p>
-      The Ansible community documentation site has recently changed.
-      The content on this page has been removed.
-    </p>
-    <p>
-      Here are some links you might find useful instead:
-      <ul>
-        <li>
-          <a href="{{ links.site.index }}">Ansible community documentation home page</a>
-        </li>
-        <li>
-          <a href="{{ links.core_docs.index }}">Ansible core documentation</a>
-        </li>
-      </ul>
-    </p>
+    <div class="grid-wrapper">
+      <div class="width-3-12 width-12-12-m">
+        <img class="page-logo" src="static/images/community_logo.svg">
+      </div>
+      <div class="width-9-12 width-12-12-m">
+        <h2 class="page-title">{{ pages.core.title }}</h2>
+        <p class="intropara">{{ pages.core.intro }}</p>
+        <p class="feedback">{{ pages.feedback }}</p>
+      </div>
+      <div class="width-6-12 width-12-12-m">
+        <h5>{{ projects.name.core }}</h5>
+        <p>{{ projects.description.core }}</p>
+        <a class="btn" href="{{ links.core_docs.index }}" role="button">
+          {{ projects.name.core }} documentation
+        </a>
+      </div>
+      <div class="width-6-12 width-12-12-m">
+        <h5>{{ projects.name.test }}</h5>
+        <p>{{ projects.description.test }}</p>
+        <a class="btn" href="{{ links.project_doc_home.test }}" role="button">
+          {{ projects.name.test }} documentation
+        </a>
+      </div>
+      <div class="width-6-12 width-12-12-m">
+        <h5>{{ pages.translations.core_ja.title }}</h5>
+        <p>{{ pages.translations.core_ja.text }}</p>
+        <a class="btn" href="{{ links.site.core_ja }}" role="button">
+          {{ pages.buttons.learn_more }}
+        </a>
+      </div>
+    </div>
   </div>
 </div>
 {% endblock %}

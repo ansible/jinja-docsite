@@ -142,6 +142,10 @@ maintainer:
   participate:
     intro: Get involved in higher-level decision processes that guide the broader community.
     join: Join the Ansible steering committee
+# Automation platform
+core:
+  title: Ansible Core
+  intro: Core is the main building block for automation that includes the Ansible language and runtime, a set of command-line tools, and a framework for extending automation with collections.
 # Ansible ecosystem
 ecosystem:
   title: Ansible Ecosystem
@@ -204,4 +208,46 @@ labels:
 buttons:
   access_redhat: Go to access.redhat.com
   visit_docs: Visit the documentation
+  learn_more: Learn more
 feedback: <i class="fas fa-comments"></i> Got thoughts or feedback on the new documentation landing pages? We want to hear from you! <br /> Join us in the <a href="https://matrix.to/#/#docs:ansible.com" target="_blank">docs channel on Matrix</a> or open a <a href="https://github.com/ansible/docsite/issues" target="_blank">GitHub issue</a> in the docsite repository.
+# Translations
+translations:
+  core_ja:
+    title: 日本語ドキュメント (Japanese)
+    text: Access Japanese translations for Ansible Core documentation.
+    v_2_14: ansible-core ドキュメント 2.14
+    v_2_13: ansible-core ドキュメント 2.13
+    v_2_12: ansible-core ドキュメント 2.12
+    v_2_11: ansible-core ドキュメント 2.11
+    v_2_9: Ansible ドキュメント 2.9
+  tower_ko:
+    title: 한국어 문서 (Korean)
+    text: Access Korean translations for Automation Controller documentation.
+    quickstart: 퀵스타트 가이드
+    release_notes: 릴리스 노트
+    api: 가이드
+    administration: 관리 가이드
+    userguide: 사용자 가이드
+    upgrade: 업그레이드 마이그레이션 가이드
+  tower_ja:
+    title: 日本語ドキュメント (Japanese)
+    text: Access Japanese translations for Automation Controller documentation.
+    quickstart: クイック設定ガイド
+    release_notes: リリースノート
+    api: ガイド
+    administration: 管理ガイド
+    userguide: ユーザーガイド
+    upgrade: のアップグレードおよび移行ガイド
+    quickinstall: インストールガイド
+    installandreference: インストールおよびリファレンスガイド
+  tower_zh:
+    title: 中文文档 (Simplified Chinese)
+    text: Access simplified Chinese translations for Automation Controller documentation.
+    quickstart: 快速入门指南
+    release_notes: 发行注记
+    api: 指南
+    administration: 管理指南
+    userguide: 用户指南
+    upgrade: 升级和迁移指南
+    quickinstall: 快速安装指南
+    installandreference: 安装和参考指南
