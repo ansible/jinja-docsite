@@ -142,10 +142,10 @@ maintainer:
   participate:
     intro: Get involved in higher-level decision processes that guide the broader community.
     join: Join the Ansible steering committee
-# Automation platform
+# Ansible core
 core:
   title: Ansible Core
-  intro: Core is the main building block for automation that includes the Ansible language and runtime, a set of command-line tools, and a framework for extending automation with collections.
+  intro: Core includes the Ansible language and runtime, a set of command-line tools, and a framework for extending automation with collections.
 # Ansible ecosystem
 ecosystem:
   title: Ansible Ecosystem
@@ -252,7 +252,6 @@ translations:
     upgrade: 升级和迁移指南
     quickinstall: 快速安装指南
     installandreference: 安装和参考指南
-
 # Archive pages
 archive:
   community:
