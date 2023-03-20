@@ -142,10 +142,10 @@ maintainer:
   participate:
     intro: Get involved in higher-level decision processes that guide the broader community.
     join: Join the Ansible steering committee
-# Automation platform
+# Ansible core
 core:
   title: Ansible Core
-  intro: Core is the main building block for automation that includes the Ansible language and runtime, a set of command-line tools, and a framework for extending automation with collections.
+  intro: Core includes the Ansible language and runtime, a set of command-line tools, and a framework for extending automation with collections.
 # Ansible ecosystem
 ecosystem:
   title: Ansible Ecosystem
@@ -209,6 +209,7 @@ buttons:
   access_redhat: Go to access.redhat.com
   visit_docs: Visit the documentation
   learn_more: Learn more
+  archive: Visit the archive
 feedback: <i class="fas fa-comments"></i> Got thoughts or feedback on the new documentation landing pages? We want to hear from you! <br /> Join us in the <a href="https://matrix.to/#/#docs:ansible.com" target="_blank">docs channel on Matrix</a> or open a <a href="https://github.com/ansible/docsite/issues" target="_blank">GitHub issue</a> in the docsite repository.
 # Translations
 translations:
@@ -251,3 +252,96 @@ translations:
     upgrade: 升级和迁移指南
     quickinstall: 快速安装指南
     installandreference: 安装和参考指南
+# Archive pages
+archive:
+  community:
+    title: Ansible community documentation archive
+    intro: Archive page for the Ansible community documentation that provides older versions of content.
+    v_2_6: Ansible community documentation for version 2.6
+    v_2_5: Ansible community documentation for version 2.5
+    v_2_4: Ansible community documentation for version 2.4
+    v_2_3: Ansible community documentation for version 2.3
+  platform:
+    title: Automation Controller documentation archive
+    intro: Archive page for the Automation Controller documentation that provides older versions of content.
+    v_4_2_1: Automation Controller version 4.2.1 (Supported)
+    v_4_2_0: Automation Controller version 4.2.0 (Supported)
+    v_4_1_4: Automation Controller version 4.1.4 (Supported)
+    v_4_1_3: Automation Controller version 4.1.3 (Supported)
+    v_4_1_2: Automation Controller version 4.1.2 (Supported)
+    v_4_1_1: Automation Controller version 4.1.1 (Supported)
+    v_4_1_0: Automation Controller version 4.1.0 (Supported)
+    v_4_0_1: Automation Controller version 4.0.1 (End of Maintenance Support - EOL)
+    v_4_0_0: Automation Controller version 4.0.0 (End of Maintenance Support - EOL)
+    v_3_8_6: Automation Tower version 3.8.6 (Supported)
+    v_3_8_5: Automation Tower version 3.8.5 (Supported)
+    v_3_8_4: Automation Tower version 3.8.4 (Supported)
+    v_3_8_3: Automation Tower version 3.8.3 (Supported)
+    v_3_8_2: Automation Tower version 3.8.2 (Supported)
+    v_3_8_1: Automation Tower version 3.8.1 (Supported)
+    v_3_8_0: Automation Tower version 3.8.0 (Supported)
+    v_3_7_5: Automation Tower version 3.7.5 (End of Maintenance Support - EOL)
+    v_3_7_4: Automation Tower version 3.7.4 (End of Maintenance Support - EOL)
+    v_3_7_3: Automation Tower version 3.7.3 (End of Maintenance Support - EOL)
+    v_3_7_2: Automation Tower version 3.7.2 (End of Maintenance Support - EOL)
+    v_3_7_1: Automation Tower version 3.7.1 (End of Maintenance Support - EOL)
+    v_3_7_0: Automation Tower version 3.7.0 (End of Maintenance Support - EOL)
+    v_3_6_7: Automation Tower version 3.6.7 (End of Maintenance Support - EOL)
+    v_3_6_6: Automation Tower version 3.6.6 (End of Maintenance Support - EOL)
+    v_3_6_5: Automation Tower version 3.6.5 (End of Maintenance Support - EOL)
+    v_3_6_4: Automation Tower version 3.6.4 (End of Maintenance Support - EOL)
+    v_3_6_3: Automation Tower version 3.6.3 (End of Maintenance Support - EOL)
+    v_3_6_2: Automation Tower version 3.6.2 (End of Maintenance Support - EOL)
+    v_3_6_1: Automation Tower version 3.6.1 (End of Maintenance Support - EOL)
+    v_3_6_0: Automation Tower version 3.6.0 (End of Maintenance Support - EOL)
+    v_3_5_6: Automation Tower version 3.5.6 (End of Maintenance Support - EOL)
+    v_3_5_5: Automation Tower version 3.5.5 (End of Maintenance Support - EOL)
+    v_3_5_4: Automation Tower version 3.5.4 (End of Maintenance Support - EOL)
+    v_3_5_3: Automation Tower version 3.5.3 (End of Maintenance Support - EOL)
+    v_3_5_2: Automation Tower version 3.5.2 (End of Maintenance Support - EOL)
+    v_3_5_1: Automation Tower version 3.5.1 (End of Maintenance Support - EOL)
+    v_3_5_0: Automation Tower version 3.5.0 (End of Maintenance Support - EOL)
+    v_3_4_5: Automation Tower version 3.4.5 (End of Maintenance Support - EOL)
+    v_3_4_4: Automation Tower version 3.4.4 (End of Maintenance Support - EOL)
+    v_3_4_3: Automation Tower version 3.4.3 (End of Maintenance Support - EOL)
+    v_3_4_2: Automation Tower version 3.4.2 (End of Maintenance Support - EOL)
+    v_3_4_1: Automation Tower version 3.4.1 (End of Maintenance Support - EOL)
+    v_3_4_0: Automation Tower version 3.4.0 (End of Maintenance Support - EOL)
+    v_3_3_7: Automation Tower version 3.3.7 (End of Maintenance Support - EOL)
+    v_3_3_6: Automation Tower version 3.3.6 (End of Maintenance Support - EOL)
+    v_3_3_5: Automation Tower version 3.3.5 (End of Maintenance Support - EOL)
+    v_3_3_4: Automation Tower version 3.3.4 (End of Maintenance Support - EOL)
+    v_3_3_2: Automation Tower version 3.3.2 (End of Maintenance Support - EOL)
+    v_3_3_1: Automation Tower version 3.3.1 (End of Maintenance Support - EOL)
+    v_3_3_0: Automation Tower version 3.3.0 (End of Maintenance Support - EOL)
+    v_3_2_8: Automation Tower version 3.2.8 (End of Maintenance Support - EOL)
+    v_3_2_7: Automation Tower version 3.2.7 (End of Maintenance Support - EOL)
+    v_3_2_6: Automation Tower version 3.2.6 (End of Maintenance Support - EOL)
+    v_3_2_5: Automation Tower version 3.2.5 (End of Maintenance Support - EOL)
+    v_3_2_4: Automation Tower version 3.2.4 (End of Maintenance Support - EOL)
+    v_3_2_3: Automation Tower version 3.2.3 (End of Maintenance Support - EOL)
+    v_3_2_2: Automation Tower version 3.2.2 (End of Maintenance Support - EOL)
+    v_3_2_1: Automation Tower version 3.2.1 (End of Maintenance Support - EOL)
+    v_3_2_0: Automation Tower version 3.2.0 (End of Maintenance Support - EOL)
+    v_3_1_8: Automation Tower version 3.1.8 (End of Maintenance Support - EOL)
+    v_3_1_7: Automation Tower version 3.1.7 (End of Maintenance Support - EOL)
+    v_3_1_6: Automation Tower version 3.1.6 (End of Maintenance Support - EOL)
+    v_3_1_5: Automation Tower version 3.1.5 (End of Maintenance Support - EOL)
+    v_3_1_4: Automation Tower version 3.1.4 (End of Maintenance Support - EOL)
+    v_3_1_3: Automation Tower version 3.1.3 (End of Maintenance Support - EOL)
+    v_3_1_0: Automation Tower version 3.1.0 (End of Maintenance Support - EOL)
+    v_3_0_4: Automation Tower version 3.0.4 (End of Maintenance Support - EOL)
+    v_3_0_3: Automation Tower version 3.0.3 (End of Maintenance Support - EOL)
+    v_3_0_2: Automation Tower version 3.0.2 (End of Maintenance Support - EOL)
+    v_3_0_1: Automation Tower version 3.0.1 (End of Maintenance Support - EOL)
+    v_3_0_0: Automation Tower version 3.0 (End of Maintenance Support - EOL)
+    v_2_4_5: Automation Tower version 2.4.5 (End of Maintenance Support - EOL)
+    v_2_4_4: Automation Tower version 2.4.4 (End of Maintenance Support - EOL)
+    v_2_4_3: Automation Tower version 2.4.3 (End of Maintenance Support - EOL)
+    v_2_4_0: Automation Tower version 2.4.0 (End of Maintenance Support - EOL)
+    v_2_3_1: Automation Tower version 2.3.1 (End of Maintenance Support - EOL)
+    v_2_3_0: Automation Tower version 2.3.0 (End of Maintenance Support - EOL)
+    v_2_2_2: Automation Tower version 2.2.2 (End of Maintenance Support - EOL)
+    v_2_2_1: Automation Tower version 2.2.1 (End of Maintenance Support - EOL)
+    v_2_2_0: Automation Tower version 2.2.0 (End of Maintenance Support - EOL)
+    v_2_1_6: Automation Tower versions 1.2.2 through 2.1.6 (End of Maintenance Support - EOL)
