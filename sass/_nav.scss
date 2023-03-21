@@ -1,42 +1,27 @@
 nav {
 	background: $navy;
-	color: $white;
-	font-size: 1.25rem;
-	.navbar-toggler {
+	.navbar-brand {
 		color: $white;
-		outline: none;
-		.icon-bar {
-			display: block;
-			width: 1.375rem;
-			height: 0.125rem;
-			border-radius: 1px;
-			background-color: $white;
-			transition: all 300ms ease-in-out;
-			transform: rotate(0);
-			opacity: 1;
-			margin-top: 0.3125rem;
-		}
-		.icon-bar.top {
-			margin-top: 0.625rem;
-			transform: rotate(45deg);
-		}
-		.icon-bar.center {
-			opacity: 0;
-		}
-		.icon-bar.bottom {
-			margin-top: -0.5rem;
-			transform: rotate(-45deg);
+		font-size: 1.2rem;
+		padding-right: 4px;
+		&:hover {
+		  color: $pool;
 		}
 	}
-	.navbar-toggler.collapsed {
-		.icon-bar {
-			transform: rotate(0);
-			opacity: 1;
-			margin-top: 0.5rem;
-		}
+	.nav-item {
+        padding: 8px 4px;
 	}
 	.nav-link {
 		color: $white;
 		font-size: 1rem;
+		&:hover {
+		  color: $pool;
+		}
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.nav-link {
+		text-align: left;
 	}
 }
