@@ -3,7 +3,6 @@ const currentPageName = currentPagePath.substring(currentPagePath.lastIndexOf('/
 console.log(currentPageName);
 
 const pageToggle = document.getElementById('page-toggle');
-let currentPage = currentPageName;
 
 pageToggle.addEventListener('click', function() {
   window.location.href = '../' + currentPageName;
