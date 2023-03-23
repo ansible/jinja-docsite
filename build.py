@@ -18,6 +18,10 @@ buildpath = Path('build')
 if buildpath.exists() and buildpath.is_dir():
     shutil.rmtree("build")
 
+shutil.copyfile('templates/community.html', 'templates/ansible_community.html')
+shutil.copyfile('templates/platform.html', 'templates/automation.html')
+shutil.copyfile('oldsite/automation.html', 'oldsite/platform.html')
+
 if __name__ == "__main__":
 
     site = Site.make_site()
