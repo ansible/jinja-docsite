@@ -3,6 +3,13 @@ const currentPageName = currentPagePath.substring(currentPagePath.lastIndexOf('/
 
 const pageToggle = document.getElementById('page-toggle');
 
-pageToggle.addEventListener('click', function() {
-  window.location.href = '../' + currentPageName;
-});
+if (pageToggle.hasAttribute('data-target')) {
+  const redirectPageName = pageToggle.getAttribute('data-target');
+  pageToggle.addEventListener('click', function() {
+    window.location.href = '../' + redirectPageName;
+  });
+} else {
+  pageToggle.addEventListener('click', function() {
+    window.location.href = '../' + currentPageName;
+  });
+};
