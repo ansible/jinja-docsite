@@ -6,7 +6,5 @@ const pageToggle = document.getElementById('page-toggle');
 let currentPage = currentPageName;
 
 pageToggle.addEventListener('click', function() {
-  const newPage = currentPage;
-  window.location.href = '../' + newPage;
-  currentPage = newPage;
+  window.location.href = '../' + currentPageName;
 });
