@@ -3,13 +3,9 @@ const currentPageName = currentPagePath.substring(currentPagePath.lastIndexOf('/
 
 const pageToggle = document.getElementById('page-toggle');
 
-if (pageToggle.hasAttribute('data-target')) {
-  const redirectPageName = pageToggle.getAttribute('data-target');
+if (pageToggle) {
+  const redirectPageName = pageToggle.hasAttribute('data-target') ? pageToggle.getAttribute('data-target') : currentPageName;
   pageToggle.addEventListener('click', function() {
     window.location.href = './oldsite/' + redirectPageName;
   });
-} else {
-  pageToggle.addEventListener('click', function() {
-    window.location.href = './oldsite/' + currentPageName;
-  });
-};
+}
