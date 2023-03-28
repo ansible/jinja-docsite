@@ -3,6 +3,10 @@
   display: inline-block;
   width: 60px;
   height: 34px;
+  @media screen and (max-width: 768px) {
+    height: 24px;
+    width: 53px;
+  }
 }
 
 /* Hide default HTML checkbox */
@@ -35,6 +39,10 @@
   background-color: $white;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  @media screen and (max-width: 768px) {
+    height: 16px;
+    width: 16px;
+  }
 }
 
 input:checked + .slider {
