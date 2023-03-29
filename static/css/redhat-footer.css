@@ -13,7 +13,7 @@
     .redhat-footer .licence a {
       color: #ffffff;
       font-size: 0.75rem;
-      font-weight: 200; }
+      font-weight: normal; }
     @media screen and (max-width: 1024px) {
       .redhat-footer .licence {
         grid-column: 1/5;
@@ -28,7 +28,7 @@
     align-self: center;
     justify-self: end;
     font-size: 0.75rem;
-    font-weight: 200;
+    font-weight: normal;
     color: #ffffff; }
     @media screen and (max-width: 1024px) {
       .redhat-footer .redhat {

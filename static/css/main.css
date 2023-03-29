@@ -269,7 +269,7 @@ input:checked + .slider:before {
 body {
   background: #ffffff;
   color: #000000;
-  font-weight: 300;
+  font-weight: normal;
   font-family: RedHatText, "Red Hat Text", Overpass, "Helvetica Neue", Arial, sans-serif;
   position: relative;
   min-height: 100vh; }
@@ -330,14 +330,14 @@ p.intropara {
   font-size: 1.45rem;
   line-height: 1.9rem;
   margin: 0 0 1.9rem;
-  font-weight: 400;
+  font-weight: normal;
   text-align: left; }
 
 p.feedback {
   font-size: 1rem;
   line-height: 1.9rem;
   margin: 0 0 1.9rem;
-  font-weight: 100;
+  font-weight: normal;
   text-align: left; }
 
 img.page-logo {
