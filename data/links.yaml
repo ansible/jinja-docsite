@@ -64,14 +64,15 @@ user:
 developer:
   start:
     setup: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#environment-setup"
-    conduct: "https://docs.ansible.com/ansible/latest/community/code_of_conduct.html"
     learn: "https://docs.ansible.com/ansible/latest/dev_guide/overview_architecture.html"
     code: "https://docs.ansible.com/ansible/latest/dev_guide/developing_locally.html"
   contribute:
+    first_contribution: "https://docs.ansible.com/ansible/latest/community/contributor_path.html#making-your-first-contribution"
+    collection_contrib_guide: "https://docs.ansible.com/ansible/latest/community/contributions_collections.html"
     checklist: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_checklist.html"
     lifecycle: "https://docs.ansible.com/ansible/latest/dev_guide/module_lifecycle.html"
-    review: ""
-    fix: ""
+    #review: ""
+    #fix: ""
   test:
     learn: "https://docs.ansible.com/ansible/latest/dev_guide/testing.html#why-test-your-ansible-contributions"
     run: "https://docs.ansible.com/ansible/latest/dev_guide/testing_sanity.html"
