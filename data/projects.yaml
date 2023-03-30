@@ -1,6 +1,6 @@
 name:
   als: Ansible Language Server
-  awx: AWX
+  awx: Ansible AWX
   awx_operator: AWX Operator
   builder: Ansible Builder
   compat: Ansible Compat
