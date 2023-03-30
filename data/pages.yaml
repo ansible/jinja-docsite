@@ -8,19 +8,19 @@ index:
   intro: Ansible offers open-source automation that is simple, flexible, and powerful.
   novice_heading: Get started with Ansible
   # Ansible user
-  user_heading: Using Ansible
+  user_heading: User
   user_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
   user_resources_heading: User resources
   user_resources_body: Structure your project with roles, improve content quality, re-use existing automation, and more.
   user_resources_action: Continue the Ansible user journey
   # Ansible developer
-  developer_heading: Ansible developers
+  developer_heading: Developer
   developer_body: Ansible is open source. You can add code that fixes bugs, implements new features, or extends the benefits of simple, agentless automation.
   developer_resources_heading: Developer resources
   developer_resources_body: Contribute to an Ansible project or collection, run sanity tests, write integration and unit tests, and more.
   developer_resources_action: Continue the Ansible developer journey
   # Community maintainer
-  maintainer_heading: Community maintainers
+  maintainer_heading: Maintainer
   maintainer_body: Ansible maintainers are responsible for the ongoing quality of  Ansible projects and collections and play a vital role in guiding the direction of the wider community.
   maintainer_resources_heading: Community maintainer resources
   maintainer_resources_body: Handle project lifecycles, ensure the health of collections, join the Ansible steering committee, and more.
