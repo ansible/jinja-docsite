@@ -132,16 +132,18 @@ maintainer:
     documentation: Look after collection documentation
   build_community:
     intro: Community maintainers play a special role to enable and encourage contributors.
-    communication: Join or start a community discussion
+    grow_community: Explore ways how to grow your community
+    documentation: Maintain good contributor documentation
     contributor_paths: Understand Ansible contributor paths
-    encourage: Attract and mentor new contributors
   collection_inclusion:
     intro: Satisfy requirements to get collections included in the Ansible package.
     process: Understand the inclusion process
-    review: Go through inclusion review cycles
+    review: Review other inclusion requests
+    submit: Submit your collection for inclusion
   participate:
     intro: Get involved in higher-level decision processes that guide the broader community.
-    join: Join the Ansible steering committee
+    community_topics: Discuss and vote on Community topics
+    join: Join the Ansible community steering committee
 # Ansible core
 core:
   title: Ansible Core
