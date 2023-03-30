@@ -5,7 +5,7 @@ ansible_pkg:
 # Content for the index page
 index:
   title: Ansible community documentation
-  intro: Ansible offers powerful and flexible automation that is simple, decentralized, and easy.
+  intro: Ansible offers powerful and flexible automation that is simple, community-powered, and free.
   novice_heading: Get started with Ansible
   # Ansible user
   user_heading: Using Ansible
