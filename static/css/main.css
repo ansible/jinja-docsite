@@ -63,8 +63,19 @@
     color: #000000;
     background-color: #ffffff; }
 
+.docbar {
+  background: #102441;
+  width: 100%; }
+  .docbar .nav-item {
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 0%;
+    padding-bottom: 0%; }
+  .docbar .nav-link {
+    text-align: center; }
+
 nav {
-  background: #102441; }
+  background: #000000; }
   nav .navbar-toggler {
     color: #ffffff;
     outline: none; }
@@ -97,7 +108,7 @@ nav {
     nav .navbar-brand:hover {
       color: #5cbec1; }
   nav .nav-item {
-    padding: 8px 4px; }
+    padding: 1px 4px; }
   nav .nav-link {
     color: #ffffff;
     font-size: 1rem; }
