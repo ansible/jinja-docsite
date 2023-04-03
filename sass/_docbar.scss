@@ -2,9 +2,12 @@
     background: $navy;
     width: 100%;
 	.nav-item {
-        padding: 0px 4px;
+        padding-right: 5px;
+        padding-left: 5px;
+        padding-top: 0%;
+        padding-bottom: 0%;
 	}
     .nav-link {
-        text-align: right;
+        text-align: center;
     }
 }
