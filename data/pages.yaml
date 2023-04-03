@@ -145,7 +145,7 @@ maintainer:
 # Ansible core
 core:
   title: Ansible Core
-  intro: Core includes the Ansible language and runtime, a set of command-line tools, and a framework for extending automation with collections.
+  intro: Core includes the Ansible language and runtime, a set of built-in modules and command-line tools, and a framework for extending automation with collections.
 # Ansible ecosystem
 ecosystem:
   title: Ansible Ecosystem
