@@ -160,7 +160,7 @@ community:
     help: Explore ways you can help
     ecosystem: Find an Ansible project
   communicate:
-    title: Communicate
+    title: Join the conversation
     matrix: Say Hello! in the Social room on Matrix
     public_meetings: Come to a public meeting
     communication_guide: Explore the Community communication guide
