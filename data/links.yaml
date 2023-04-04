@@ -115,7 +115,7 @@ project_doc_home:
   galaxy_ng: "https://galaxyng.netlify.app/"
   lint: "https://ansible-lint.readthedocs.io/en/latest/"
   molecule: "https://molecule.readthedocs.io/en/latest/"
-  navigator: "https://ansible-navigator.readthedocs.io/en/latest/"
+  navigator: "https://ansible-navigator.readthedocs.io/"
   pinakes: "https://github.com/ansible/pinakes"
   pylibssh: "https://ansible-pylibssh.readthedocs.io/en/latest/"
   receptor: "https://receptor.readthedocs.io/en/latest/index.html"
