@@ -92,7 +92,7 @@ developer:
   start:
     intro: Ready to start writing code for Ansible? Follow these steps to get started.
     setup: Set up your development environment
-    learn: Understand the Ansible architecture
+    learn: Learn how Ansible works
     code: Write custom modules or plugins
   contribute:
     intro: Contribute your code to an Ansible project or collection.
