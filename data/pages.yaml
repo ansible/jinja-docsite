@@ -155,15 +155,15 @@ community:
   title: Join the Ansible community
   intro: Open-source and collaboration are at the heart of the Ansible community, helping more people experience the power of automation and work better and faster together.
   collaborate:
-    title: Collaborate
-    conduct: Review the Ansible Code of Conduct
-    help: Explore ways you can help
+    title: Collaborate with us
+    conduct: Read the code of conduct
+    help: Explore ways to contribute
     ecosystem: Find an Ansible project
   communicate:
     title: Join the conversation
     matrix: Say hello and introduce yourself in the social channel
-    public_meetings: Come to a public meeting
-    communication_guide: Explore the community communication guide
+    public_meetings: Find public events like meetups
+    communication_guide: Check out the guide to community communication
   decide:
     title: Participate in community discussions
     community_topics: Share your ideas and vote in the Community topics
