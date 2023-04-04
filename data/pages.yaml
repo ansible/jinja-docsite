@@ -161,7 +161,7 @@ community:
     ecosystem: Find an Ansible project
   communicate:
     title: Join the conversation
-    matrix: Say Hello! in the Social room on Matrix
+    matrix: Say hello and introduce yourself in the social channel
     public_meetings: Come to a public meeting
     communication_guide: Explore the Community communication guide
   decide:
