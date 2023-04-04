@@ -165,9 +165,11 @@ community:
     public_meetings: Come to a public meeting
     communication_guide: Explore the community communication guide
   decide:
+    title: Participate in community discussions
     community_topics: Share your ideas and vote in the Community topics
     working_groups: Take part in a working group
   follow:
+    title: Follow Ansible community news and announcements
     bullhorn: Subscribe to the Bullhorn
     # TODO: Add new community website link when ready
 # Automation platform
