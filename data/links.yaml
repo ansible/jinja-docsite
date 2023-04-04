@@ -93,13 +93,15 @@ maintainer:
     release: "https://docs.ansible.com/ansible/latest/community/collection_contributors/collection_releasing.html#releasing"
     documentation: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#maintaining-good-collection-documentation"
   build_community:
-    communication: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#weekly-community-matrix-irc-meetings"
+    grow_community: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#expanding-the-collection-community"
     contributor_paths: "https://docs.ansible.com/ansible/latest/community/contributor_path.html"
-    encourage: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#encouraging-new-contributors"
+    documentation: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#maintaining-good-collection-documentation"
   collection_inclusion:
-    process: "https://github.com/ansible-collections/ansible-inclusion/blob/main/README.md#submission-process"
+    process: "https://docs.ansible.com/ansible/devel/community/steering/community_steering_committee.html#collection-inclusion-requests-workflow"
     review: "https://github.com/ansible-collections/ansible-inclusion/blob/main/README.md#review-process"
+    submit: "https://github.com/ansible-collections/ansible-inclusion/blob/main/README.md#submission-process"
   participate:
+    community_topics: "https://github.com/ansible-community/community-topics/issues"
     join: "https://docs.ansible.com/ansible/latest/community/contributor_path.html#become-a-steering-committee-member"
 # Documentation home pages
 project_doc_home:
