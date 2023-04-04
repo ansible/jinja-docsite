@@ -86,19 +86,21 @@ developer:
   intro: Extend automation with custom Ansible modules, add functionality to existing modules, or fix bugs to improve existing code.
   milestone:
     start: Start writing code
-    contribute: Contribute code to an Ansible project
+    contribute: Contribute code to a collection
     test: Test plugins and modules
     create_collection: Create new collections
   start:
     intro: Ready to start writing code for Ansible? Follow these steps to get started.
     setup: Set up your development environment
-    conduct: Review the Ansible contributor guidelines
     learn: Understand the Ansible architecture
     code: Write custom modules or plugins
   contribute:
     intro: Contribute your code to an Ansible project or collection.
+    first_contribution: Make your first contribution
+    collection_contrib_guide: Explore Collection contributor guide
     checklist: Contribute your module to an existing collection
     lifecycle: Review the lifecycle of an Ansible module or plugin
+    # TODO Think of filling the items below in data/links.yml, currently undefined
     review: Review issues and PRs in an Ansible project
     fix: Fix issues and implement new features in an Ansible project, collection, or module
   test:
