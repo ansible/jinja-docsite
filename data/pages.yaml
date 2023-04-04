@@ -5,8 +5,13 @@ ansible_pkg:
 # Content for the index page
 index:
   title: Ansible community documentation
+<<<<<<< HEAD
   intro: Ansible offers open-source automation that is simple, flexible, and powerful.
   novice_heading: Get started with Ansible
+=======
+  intro: Ansible offers powerful and flexible automation that is simple, decentralized, and easy.
+  novice_heading: Get started
+>>>>>>> ce1a9f6 (Novice -> Get started)
   # Ansible user
   user_heading: User
   user_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
