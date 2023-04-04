@@ -126,19 +126,18 @@ project_doc_home:
 # Ansible community
 community:
   collaborate:
-    fork: "https://github.com/ansible/ansible/fork"
-    help: "https://docs.ansible.com/ansible/latest/community/how_can_I_help.html"
-  discuss:
-    email: "https://docs.ansible.com/ansible/latest/community/communication.html#asking-questions-over-email"
-    chat: "https://matrix.to/#/#social:ansible.com"
-    irc: "https://docs.ansible.com/ansible/latest/community/communication.html#general-channels"
-  join:
     conduct: "https://docs.ansible.com/ansible/latest/community/code_of_conduct.html"
-    working_groups: "https://docs.ansible.com/ansible/latest/community/communication.html#working-groups"
+    help: "https://docs.ansible.com/ansible/latest/community/how_can_I_help.html"
+  communicate:
+    matrix: "https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix"
     public_meetings: "https://docs.ansible.com/ansible/latest/community/communication.html#meetings-on-chat"
-  subscribe:
+    communication_guide: "https://docs.ansible.com/ansible/devel/community/communication.html"
+  decide:
+    community_topics: "https://github.com/ansible-community/community-topics/issues"
+    working_groups: "https://docs.ansible.com/ansible/latest/community/communication.html#working-groups"
+  follow:
     bullhorn: "https://bit.ly/subscribe-bullhorn"
-    mailing_lists: "https://docs.ansible.com/ansible/latest/community/communication.html#mailing-list-information"
+    # TODO: Add new community website link when ready
 # Automation platform
 platform:
   access: "https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/"
