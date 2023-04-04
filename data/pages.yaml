@@ -142,7 +142,7 @@ maintainer:
     submit: Submit your collection for inclusion
   participate:
     intro: Get involved in higher-level decision processes that guide the broader community.
-    community_topics: Discuss and vote on Community topics
+    community_topics: Discuss and vote on community topics
     join: Join the Ansible community steering committee
 # Ansible core
 core:
