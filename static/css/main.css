@@ -283,7 +283,8 @@ body {
   font-weight: normal;
   font-family: RedHatText, "Red Hat Text", Overpass, "Helvetica Neue", Arial, sans-serif;
   position: relative;
-  min-height: 100vh; }
+  min-height: 100vh;
+  overflow-x: hidden; }
 
 h1 {
   font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif;
@@ -311,9 +312,6 @@ h5 {
 
 h6 {
   font-family: RedHatDisplay, "Red Hat Display", Overpass, "Helvetica Neue", Arial, sans-serif; }
-
-.container {
-  max-width: 75%; }
 
 .full-width-bg {
   margin: 0 -13rem;
