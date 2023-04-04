@@ -100,8 +100,9 @@ developer:
     collection_contrib_guide: Explore Collection contributor guide
     checklist: Contribute your module to an existing collection
     lifecycle: Review the lifecycle of an Ansible module or plugin
-    #review: Review issues and PRs in an Ansible project
-    #fix: Fix issues and implement new features in an Ansible project, collection, or module
+    # TODO Think of filling the items below in data/links.yml, currently undefined
+    review: Review issues and PRs in an Ansible project
+    fix: Fix issues and implement new features in an Ansible project, collection, or module
   test:
     intro: Test Ansible to help fix bugs and enforce coding standards and requirements.
     learn: Understand testing in Ansible
