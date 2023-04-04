@@ -71,8 +71,8 @@ developer:
     collection_contrib_guide: "https://docs.ansible.com/ansible/latest/community/contributions_collections.html"
     checklist: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_checklist.html"
     lifecycle: "https://docs.ansible.com/ansible/latest/dev_guide/module_lifecycle.html"
-    #review: ""
-    #fix: ""
+    review: ""
+    fix: ""
   test:
     learn: "https://docs.ansible.com/ansible/latest/dev_guide/testing.html#why-test-your-ansible-contributions"
     run: "https://docs.ansible.com/ansible/latest/dev_guide/testing_sanity.html"
