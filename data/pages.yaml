@@ -8,7 +8,7 @@ index:
   intro: Ansible offers open-source automation that is simple, flexible, and powerful.
   novice_heading: Get started with Ansible
   # Ansible user
-  user_heading: Automate with Ansible
+  user_heading: Users
   user_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
   user_resources_heading: User resources
   user_resources_body: Structure your project with roles, improve content quality, re-use existing automation, and more.
