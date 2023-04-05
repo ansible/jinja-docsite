@@ -20,7 +20,7 @@ index:
   developer_resources_body: Contribute to an Ansible project or collection, run sanity tests, write integration and unit tests, and more.
   developer_resources_action: Continue the Ansible developer journey
   # Community maintainer
-  maintainer_heading: Grow and maintain community
+  maintainer_heading: Maintainers
   maintainer_body: Ansible maintainers are responsible for the ongoing quality of  Ansible projects and collections and play a vital role in guiding the direction of the wider community.
   maintainer_resources_heading: Community maintainer resources
   maintainer_resources_body: Handle project lifecycles, ensure the health of collections, join the Ansible steering committee, and more.
