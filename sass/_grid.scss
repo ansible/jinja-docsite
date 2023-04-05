@@ -4,7 +4,7 @@ $breakpoint-m: 48em;
 .component-wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 2em 3em;
+  gap: 2em;
   clear: both;
 }
 
