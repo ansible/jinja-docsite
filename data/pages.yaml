@@ -29,7 +29,7 @@ index:
 novice:
   learn: Understand the fundamentals of Ansible automation
   install: Install the Ansible package
-  start: Write your first playbook in a few easy steps
+  start: Run your first ad hoc command in a few easy steps
 # Actions for user journeys
 user:
   title: Users
@@ -46,7 +46,7 @@ user:
   automate:
     intro: Write playbooks and develop content that automates complex tasks.
     start: Start writing Ansible playbooks
-    evaluate_plugins: Learn which plugins to use for your tasks
+    evaluate_plugins: Learn about Ansible modules
   build_inventory:
     intro: Build inventories that list and describe your infrastructure.
     multiple_hosts: Build inventory files to manage multiple hosts
