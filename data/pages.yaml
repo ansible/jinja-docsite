@@ -166,7 +166,7 @@ community:
   communicate:
     title: Join the conversation
     matrix: Say hello and introduce yourself in the social channel
-    public_meetings: Find public events like meetups
+    public_meetings: Find public community meetings on Matrix/IRC
     communication_guide: Check out the guide to community communication
   decide:
     title: Participate in community discussions
