@@ -14,7 +14,7 @@ index:
   user_resources_body: Structure your project with roles, improve content quality, re-use existing automation, and more.
   user_resources_action: Continue the Ansible user journey
   # Ansible developer
-  developer_heading: Extend automation
+  developer_heading: Developers
   developer_body: Ansible is open source. You can add code that fixes bugs, implements new features, or extends the benefits of simple, agentless automation.
   developer_resources_heading: Developer resources
   developer_resources_body: Contribute to an Ansible project or collection, run sanity tests, write integration and unit tests, and more.
