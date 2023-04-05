@@ -46,7 +46,7 @@ user:
   automate:
     intro: Write playbooks and develop content that automates complex tasks.
     start: Start writing Ansible playbooks
-    evaluate_plugins: Learn Ansible modules
+    evaluate_plugins: Learn about Ansible modules
   build_inventory:
     intro: Build inventories that list and describe your infrastructure.
     multiple_hosts: Build inventory files to manage multiple hosts
