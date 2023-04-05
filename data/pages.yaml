@@ -8,19 +8,19 @@ index:
   intro: Ansible offers open-source automation that is simple, flexible, and powerful.
   novice_heading: Get started with Ansible
   # Ansible user
-  user_heading: Using Ansible
+  user_heading: Users
   user_body: Ansible playbooks are blueprints for automating software deployment and system configuration as well as orchestrating complex operations.
   user_resources_heading: User resources
   user_resources_body: Structure your project with roles, improve content quality, re-use existing automation, and more.
   user_resources_action: Continue the Ansible user journey
   # Ansible developer
-  developer_heading: Ansible developers
+  developer_heading: Developers
   developer_body: Ansible is open source. You can add code that fixes bugs, implements new features, or extends the benefits of simple, agentless automation.
   developer_resources_heading: Developer resources
   developer_resources_body: Contribute to an Ansible project or collection, run sanity tests, write integration and unit tests, and more.
   developer_resources_action: Continue the Ansible developer journey
   # Community maintainer
-  maintainer_heading: Community maintainers
+  maintainer_heading: Maintainers
   maintainer_body: Ansible maintainers are responsible for the ongoing quality of  Ansible projects and collections and play a vital role in guiding the direction of the wider community.
   maintainer_resources_heading: Community maintainer resources
   maintainer_resources_body: Handle project lifecycles, ensure the health of collections, join the Ansible steering committee, and more.
@@ -32,7 +32,7 @@ novice:
   start: Write your first playbook in a few easy steps
 # Actions for user journeys
 user:
-  title: User resources
+  title: Users
   intro: Automate the management of remote systems and control their desired state.
   milestone:
     automate: Create automation
@@ -82,7 +82,7 @@ user:
     use_ees: Use execution environments with AWX jobs
 # Actions for developer journeys
 developer:
-  title: Developer resources
+  title: Developers
   intro: Extend automation with custom Ansible modules, add functionality to existing modules, or fix bugs to improve existing code.
   milestone:
     start: Start writing code
@@ -119,8 +119,8 @@ developer:
     request_inclusion: Request a collection be added to the Ansible package
 # Actions for community maintainer journeys
 maintainer:
-  title: Ansible community maintainers
-  intro: Community maintainers are trusted contributors who oversee project lifecycle and overall health.
+  title: Maintainers
+  intro: Ansible community maintainers are trusted contributors who oversee project lifecycle and overall health.
   milestone:
     learn: Learn about community maintainer responsibilities
     build_community: Expand community around a collection

@@ -1,9 +1,9 @@
 # Base docsite page names
 site:
   index: index.html
-  user: user.html
-  developer: developer.html
-  maintainer: maintainer.html
+  user: users.html
+  developer: developers.html
+  maintainer: maintainers.html
   collections: collections.html
   community: community.html
   community_archive: ansible-prior-versions.html
