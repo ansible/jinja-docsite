@@ -1,10 +1,9 @@
 .toggle {
 	background: $white;
 	color: $navy;
-	text-align: left;
-	font-size: 0.8rem;
-	margin-top: 50%;
-	@media screen and (max-width: 768px) {
-		margin-top: 0%;
+	text-align: center;
+	p {
+		font-size: 0.8rem;
+		text-transform: uppercase;
 	}
 }
