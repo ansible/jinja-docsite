@@ -29,6 +29,15 @@ index:
 # Quicklinks
 quicklinks:
   heading: Quicklinks
+  yaml_syntax: Yaml syntax
+  playbook_variables: Playbook variables
+  playbook_conditionals: Playbook conditionals
+  developing_modules: Developing modules
+  python_three: Ansible and Python 3
+  python_api: Python API
+  maintainer_one: Quicklink one
+  maintainer_two: Quicklink two
+  maintainer_three: Quicklink three
 # Actions for novice journeys
 novice:
   learn: Understand the fundamentals of Ansible automation
