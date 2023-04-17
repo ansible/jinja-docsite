@@ -4,6 +4,7 @@ ansible_pkg:
   pip_install: pip install ansible
   docs: Ansible package docs home
   module_index: Index of modules and plugins
+  collections_index: Collection index
 index:
   title: Ansible community documentation
   intro: Ansible offers open-source automation that is simple, flexible, and powerful.
@@ -35,9 +36,9 @@ quicklinks:
   developing_modules: Developing modules
   python_three: Ansible and Python 3
   python_api: Python API
-  maintainer_one: Quicklink one
-  maintainer_two: Quicklink two
-  maintainer_three: Quicklink three
+  maintainer_news: News for maintainers
+  community_topics: Community topics
+  package_inclusion: Package inclusion requests
 # Actions for novice journeys
 novice:
   learn: Understand the fundamentals of Ansible automation
