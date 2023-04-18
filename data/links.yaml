@@ -125,6 +125,12 @@ project_doc_home:
   sign: "https://ansible.github.io/ansible-sign/"
   test: "https://docs.ansible.com/ansible-core/devel/dev_guide/testing_running_locally.html"
   vscode: "https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
+# Edge
+edge:
+  osbuild: https://github.com/redhat-cop/infra.osbuild
+  cip: https://github.com/ansible-collections/community.cip
+  fdo: https://github.com/ansible-collections/community.fdo
+  microshift: https://github.com/ansible-collections/edge.microshift/
 # Ansible community
 community:
   collaborate:
