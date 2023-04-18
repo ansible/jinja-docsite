@@ -2,7 +2,7 @@ name: Ansible docsite
 on:
   push:
     branches:
-      - 'devel'
+      - 'main'
   workflow_dispatch:
 jobs:
   build-docsite:
