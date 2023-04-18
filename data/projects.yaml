@@ -6,6 +6,7 @@ name:
   compat: Ansible Compat
   core: Ansible Core
   eda: Event-Driven Ansible Server
+  edge: Edge Automation
   galaxy: Galaxy
   galaxy_ng: Galaxy NG
   lint: Ansible Lint
@@ -28,6 +29,7 @@ description:
   compat: Compat is a Python package that assists with compatibility between different Ansible releases, starting at version 2.9.
   core: Ansible Core is the language and runtime that powers automation.
   eda: Event-Driven Ansible Server offers scalable and flexible automation that can subscribe to a wide variety of event sources.
+  edge: Edge provides tooling and collections to run automation jobs on device endpoints at the very edge of your infrastructure.
   galaxy: Galaxy provides a hub for discovering and sharing Ansible community content.
   galaxy_ng: Galaxy NG jumpstarts automation projects with Ansible community content.
   lint: Lint improves code quality through proven best practices, patterns, and behaviors so that your Ansible content results in reliable and consistent automation.
@@ -47,3 +49,8 @@ collections:
   description: Ansible collections offer distributions of playbooks, roles, modules, and plugins.
   user_guide: Find out how to use collections
   contributor_guide: Learn how to contribute to collections
+edge:
+  osbuild: Osbuild Composer Collection
+  cip: Common Industrial Protocol (CIP) Collection
+  fdo: FDO Collection
+  microshift: MicroShift Collection
