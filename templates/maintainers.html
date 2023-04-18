@@ -6,11 +6,33 @@
       <div class="width-3-12 width-12-12-m">
         <img class="page-logo" src="static/images/community_logo.svg">
       </div>
-      <div class="width-9-12 width-12-12-m">
+      <div class="width-7-12 width-12-12-m">
         <h2 class="page-title">{{ pages.maintainer.title }}</h2>
         <p class="intropara">{{ pages.maintainer.intro }}</p>
         <p class="feedback">{{ pages.feedback }}</p>
       </div>
+      <!-- Start quicklinks. -->
+      <div class="width-2-12 width-12-12-m">
+        <div class="quicklinks">
+          <h2>{{ pages.quicklinks.heading }}</h2>
+          <ul class="fa-ul">
+            <li>
+              <span class="fa-li"><i class="fas fa-book"></i></span>
+              <a href="{{ links.quicklinks.maintainer_news }}" target="_blank">{{ pages.quicklinks.maintainer_news }}</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-book"></i></span>
+              <a href="{{ links.quicklinks.community_topics }}" target="_blank">{{ pages.quicklinks.community_topics }}</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-book"></i></span>
+              <a href="{{ links.maintainer.collection_inclusion.process }}" target="_blank">{{ pages.quicklinks.package_inclusion }}</a>
+            </li>
+          </ul>
+          <hr />
+        </div>
+      </div>
+      <!-- End quicklinks. -->
       <div class="width-6-12 width-12-12-m">
         <h3>{{ pages.maintainer.milestone.learn }}</h3>
         <!--<p>{{ pages.maintainer.learn.intro }}</p>-->

@@ -5,11 +5,33 @@
       <div class="width-3-12 width-12-12-m">
         <img class="page-logo" src="static/images/community_logo.svg">
       </div>
-      <div class="width-9-12 width-12-12-m">
+      <div class="width-7-12 width-12-12-m">
         <h2 class="page-title">{{ pages.user.title }}</h2>
         <p class="intropara">{{ pages.user.intro }}</p>
         <p class="feedback">{{ pages.feedback }}</p>
       </div>
+      <!-- Start quicklinks. -->
+      <div class="width-2-12 width-12-12-m">
+        <div class="quicklinks">
+          <h2>{{ pages.quicklinks.heading }}</h2>
+          <ul class="fa-ul">
+            <li>
+              <span class="fa-li"><i class="fas fa-book"></i></span>
+              <a href="{{ links.quicklinks.yaml_syntax }}" target="_blank">{{ pages.quicklinks.yaml_syntax }}</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-book"></i></span>
+              <a href="{{ links.quicklinks.playbook_variables }}" target="_blank">{{ pages.quicklinks.playbook_variables }}</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-book"></i></span>
+              <a href="{{ links.quicklinks.playbook_conditionals }}" target="_blank">{{ pages.quicklinks.playbook_conditionals }}</a>
+            </li>
+          </ul>
+          <hr />
+        </div>
+      </div>
+      <!-- End quicklinks. -->
       <div class="width-6-12 width-12-12-m">
         <h3>{{ pages.user.milestone.automate }}</h3>
         <!--<p>{{ pages.user.automate.intro }}</p>-->

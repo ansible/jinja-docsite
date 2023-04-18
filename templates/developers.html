@@ -5,11 +5,33 @@
       <div class="width-3-12 width-12-12-m">
         <img class="page-logo" src="static/images/community_logo.svg">
       </div>
-      <div class="width-9-12 width-12-12-m">
+      <div class="width-7-12 width-12-12-m">
         <h2 class="page-title">{{ pages.developer.title }}</h2>
         <p class="intropara">{{ pages.developer.intro }}</p>
         <p class="feedback">{{ pages.feedback }}</p>
       </div>
+      <!-- Start quicklinks. -->
+      <div class="width-2-12 width-12-12-m">
+        <div class="quicklinks">
+          <h2>{{ pages.quicklinks.heading }}</h2>
+          <ul class="fa-ul">
+            <li>
+              <span class="fa-li"><i class="fas fa-book"></i></span>
+              <a href="{{ links.quicklinks.developing_modules }}" target="_blank">{{ pages.quicklinks.developing_modules }}</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-book"></i></span>
+              <a href="{{ links.quicklinks.python_three }}" target="_blank">{{ pages.quicklinks.python_three }}</a>
+            </li>
+            <li>
+              <span class="fa-li"><i class="fas fa-book"></i></span>
+              <a href="{{ links.quicklinks.python_api }}" target="_blank">{{ pages.quicklinks.python_api }}</a>
+            </li>
+          </ul>
+          <hr />
+        </div>
+      </div>
+      <!-- End quicklinks. -->
       <div class="width-6-12 width-12-12-m">
         <h3>{{ pages.developer.milestone.start }}</h3>
         <!--<p>{{ pages.developer.start.intro }}</p>-->

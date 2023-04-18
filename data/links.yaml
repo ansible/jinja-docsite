@@ -24,9 +24,20 @@ pkg_docs:
   playbook_guide: "https://docs.ansible.com/ansible/latest/playbook_guide/index.html"
   developer_guide: "https://docs.ansible.com/ansible/latest/dev_guide/index.html"
 collections:
+  index: "https://docs.ansible.com/ansible/latest/collections/index.html"
   user_guide: "https://docs.ansible.com/ansible/latest/collections_guide/index.html"
   contributor_guide: "https://docs.ansible.com/ansible/devel/community/contributions_collections.html#collections-contributions"
   plugin_index: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
+# Quicklinks
+quicklinks:
+  yaml_syntax: "https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html"
+  playbook_variables: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html"
+  playbook_conditionals: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_conditionals.html"
+  developing_modules: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html"
+  python_three: "https://docs.ansible.com/ansible/latest/dev_guide/developing_python_3.html"
+  python_api: "https://docs.ansible.com/ansible/latest/dev_guide/developing_api.html"
+  maintainer_news: "https://github.com/ansible-collections/news-for-maintainers/issues"
+  community_topics: "https://github.com/ansible-community/community-topics/issues"
 # Novice actions
 novice:
   learn: "https://docs.ansible.com/ansible/latest/index.html"
