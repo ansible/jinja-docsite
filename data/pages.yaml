@@ -30,7 +30,7 @@ index:
 # Quicklinks
 quicklinks:
   heading: Quicklinks
-  yaml_syntax: Yaml syntax
+  yaml_syntax: YAML syntax
   playbook_variables: Playbook variables
   playbook_conditionals: Playbook conditionals
   developing_modules: Developing modules
