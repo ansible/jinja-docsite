@@ -133,7 +133,7 @@ project_doc_home:
   rulebook: "https://ansible-rulebook.readthedocs.io/en/latest/"
   runner: "https://ansible-runner.readthedocs.io/en/stable/"
   sdk: "https://ansible-sdk.readthedocs.io/en/latest/"
-  sign: "https://ansible.github.io/ansible-sign/"
+  sign: "https://ansible-sign.readthedocs.io/en/latest/"
   test: "https://docs.ansible.com/ansible-core/devel/dev_guide/testing_running_locally.html"
   vscode: "https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
 # Edge
