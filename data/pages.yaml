@@ -282,6 +282,7 @@ archive:
   platform:
     title: Automation Controller documentation archive
     intro: Archive page for the Automation Controller documentation that provides older versions of content.
+    v_4_2_2: Automation Controller version 4.2.2 (Supported)
     v_4_2_1: Automation Controller version 4.2.1 (Supported)
     v_4_2_0: Automation Controller version 4.2.0 (Supported)
     v_4_1_4: Automation Controller version 4.1.4 (Supported)
