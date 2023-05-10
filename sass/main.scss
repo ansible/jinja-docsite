@@ -4,6 +4,7 @@
 @import "docbar";
 @import "nav";
 @import "page-title";
+@import "page-logo";
 @import "grid";
 @import "quicklinks";
 @import "toggle";
@@ -66,21 +67,5 @@ h6 {
   &-slim {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-}
-
-img.page-logo {
-  display: flex;
-  width: 200px;
-  @media screen and (max-width: 990px) {
-    display: none;
-  }
-}
-
-img.rh-logo {
-  display: flex;
-  width: 200px;
-  @media screen and (max-width: 990px) {
-    display: none;
   }
 }
