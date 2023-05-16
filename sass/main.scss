@@ -1,10 +1,10 @@
 @import "colors";
 @import "fonts";
 @import "button";
-@import "cards";
-@import "clipboard";
 @import "docbar";
 @import "nav";
+@import "page-title";
+@import "page-logo";
 @import "grid";
 @import "quicklinks";
 @import "toggle";
@@ -67,42 +67,5 @@ h6 {
   &-slim {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-}
-
-.page-title {
-  text-align: left;
-  margin-top: 1.2rem;
-}
-
-p.intropara {
-  font-size: 1.45rem;
-  line-height: 1.9rem;
-  margin: 0 0 1.9rem;
-  font-weight: normal;
-  text-align: left;
-}
-
-p.feedback {
-  font-size: 1rem;
-  line-height: 1.9rem;
-  margin: 0 0 1.9rem;
-  font-weight: normal;
-  text-align: left;
-}
-
-img.page-logo {
-  display: flex;
-  width: 200px;
-  @media screen and (max-width: 990px) {
-    display: none;
-  }
-}
-
-img.rh-logo {
-  display: flex;
-  width: 200px;
-  @media screen and (max-width: 990px) {
-    display: none;
   }
 }
