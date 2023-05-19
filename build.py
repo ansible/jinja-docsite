@@ -11,11 +11,7 @@ def data():
         "base": load(open("data/base.yaml"), Loader=Loader),
         "ecosystem": load(open("data/ecosystem.yaml"), Loader=Loader),
         "links": load(open("data/links.yaml"), Loader=Loader),
-        "pages": load(open("data/pages.yaml"), Loader=Loader),
-        "platform": load(open("data/platform.yaml"), Loader=Loader),
-        "controller_archive": load(open("data/controller_archive.yaml"), Loader=Loader),
-        "controller_i18n_links": load(open("data/controller_i18n_links.yaml"), Loader=Loader),
-        "controller_translations": load(open("data/controller_translations.yaml"), Loader=Loader)
+        "pages": load(open("data/pages.yaml"), Loader=Loader)
     }
 
 buildpath = Path('build')
@@ -32,5 +28,5 @@ if __name__ == "__main__":
 
 
     shutil.copytree('static', 'build/static')
-    shutil.copytree('oldsite', 'build/oldsite')
+    shutil.move('build/ecosystem.html', 'build/index.html')
     sass.compile(dirname=('sass', 'build/static/css'))
