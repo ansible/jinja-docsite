@@ -2,6 +2,9 @@ collections:
   name: Ansible collections
   description: Ansible collections offer distributions of playbooks, roles, modules, and plugins.
   docs:
+    index:
+      link: "https://docs.ansible.com/ansible/latest/collections/index.html"
+      button: Collection index
     user_guide:
       link: "https://docs.ansible.com/ansible/latest/collections_guide/index.html"
       button: Find out how to use collections
@@ -10,7 +13,7 @@ collections:
       button: Learn how to contribute to collections
     plugin_index:
       link: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
-      button: Visit the plugin index
+      button: Index of all modules and plugins
 edge:
   name: Edge Automation
   description: Edge provides tooling and collections to run automation jobs on device endpoints at the very edge of your infrastructure.
