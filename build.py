@@ -11,8 +11,7 @@ def data():
         "base": load(open("data/base.yaml"), Loader=Loader),
         "ecosystem": load(open("data/ecosystem.yaml"), Loader=Loader),
         "links": load(open("data/links.yaml"), Loader=Loader),
-        "pages": load(open("data/pages.yaml"), Loader=Loader),
-        "projects": load(open("data/projects.yaml"), Loader=Loader)
+        "pages": load(open("data/pages.yaml"), Loader=Loader)
     }
 
 buildpath = Path('build')
