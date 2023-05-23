@@ -13,77 +13,26 @@
           </div>
         </div>
         <!-- Start old docsite toggle. -->
-      <div class="width-1-12 width-12-12-m">
-        <div class="toggle">
-          <p>{{ pages.take_me_back }}&nbsp;
-            <label class="switch">
-              <input type="checkbox" id="page-toggle" data-target="automation.html">
-              <span class="slider round"></span>
-            </label>
-          </p>
+        <div class="width-1-12 width-12-12-m">
+          <div class="toggle">
+            <p>{{ pages.take_me_back }}&nbsp;
+              <label class="switch">
+                <input type="checkbox" id="page-toggle" data-target="automation.html">
+                <span class="slider round"></span>
+              </label>
+            </p>
+          </div>
         </div>
-      </div>
         <!-- End old docsite toggle. -->
+        <!-- Start platform docs. -->
+        {% for key, item in platform.items() %}
         <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.platform.access.title }}</h3>
-          <p>{{ pages.platform.access.text }}</p>
-          <a class="btn" href="{{ links.platform.access_redhat }}" role="button">{{ pages.buttons.access_redhat }}</a>
+          <h3>{{ item.name }}</h3>
+          <p>{{ item.description }}</p>
+          <a class="btn" href="{{ item.docs.link }}" role="button">{{ item.docs.button }}</a>
         </div>
-        <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.platform.controller.quickstart.title }}</h3>
-          <p>{{ pages.platform.controller.quickstart.text }}</p>
-          <a class="btn" href="{{ links.platform.quickstart }}" role="button">{{ pages.buttons.visit_docs }}</a>
-        </div>
-        <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.platform.controller.release_notes.title }}</h3>
-          <p>{{ pages.platform.controller.release_notes.text }}</p>
-          <a class="btn" href="{{ links.platform.release_notes }}" role="button">{{ pages.buttons.visit_docs }}</a>
-        </div>
-        <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.platform.controller.upgrade_migration.title }}</h3>
-          <p>{{ pages.platform.controller.upgrade_migration.text }}</p>
-          <a class="btn" href="{{ links.platform.upgrade_migration }}" role="button">{{ pages.buttons.visit_docs }}</a>
-        </div>
-        <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.platform.controller.user_guide.title }}</h3>
-          <p>{{ pages.platform.controller.user_guide.text }}</p>
-          <a class="btn" href="{{ links.platform.user_guide }}" role="button">{{ pages.buttons.visit_docs }}</a>
-        </div>
-        <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.platform.controller.administration.title }}</h3>
-          <p>{{ pages.platform.controller.administration.text }}</p>
-          <a class="btn" href="{{ links.platform.administration }}" role="button">{{ pages.buttons.visit_docs }}</a>
-        </div>
-        <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.platform.controller.api.title }}</h3>
-          <p>{{ pages.platform.controller.api.text }}</p>
-          <a class="btn" href="{{ links.platform.api }}" role="button">{{ pages.buttons.visit_docs }}</a>
-        </div>
-        <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.platform.controller.cli.title }}</h3>
-          <p>{{ pages.platform.controller.cli.text }}</p>
-          <a class="btn" href="{{ links.platform.cli }}" role="button">{{ pages.buttons.visit_docs }}</a>
-        </div>
-        <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.translations.tower_ko.title }}</h3>
-          <p>{{ pages.translations.tower_ko.text }}</p>
-          <a class="btn" href="{{ links.site.tower_ko }}" role="button">{{ pages.buttons.learn_more }}</a>
-        </div>
-        <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.translations.tower_ja.title }}</h3>
-          <p>{{ pages.translations.tower_ja.text }}</p>
-          <a class="btn" href="{{ links.site.tower_ja }}" role="button">{{ pages.buttons.learn_more }}</a>
-        </div>
-        <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.translations.tower_zh.title }}</h3>
-          <p>{{ pages.translations.tower_zh.text }}</p>
-          <a class="btn" href="{{ links.site.tower_zh }}" role="button">{{ pages.buttons.learn_more }}</a>
-        </div>
-        <div class="width-6-12 width-12-12-m">
-          <h3>{{ pages.archive.platform.title }}</h3>
-          <p>{{ pages.archive.platform.intro }}</p>
-          <a class="btn" href="{{ links.site.platform_archive }}" role="button">{{ pages.buttons.archive }}</a>
-        </div>
+        {% endfor %}
+        <!-- End platform docs. -->
       </div>
     </div>
   </div>
