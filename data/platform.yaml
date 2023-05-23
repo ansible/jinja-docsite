@@ -1,4 +1,5 @@
-access:
+# Content for platform.html
+platform:
   name: Ansible Automation Platform
   description: Red Hat provides documentation for Automation Platform including installation, Automation Hub, Services Catalog, and Insights.
   docs:
@@ -22,7 +23,7 @@ upgrade:
   docs:
     link: "https://docs.ansible.com/automation-controller/latest/html/upgrade-migration-guide/index.html"
     button: Visit the upgrade and migration guide
-user:
+user_guide:
   name: User guide
   description: Find the complete guide to using Ansible Automation Controller functionality.
   docs:
