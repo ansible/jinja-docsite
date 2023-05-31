@@ -13,7 +13,9 @@ def data():
         "links": load(open("data/links.yaml"), Loader=Loader),
         "pages": load(open("data/pages.yaml"), Loader=Loader),
         "platform": load(open("data/platform.yaml"), Loader=Loader),
-        "platform_archive": load(open("data/platform_archive.yaml"), Loader=Loader)
+        "controller_archive": load(open("data/controller_archive.yaml"), Loader=Loader),
+        "controller_i18n_links": load(open("data/controller_i18n_links.yaml"), Loader=Loader),
+        "controller_translations": load(open("data/controller_translations.yaml"), Loader=Loader)
     }
 
 buildpath = Path('build')
