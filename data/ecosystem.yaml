@@ -115,11 +115,11 @@
 #  description: Ansible Runner provides a stable and consistent interface abstraction to Ansible.
 #  docs:
 #    home: "https://ansible-runner.readthedocs.io/en/stable/"
-#sdk:
-#  name: Ansible SDK
-#  description: Ansible SDK is a toolkit that lets you harness the power and simplicity of Ansible automation directly from your applications.
-#  docs:
-#    home: "https://ansible-sdk.readthedocs.io/en/latest/"
+sdk:
+  name: Ansible SDK
+  description: Ansible SDK is a toolkit that lets you harness the power and simplicity of Ansible automation directly from your applications.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/sdk/en/latest/"
 #sign:
 #  name: Ansible Sign
 #  description: Ansible Sign is a utility for signing and verifying Ansible content.
