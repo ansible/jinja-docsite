@@ -18,32 +18,32 @@
 #  description: Ansible Builder lets you create Execution Environments, which are container images that act as Ansible control nodes.
 #  docs:
 #    home: "https://ansible-builder.readthedocs.io/en/latest/"
-collections:
-  name: Ansible collections
-  description: Ansible collections offer distributions of playbooks, roles, modules, and plugins.
-  docs:
-    index:
-      link: "https://docs.ansible.com/ansible/latest/collections/index.html"
-      button: Collection index
-    user_guide:
-      link: "https://docs.ansible.com/ansible/latest/collections_guide/index.html"
-      button: Find out how to use collections
-    contributor_guide:
-      link: "https://docs.ansible.com/ansible/devel/community/contributions_collections.html#collections-contributions"
-      button: Learn how to contribute to collections
-    plugin_index:
-      link: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
-      button: Index of all modules and plugins
+#collections:
+#  name: Ansible collections
+#  description: Ansible collections offer distributions of playbooks, roles, modules, and plugins.
+#  docs:
+#    index:
+#      link: "https://docs.ansible.com/ansible/latest/collections/index.html"
+#      button: Collection index
+#    user_guide:
+#      link: "https://docs.ansible.com/ansible/latest/collections_guide/index.html"
+#      button: Find out how to use collections
+#    contributor_guide:
+#      link: "https://docs.ansible.com/ansible/devel/community/contributions_collections.html#collections-contributions"
+#      button: Learn how to contribute to collections
+#    plugin_index:
+#      link: "https://docs.ansible.com/ansible/latest/collections/all_plugins.html"
+#      button: Index of all modules and plugins
 #compat:
 #  name: Ansible Compat
 #  description: Compat is a Python package that assists with compatibility between different Ansible releases, starting at version 2.9.
 #  docs:
 #    home: "https://ansible-compat.readthedocs.io/"
-core:
-  name: Ansible core
-  description: Ansible core is the language and runtime that powers automation.
-  docs:
-    home: "https://docs.ansible.com/ansible-core/devel/index.html"
+#core:
+#  name: Ansible core
+#  description: Ansible core is the language and runtime that powers automation.
+#  docs:
+#    home: "https://docs.ansible.com/ansible-core/devel/index.html"
 #eda:
 #  name: Event-Driven Ansible Server
 #  description: Event-Driven Ansible Server offers scalable and flexible automation that can subscribe to a wide variety of event sources.
