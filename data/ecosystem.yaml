@@ -13,11 +13,11 @@ als:
 #  description: Ansible AWX Operator offers built-in intelligence and operational best practices for deploying on Kubernetes environments.
 #  docs:
 #    home: "https://github.com/ansible/awx-operator"
-#builder:
-#  name: Ansible Builder
-#  description: Ansible Builder lets you create Execution Environments, which are container images that act as Ansible control nodes.
-#  docs:
-#    home: "https://ansible-builder.readthedocs.io/en/latest/"
+builder:
+  name: Ansible Builder
+  description: Ansible Builder lets you create Execution Environments, which are container images that act as Ansible control nodes.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/builder/en/stable/"
 #collections:
 #  name: Ansible collections
 #  description: Ansible collections offer distributions of playbooks, roles, modules, and plugins.
@@ -120,11 +120,11 @@ navigator:
 #  description: Ansible Rulebook is a command-line tool that listens to events so your automation can react when software or system states change.
 #  docs:
 #    home: "https://ansible-rulebook.readthedocs.io/en/latest/"
-#runner:
-#  name: Ansible Runner
-#  description: Ansible Runner provides a stable and consistent interface abstraction to Ansible.
-#  docs:
-#    home: "https://ansible-runner.readthedocs.io/en/stable/"
+runner:
+  name: Ansible Runner
+  description: Ansible Runner provides a stable and consistent interface abstraction to Ansible.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/runner/en/stable/"
 sdk:
   name: Ansible SDK
   description: Ansible SDK is a toolkit that lets you harness the power and simplicity of Ansible automation directly from your applications.
