@@ -120,11 +120,11 @@ sdk:
   description: Ansible SDK is a toolkit that lets you harness the power and simplicity of Ansible automation directly from your applications.
   docs:
     home: "https://ansible.readthedocs.io/projects/sdk/en/latest/"
-#sign:
-#  name: Ansible Sign
-#  description: Ansible Sign is a utility for signing and verifying Ansible content.
-#  docs:
-#    home: "https://ansible-sign.readthedocs.io/en/latest/"
+sign:
+  name: Ansible Sign
+  description: Ansible Sign is a utility for signing and verifying Ansible content.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/sign/en/latest/"
 #test:
 #  name: Ansible Test
 #  description: Ansible Test is a command-line tool for performing sanity, unit, and integration testing with Ansible Core and collections.
