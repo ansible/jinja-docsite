@@ -1,8 +1,8 @@
-#als:
-#  name: Ansible Language Server
-#  description: Ansible Language Server implements language server protocol (LSP) to highlight and check Ansible syntax.
-#  docs:
-#    home: "https://als.readthedocs.io/"
+als:
+  name: Ansible Language Server
+  description: Ansible Language Server implements language server protocol (LSP) to highlight and check Ansible syntax.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/language-server/"
 #awx:
 #  name: Ansible AWX
 #  description: AWX provides a web-based user interface, REST API, and task engine built on top of Ansible.
@@ -44,6 +44,11 @@ compat:
 #  description: Ansible core is the language and runtime that powers automation.
 #  docs:
 #    home: "https://docs.ansible.com/ansible-core/devel/index.html"
+devtools:
+  name: Ansible devtools
+  description: The Ansible `devtools` repository provides resources for contributors to projects such as Ansible Lint or Language Server.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/devtools/"
 #eda:
 #  name: Event-Driven Ansible Server
 #  description: Event-Driven Ansible Server offers scalable and flexible automation that can subscribe to a wide variety of event sources.
@@ -75,21 +80,26 @@ compat:
 #  description: Galaxy NG jumpstarts automation projects with Ansible community content.
 #  docs:
 #    home: "https://galaxyng.netlify.app/"
-#lint:
-#  name: Ansible Lint
-#  description: Lint improves code quality through proven best practices, patterns, and behaviors so that your Ansible content results in reliable and consistent automation.
-#  docs:
-#    home: "https://ansible-lint.readthedocs.io/"
-#molecule:
-#  name: Molecule
-#  description: Molecule helps you develop and test Ansible roles.
-#  docs:
-#    home: "https://molecule.readthedocs.io/"
-#navigator:
-#  name: Ansible Navigator
-#  description: Ansible Navigator is a command-line tool for creating, reviewing, and troubleshooting Ansible content.
-#  docs:
-#    home: "https://ansible-navigator.readthedocs.io/"
+lint:
+  name: Ansible Lint
+  description: Lint improves code quality through proven best practices, patterns, and behaviors so that your Ansible content results in reliable and consistent automation.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/lint/"
+molecule:
+  name: Molecule
+  description: Molecule helps you develop and test Ansible roles.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/molecule/"
+mkdocs:
+  name: Ansible MKDocs Theme
+  description: An MKDocs theme that provides a consistent look and feel to Ansible project documentation.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/mkdocs-ansible/"
+navigator:
+  name: Ansible Navigator
+  description: Ansible Navigator is a command-line tool for creating, reviewing, and troubleshooting Ansible content.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/navigator/"
 #pinakes:
 #  name: Pinakes
 #  description: Pinakes lets you make Ansible job templates and workflows available to business users with an added layer of governance.
