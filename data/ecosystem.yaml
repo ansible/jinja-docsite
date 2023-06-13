@@ -38,7 +38,7 @@ compat:
   name: Ansible Compat
   description: Compat is a Python package that assists with compatibility between different Ansible releases, starting at version 2.9.
   docs:
-    home: "https://ansible-compat.readthedocs.io/"
+    home: "https://ansible.readthedocs.io/projects/compat/"
 #core:
 #  name: Ansible core
 #  description: Ansible core is the language and runtime that powers automation.
