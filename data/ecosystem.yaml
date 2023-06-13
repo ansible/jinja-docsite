@@ -115,11 +115,11 @@ navigator:
 #  description: Receptor is an overlay network that distributes workloads across a large and dispersed collection of nodes.
 #  docs:
 #    home: "https://receptor.readthedocs.io/en/latest/index.html"
-#rulebook:
-#  name: Ansible Rulebook
-#  description: Ansible Rulebook is a command-line tool that listens to events so your automation can react when software or system states change.
-#  docs:
-#    home: "https://ansible-rulebook.readthedocs.io/en/latest/"
+rulebook:
+  name: Ansible Rulebook
+  description: Ansible Rulebook is a command-line tool that listens to events so your automation can react when software or system states change.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/rulebook/en/stable/"
 runner:
   name: Ansible Runner
   description: Ansible Runner provides a stable and consistent interface abstraction to Ansible.
