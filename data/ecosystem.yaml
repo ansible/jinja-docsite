@@ -75,11 +75,11 @@ devtools:
 #  description: Galaxy provides a hub for discovering and sharing Ansible community content.
 #  docs:
 #    home: "https://galaxy.ansible.com/docs/"
-#galaxy_ng:
-#  name: Galaxy NG
-#  description: Galaxy NG jumpstarts automation projects with Ansible community content.
-#  docs:
-#    home: "https://galaxyng.netlify.app/"
+galaxy_ng:
+  name: Galaxy NG
+  description: Galaxy NG jumpstarts automation projects with Ansible community content.
+  docs:
+    home: "https://ansible.readthedocs.io/projects/galaxy-ng/"
 lint:
   name: Ansible Lint
   description: Lint improves code quality through proven best practices, patterns, and behaviors so that your Ansible content results in reliable and consistent automation.
