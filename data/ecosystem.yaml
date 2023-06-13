@@ -44,11 +44,11 @@ compat:
 #  description: Ansible core is the language and runtime that powers automation.
 #  docs:
 #    home: "https://docs.ansible.com/ansible-core/devel/index.html"
-devtools:
-  name: Ansible devtools
-  description: The Ansible `devtools` repository provides resources for contributors to projects such as Ansible Lint or Language Server.
-  docs:
-    home: "https://ansible.readthedocs.io/projects/devtools/"
+#devtools:
+#  name: Ansible devtools
+#  description: The Ansible `devtools` repository provides resources for contributors to projects such as Ansible Lint or Language Server.
+#  docs:
+#    home: "https://ansible.readthedocs.io/projects/devtools/"
 #eda:
 #  name: Event-Driven Ansible Server
 #  description: Event-Driven Ansible Server offers scalable and flexible automation that can subscribe to a wide variety of event sources.
