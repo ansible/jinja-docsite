@@ -1,9 +1,12 @@
 # Ansible package
 ansible_pkg:
-  docs: Ansible package documentation
+  docs: Package documentation
+# Ansible core
+ansible_core:
+  docs: Core documentation
 # Community
 community:
-  join: Join the Ansible community
+  join: Join the community
 # Ansible ecosystem
 ecosystem:
   title: Ansible Ecosystem
