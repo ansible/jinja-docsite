@@ -2,8 +2,12 @@
 site:
   index: index.html
   ecosystem: ecosystem.html
+docs:
+  index: "https://docs.ansible.com/index.html"
 ansible_pkg:
   docs: "https://docs.ansible.com/ansible/latest/index.html"
+ansible_core:
+  docs: "https://docs.ansible.com/core.html"
 community:
   join: "https://docs.ansible.com/community.html"
 

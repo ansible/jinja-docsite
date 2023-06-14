@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md p-1">
   <div class="container">
-    <a href="{{ links.site.index }}">
+    <a href="{{ links.docs.index }}">
       <span class="navbar-brand d-flex justify-content-center">
         <svg version="1.1"
           id="Layer_1"
@@ -23,7 +23,7 @@
           <path
             d="M20.4,19.3L15,6.4c-0.2-0.4-0.5-0.6-0.8-0.6c-0.4,0-0.7,0.2-0.9,0.6L7.5,20.6h2l2.3-5.8l7,5.6c0.3,0.2,0.5,0.3,0.7,0.3c0.5,0,1-0.4,1-1C20.5,19.6,20.4,19.5,20.4,19.3z M14.2,8.7l3.5,8.6l-5.3-4.1L14.2,8.7z"/>
         </svg>
-        Ansible ecosystem
+        Ansible documentation
       </span>
     </a>
     <button
@@ -43,10 +43,13 @@
     <div class="collapse navbar-collapse" id="main-menu">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="{{ links.ansible_pkg.docs }}">{{ pages.ansible_pkg.docs }}</a>
+          <a class="nav-link" href="{{ links.ansible_pkg.docs }}" target="_blank">{{ pages.ansible_pkg.docs }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ links.community.join }}">{{ pages.community.join }}</a>
+          <a class="nav-link" href="{{ links.ansible_core.docs }}" target="_blank">{{ pages.ansible_core.docs }}</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ links.community.join }}" target="_blank">{{ pages.community.join }}</a>
         </li>
       </ul>
     </div>
