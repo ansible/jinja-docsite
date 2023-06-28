@@ -9,14 +9,14 @@ tower_ko:
     administration: "http://docs.ansible.com/automation-controller/4.4/html_ko/administration/"
     userguide: "http://docs.ansible.com/automation-controller/4.4/html_ko/userguide/"
     upgrade: "http://docs.ansible.com/automation-controller/4.4/html_ko/upgrade-migration-guide/"
-  v_4_3_O:
-    heading: Automation Controller Version 4.3.0 (Supported)
-    quickstart: "http://docs.ansible.com/automation-controller/4.3.0/html_ko/quickstart"
-    release_notes: "http://docs.ansible.com/automation-controller/4.3.0/html_ko/release-notes/"
-    api: "http://docs.ansible.com/automation-controller/4.3.0/html_ko/controllerapi/"
-    administration: "http://docs.ansible.com/automation-controller/4.3.0/html_ko/administration/"
-    userguide: "http://docs.ansible.com/automation-controller/4.3.0/html_ko/userguide/"
-    upgrade: "http://docs.ansible.com/automation-controller/4.3.0/html_ko/upgrade-migration-guide/"
+  v_4_3:
+    heading: Automation Controller Version 4.3 (Supported)
+    quickstart: "http://docs.ansible.com/automation-controller/4.3/html_ko/quickstart"
+    release_notes: "http://docs.ansible.com/automation-controller/4.3/html_ko/release-notes/"
+    api: "http://docs.ansible.com/automation-controller/4.3/html_ko/controllerapi/"
+    administration: "http://docs.ansible.com/automation-controller/4.3/html_ko/administration/"
+    userguide: "http://docs.ansible.com/automation-controller/4.3/html_ko/userguide/"
+    upgrade: "http://docs.ansible.com/automation-controller/4.3/html_ko/upgrade-migration-guide/"
   v_4_2_2:
     heading: Automation Controller Version 4.2.2 (Supported)
     quickstart: "http://docs.ansible.com/automation-controller/4.2.2/html_ko/quickstart"
@@ -51,14 +51,14 @@ tower_ja:
     administration: "http://docs.ansible.com/automation-controller/4.4/html_ja/administration/"
     userguide: "http://docs.ansible.com/automation-controller/4.4/html_ja/userguide/"
     upgrade: "http://docs.ansible.com/automation-controller/4.4/html_ja/upgrade-migration-guide/"
-  v_4_3_O:
-    heading: Automation Controller Version 4.3.0 (Supported)
-    quickstart: "http://docs.ansible.com/automation-controller/4.3.0/html_ja/quickstart"
-    release_notes: "http://docs.ansible.com/automation-controller/4.3.0/html_ja/release-notes/"
-    api: "http://docs.ansible.com/automation-controller/4.3.0/html_ja/controllerapi/"
-    administration: "http://docs.ansible.com/automation-controller/4.3.0/html_ja/administration/"
-    userguide: "http://docs.ansible.com/automation-controller/4.3.0/html_ja/userguide/"
-    upgrade: "http://docs.ansible.com/automation-controller/4.3.0/html_ja/upgrade-migration-guide/"
+  v_4_3:
+    heading: Automation Controller Version 4.3 (Supported)
+    quickstart: "http://docs.ansible.com/automation-controller/4.3/html_ja/quickstart"
+    release_notes: "http://docs.ansible.com/automation-controller/4.3/html_ja/release-notes/"
+    api: "http://docs.ansible.com/automation-controller/4.3/html_ja/controllerapi/"
+    administration: "http://docs.ansible.com/automation-controller/4.3/html_ja/administration/"
+    userguide: "http://docs.ansible.com/automation-controller/4.3/html_ja/userguide/"
+    upgrade: "http://docs.ansible.com/automation-controller/4.3/html_ja/upgrade-migration-guide/"
   v_4_2_2:
     heading: Automation Controller Version 4.2.2 (Supported)
     quickstart: "http://docs.ansible.com/automation-controller/4.2.2/html_ja/quickstart"
@@ -351,14 +351,14 @@ tower_zh:
     administration: "http://docs.ansible.com/automation-controller/4.4/html_zh/administration/"
     userguide: "http://docs.ansible.com/automation-controller/4.4/html_zh/userguide/"
     upgrade: "http://docs.ansible.com/automation-controller/4.4/html_zh/upgrade-migration-guide/"
-  v_4_3_O:
-    heading: Automation Controller Version 4.3.0 (Supported)
-    quickstart: "http://docs.ansible.com/automation-controller/4.3.0/html_zh/quickstart"
-    release_notes: "http://docs.ansible.com/automation-controller/4.3.0/html_zh/release-notes/"
-    api: "http://docs.ansible.com/automation-controller/4.3.0/html_zh/controllerapi/"
-    administration: "http://docs.ansible.com/automation-controller/4.3.0/html_zh/administration/"
-    userguide: "http://docs.ansible.com/automation-controller/4.3.0/html_zh/userguide/"
-    upgrade: "http://docs.ansible.com/automation-controller/4.3.0/html_zh/upgrade-migration-guide/"
+  v_4_3:
+    heading: Automation Controller Version 4.3 (Supported)
+    quickstart: "http://docs.ansible.com/automation-controller/4.3/html_zh/quickstart"
+    release_notes: "http://docs.ansible.com/automation-controller/4.3/html_zh/release-notes/"
+    api: "http://docs.ansible.com/automation-controller/4.3/html_zh/controllerapi/"
+    administration: "http://docs.ansible.com/automation-controller/4.3/html_zh/administration/"
+    userguide: "http://docs.ansible.com/automation-controller/4.3/html_zh/userguide/"
+    upgrade: "http://docs.ansible.com/automation-controller/4.3/html_zh/upgrade-migration-guide/"
   v_4_2_2:
     heading: Automation Controller Version 4.2.2 (Supported)
     quickstart: "http://docs.ansible.com/automation-controller/4.2.2/html_zh/quickstart"
