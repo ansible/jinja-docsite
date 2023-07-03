@@ -14,21 +14,21 @@
         </div>
       </div>
       <!-- Start ecosystem projects -->
-      {% for key, item in ecosystem.items() %}
+      {%- for key, item in ecosystem.items() %}
       <div class="width-6-12 width-12-12-m">
         <h5>{{ item.name }}</h5>
         <p>{{ item.description }}</p>
-        {% if item.docs.home %}
-        <p><a class="btn" href="{{ item.docs.home }}" role="button">{{ item.name }} documentation</a></p>
-        {% else %}
+        {%- if item.docs.home %}
+        <a class="btn" href="{{ item.docs.home }}" role="button">{{ item.name }} documentation</a>
+        {%- else %}
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-          {% for key, item in item.docs.items() %}
+          {%- for key, item in item.docs.items() %}
           <a class="btn" href="{{ item.link }}" role="button">{{ item.button }}</a>
-          {% endfor %}
+          {%- endfor %}
         </div>
-        {% endif %}
+        {%- endif %}
       </div>
-      {% endfor %}
+      {%- endfor %}
       <!-- End ecosystem projects -->
     </div>
   </div>
