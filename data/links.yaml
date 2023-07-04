@@ -103,21 +103,6 @@ maintainer:
   participate:
     community_topics: "https://github.com/ansible-community/community-topics/issues"
     join: "https://docs.ansible.com/ansible/latest/community/contributor_path.html#become-a-steering-committee-member"
-# Ansible community
-community:
-  collaborate:
-    conduct: "https://docs.ansible.com/ansible/latest/community/code_of_conduct.html"
-    help: "https://docs.ansible.com/ansible/latest/community/how_can_I_help.html"
-  communicate:
-    matrix: "https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix"
-    public_meetings: "https://docs.ansible.com/ansible/latest/community/communication.html#meetings-on-chat"
-    communication_guide: "https://docs.ansible.com/ansible/devel/community/communication.html"
-  decide:
-    community_topics: "https://github.com/ansible-community/community-topics/issues"
-    working_groups: "https://docs.ansible.com/ansible/latest/community/communication.html#working-groups"
-  follow:
-    bullhorn: "https://bit.ly/subscribe-bullhorn"
-    # TODO: Add new community website link when ready
 # Translations
 translations:
   core_ja:

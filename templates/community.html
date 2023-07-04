@@ -24,35 +24,18 @@
         </div>
       </div>
       <!-- End old docsite toggle. -->
+      <!-- Start community member journey. -->
+      {% for key, value in community.milestones.items() -%}
       <div class="width-6-12 width-12-12-m">
-        <h3>{{ pages.community.collaborate.title }}</h3>
+        <h3>{{ value.title }}</h3>
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-          <a class="btn" href="{{ links.community.collaborate.conduct }}" role="button">{{ pages.community.collaborate.conduct }}</a>
-          <a class="btn" href="{{ links.community.collaborate.help }}" role="button">{{ pages.community.collaborate.help }}</a>
-          <a class="btn" href="{{ links.site.ecosystem }}" role="button">{{ pages.community.collaborate.ecosystem }}</a>
+          {%- for action_key, action_value in value.actions.items() %}
+          <a class="btn" href="{{ action_value.link }}" role="button">{{ action_value.label }}</a>
+          {%- endfor %}
         </div>
       </div>
-      <div class="width-6-12 width-12-12-m">
-        <h3>{{ pages.community.communicate.title }}</h3>
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-          <a class="btn" href="{{ links.community.communicate.matrix }}" role="button">{{ pages.community.communicate.matrix }}</a>
-          <a class="btn" href="{{ links.community.communicate.public_meetings }}" role="button">{{ pages.community.communicate.public_meetings }}</a>
-          <a class="btn" href="{{ links.community.communicate.communication_guide }}" role="button">{{ pages.community.communicate.communication_guide }}</a>
-        </div>
-      </div>
-      <div class="width-6-12 width-12-12-m">
-        <h3>{{ pages.community.decide.title }}</h3>
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-          <a class="btn" href="{{ links.community.decide.community_topics }}" role="button">{{ pages.community.decide.community_topics }}</a>
-          <a class="btn" href="{{ links.community.decide.working_groups }}" role="button">{{ pages.community.decide.working_groups }}</a>
-        </div>
-      </div>
-      <div class="width-6-12 width-12-12-m">
-        <h3>{{ pages.community.follow.title }}</h3>
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-          <a class="btn" href="{{ links.community.follow.bullhorn }}" role="button">{{ pages.community.follow.bullhorn }}</a>
-        </div>
-      </div>
+      {% endfor -%}
+      <!-- End community member journey. -->
     </div>
   </div>
 </div>
