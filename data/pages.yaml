@@ -164,6 +164,9 @@ maintainer:
 core:
   title: Ansible Core
   intro: Core includes the Ansible language and runtime, a set of built-in modules and command-line tools, and a framework for extending automation with collections.
+  core_ja:
+    title: 日本語ドキュメント (Japanese)
+    text: Access Japanese translations for Ansible Core documentation.
 # Ansible ecosystem
 ecosystem:
   title: Ansible Ecosystem
@@ -222,16 +225,6 @@ buttons:
   archive: Visit the archive
 feedback: <i class="fas fa-comments"></i> Got thoughts or feedback on the new documentation landing pages? We want to hear from you! <br /> Join us in the <a href="https://matrix.to/#/#docs:ansible.com" target="_blank">docs channel</a> on <a href="https://docs.ansible.com/ansible/latest/community/communication.html#ansible-community-on-matrix" target="_blank">Matrix</a> or open a <a href="https://github.com/ansible/docsite/issues" target="_blank">GitHub issue</a> in the docsite repository.
 take_me_back: Restore the old layout
-# Translations
-translations:
-  core_ja:
-    title: 日本語ドキュメント (Japanese)
-    text: Access Japanese translations for Ansible Core documentation.
-    v_2_14: ansible-core ドキュメント 2.14
-    v_2_13: ansible-core ドキュメント 2.13
-    v_2_12: ansible-core ドキュメント 2.12
-    v_2_11: ansible-core ドキュメント 2.11
-    v_2_9: Ansible ドキュメント 2.9
 # Archive pages
 archive:
   community:

@@ -8,8 +8,8 @@
       </div>
       <div class="width-8-12 width-12-12-m">
         <div class="page-title">
-          <h2>{{ pages.translations.core_ja.title }}</h2>
-          <p>{{ pages.translations.core_ja.text }}</p>
+          <h2>{{ pages.core.core_ja.title }}</h2>
+          <p>{{ pages.core.core_ja.text }}</p>
           <p class="feedback">{{ pages.feedback }}</p>
         </div>
       </div>
@@ -25,36 +25,16 @@
         </div>
       </div>
       <!-- End old docsite toggle. -->
+      <!-- Start Japanese translations for core. -->
+      {% for key, item in core_translations.core_ja.items() -%}
       <div class="width-6-12 width-12-12-m">
-        <h5>{{ pages.translations.core_ja.v_2_14 }}</h5>
-        <a class="btn" href="{{ links.translations.core_ja.v_2_14 }}" role="button">
-            {{ pages.buttons.visit_docs }}
+        <h5>{{ item.heading }}</h5>
+        <a class="btn" href="{{ item.link }}" role="button">
+          {{ pages.buttons.visit_docs }}
         </a>
       </div>
-      <div class="width-6-12 width-12-12-m">
-        <h5>{{ pages.translations.core_ja.v_2_13 }}</h5>
-        <a class="btn" href="{{ links.translations.core_ja.v_2_13 }}" role="button">
-            {{ pages.buttons.visit_docs }}
-        </a>
-      </div>
-      <div class="width-6-12 width-12-12-m">
-        <h5>{{ pages.translations.core_ja.v_2_12 }}</h5>
-        <a class="btn" href="{{ links.translations.core_ja.v_2_12 }}" role="button">
-            {{ pages.buttons.visit_docs }}
-        </a>
-      </div>
-      <div class="width-6-12 width-12-12-m">
-        <h5>{{ pages.translations.core_ja.v_2_11 }}</h5>
-        <a class="btn" href="{{ links.translations.core_ja.v_2_11 }}" role="button">
-            {{ pages.buttons.visit_docs }}
-        </a>
-      </div>
-      <div class="width-6-12 width-12-12-m">
-        <h5>{{ pages.translations.core_ja.v_2_9 }}</h5>
-        <a class="btn" href="{{ links.translations.core_ja.v_2_9 }}" role="button">
-            {{ pages.buttons.visit_docs }}
-        </a>
-      </div>
+      {% endfor -%}
+      <!-- End Japanese translations for core. -->
     </div>
   </div>
 </div>

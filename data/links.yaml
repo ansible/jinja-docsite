@@ -118,14 +118,6 @@ community:
   follow:
     bullhorn: "https://bit.ly/subscribe-bullhorn"
     # TODO: Add new community website link when ready
-# Translations
-translations:
-  core_ja:
-    v_2_14: "https://docs.ansible.com/ansible-core/2.14_ja/index.html"
-    v_2_13: "https://docs.ansible.com/ansible-core/2.13_ja/index.html"
-    v_2_12: "https://docs.ansible.com/ansible-core/2.12_ja/index.html"
-    v_2_11: "https://docs.ansible.com/ansible-core/2.11_ja/index.html"
-    v_2_9: "https://docs.ansible.com/ansible/2.9_ja/index.html"
 # Archive pages
 archive:
   community:
