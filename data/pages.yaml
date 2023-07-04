@@ -30,9 +30,6 @@ index:
 # Quicklinks
 quicklinks:
   heading: Quicklinks
-  yaml_syntax: YAML syntax
-  playbook_variables: Playbook variables
-  playbook_conditionals: Playbook conditionals
   developing_modules: Developing modules
   python_three: Ansible and Python 3
   python_api: Python API
@@ -44,56 +41,10 @@ novice:
   learn: Understand the fundamentals of Ansible automation
   install: Install the Ansible package
   start: Run your first ad hoc command in a few easy steps
-# Actions for user journeys
-user:
+# Title and intro for users.html
+users:
   title: Users
   intro: Automate the management of remote systems and control their desired state.
-  milestone:
-    automate: Create automation
-    build_inventory: Build inventories
-    organize: Organize automation projects
-    tooling: Use Ansible tooling
-    find: Find automation content
-    share: Share automation content
-    awx: Schedule and run automation jobs
-    executor: Embed automation in systems
-  automate:
-    intro: Write playbooks and develop content that automates complex tasks.
-    start: Start writing Ansible playbooks
-    evaluate_plugins: Learn about Ansible modules
-  build_inventory:
-    intro: Build inventories that list and describe your infrastructure.
-    multiple_hosts: Build inventory files to manage multiple hosts
-    dynamic: Use dynamic inventories
-  organize:
-    intro: Organize your automation project as it grows.
-    roles: Use roles to structure the automation project
-  tooling:
-    intro: Validate and improve your project for consistent, trusted automation.
-    lint: Use Ansible Lint to validate playbooks
-    molecule: Install Molecule to develop and test Ansible roles
-    navigator: Create and test playbooks with Ansible Navigator
-    vscode: Use Ansible with Visual Studio Code and OpenVSX compatible editors
-  find:
-    intro: Discover and use existing automation content.
-    explore_galaxy: Start exploring Ansible Galaxy
-    install_roles: Install and use roles
-    install_collections: Install and use collections
-    customize_content: Customize automation content
-  share:
-    intro: Share your automation content with others.
-    submit_roles: Submit roles to an existing collection
-    create_collection: Create a new collection
-    upload_collection: Upload a collection to Ansible Galaxy
-  awx:
-    intro: Use AWX for more convenient automation.
-    on_demand_jobs: Execute automation jobs on demand
-    schedule_jobs: Schedule automation jobs
-    create_job_templates: Create AWX job templates
-  executor:
-    intro: Invoke automation jobs from other systems.
-    build_ees: Build execution environment with specific dependencies
-    use_ees: Use execution environments with AWX jobs
 # Actions for developer journeys
 developer:
   title: Developers

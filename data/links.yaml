@@ -19,9 +19,6 @@ pkg_docs:
   developer_guide: "https://docs.ansible.com/ansible/latest/dev_guide/index.html"
 # Quicklinks
 quicklinks:
-  yaml_syntax: "https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html"
-  playbook_variables: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html"
-  playbook_conditionals: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_conditionals.html"
   developing_modules: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html"
   python_three: "https://docs.ansible.com/ansible/latest/dev_guide/developing_python_3.html"
   python_api: "https://docs.ansible.com/ansible/latest/dev_guide/developing_api.html"
@@ -33,33 +30,6 @@ novice:
   setup: ""
   install: "https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible"
   start: "https://docs.ansible.com/ansible/latest/getting_started/index.html"
-# User actions
-user:
-  automate:
-    start: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html#playbook-syntax"
-    evaluate_plugins: "https://docs.ansible.com/ansible/latest/module_plugin_guide/modules_intro.html"
-  build_inventory:
-    multiple_hosts: "https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html"
-    dynamic: "https://docs.ansible.com/ansible/latest/inventory_guide/intro_dynamic_inventory.html"
-  organize:
-    roles: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html"
-  find:
-    explore_galaxy: "https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#finding-collections-on-galaxy"
-    install_roles: "https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#installing-roles-from-galaxy"
-    install_collections: "https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#installing-collections"
-    customize_content: ""
-  share:
-    create_roles: "https://docs.ansible.com/ansible/latest/dev_guide/migrating_roles.html"
-    create_collection: "https://docs.ansible.com/ansible/latest/dev_guide/developing_collections.html#developing-collections"
-    submit_roles: "https://galaxyng.netlify.app/community/userguide/#importing-roles"
-    upload_collection: "https://galaxyng.netlify.app/community/userguide/#uploading-collections"
-  awx:
-    on_demand_jobs: "https://github.com/ansible/awx/blob/devel/docs/tasks.md#awx-jobs"
-    schedule_jobs: "https://github.com/ansible/awx/blob/devel/docs/schedules.md#scheduled-jobs"
-    create_job_templates: ""
-  executor:
-    build_ees: "https://ansible-builder.readthedocs.io/en/latest/index.html"
-    use_ees: "https://ansible-runner.readthedocs.io/en/latest/execution_environments/"
 # Developer actions
 developer:
   start:
