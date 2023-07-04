@@ -7,8 +7,8 @@
       </div>
       <div class="width-8-12 width-12-12-m">
         <div class="page-title">
-          <h2>{{ pages.archive.community.title }}</h2>
-          <p>{{ pages.archive.community.intro }}</p>
+          <h2>{{ pages.community.archive.title }}</h2>
+          <p>{{ pages.community.archive.intro }}</p>
           <p class="feedback">{{ pages.feedback }}</p>
         </div>
       </div>
@@ -24,18 +24,16 @@
         </div>
       </div>
       <!-- End old docsite toggle. -->
+      <!-- Start community docs archive. -->
+      {% for key, item in community.archive.items() -%}
       <div class="width-6-12 width-12-12-m">
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-          <a class="btn" href="{{ links.archive.community.v_2_6 }}" role="button">{{ pages.archive.community.v_2_6 }}</a>
-          <a class="btn" href="{{ links.archive.community.v_2_5 }}" role="button">{{ pages.archive.community.v_2_5 }}</a>
-        </div>
+        <h5>{{ item.heading }}</h5>
+        <a class="btn" href="{{ item.link }}" role="button">
+          {{ pages.buttons.visit_docs }}
+        </a>
       </div>
-      <div class="width-6-12 width-12-12-m">
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-          <a class="btn" href="{{ links.archive.community.v_2_4 }}" role="button">{{ pages.archive.community.v_2_4 }}</a>
-          <a class="btn" href="{{ links.archive.community.v_2_3 }}" role="button">{{ pages.archive.community.v_2_3 }}</a>
-        </div>
-      </div>
+      {% endfor -%}
+      <!-- End community docs archive. -->
     </div>
   </div>
 </div>

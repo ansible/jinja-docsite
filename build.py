@@ -9,6 +9,7 @@ from yaml import Loader, load
 def data():
     return {
         "base": load(open("data/base.yaml"), Loader=Loader),
+        "community": load(open("data/community.yaml"), Loader=Loader),
         "ecosystem": load(open("data/ecosystem.yaml"), Loader=Loader),
         "links": load(open("data/links.yaml"), Loader=Loader),
         "pages": load(open("data/pages.yaml"), Loader=Loader),

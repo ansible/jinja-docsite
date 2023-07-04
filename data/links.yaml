@@ -126,10 +126,3 @@ translations:
     v_2_12: "https://docs.ansible.com/ansible-core/2.12_ja/index.html"
     v_2_11: "https://docs.ansible.com/ansible-core/2.11_ja/index.html"
     v_2_9: "https://docs.ansible.com/ansible/2.9_ja/index.html"
-# Archive pages
-archive:
-  community:
-    v_2_6: "https://docs.ansible.com/archive/ansible/2.6/"
-    v_2_5: "https://docs.ansible.com/archive/ansible/2.5/"
-    v_2_4: "https://docs.ansible.com/archive/ansible/2.4/"
-    v_2_3: "https://docs.ansible.com/archive/ansible/2.3/"

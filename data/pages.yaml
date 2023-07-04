@@ -172,6 +172,9 @@ ecosystem:
 community:
   title: Join the Ansible community
   intro: Open-source and collaboration are at the heart of the Ansible community, helping more people experience the power of automation and work better and faster together.
+  archive:
+    title: Ansible community documentation archive
+    intro: Archive page for the Ansible community documentation that provides older versions of content.
   collaborate:
     title: Collaborate with us
     conduct: Read the code of conduct
@@ -232,12 +235,3 @@ translations:
     v_2_12: ansible-core ドキュメント 2.12
     v_2_11: ansible-core ドキュメント 2.11
     v_2_9: Ansible ドキュメント 2.9
-# Archive pages
-archive:
-  community:
-    title: Ansible community documentation archive
-    intro: Archive page for the Ansible community documentation that provides older versions of content.
-    v_2_6: Ansible community documentation for version 2.6
-    v_2_5: Ansible community documentation for version 2.5
-    v_2_4: Ansible community documentation for version 2.4
-    v_2_3: Ansible community documentation for version 2.3
