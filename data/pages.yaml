@@ -33,9 +33,6 @@ quicklinks:
   yaml_syntax: YAML syntax
   playbook_variables: Playbook variables
   playbook_conditionals: Playbook conditionals
-  developing_modules: Developing modules
-  python_three: Ansible and Python 3
-  python_api: Python API
   maintainer_news: News for maintainers
   community_topics: Community topics
   package_inclusion: Package inclusion requests
@@ -94,43 +91,10 @@ user:
     intro: Invoke automation jobs from other systems.
     build_ees: Build execution environment with specific dependencies
     use_ees: Use execution environments with AWX jobs
-# Actions for developer journeys
-developer:
+# Title and intro for developers.html
+developers:
   title: Developers
   intro: Extend automation with custom Ansible modules, add functionality to existing modules, or fix bugs to improve existing code.
-  milestone:
-    start: Start writing code
-    contribute: Contribute code to a collection
-    test: Test plugins and modules
-    create_collection: Create new collections
-  start:
-    intro: Ready to start writing code for Ansible? Follow these steps to get started.
-    setup: Set up your development environment
-    learn: Learn how Ansible works
-    code: Write custom modules or plugins
-  contribute:
-    intro: Contribute your code to an Ansible project or collection.
-    first_contribution: Make your first contribution
-    collection_contrib_guide: Explore Collection contributor guide
-    checklist: Contribute your module to an existing collection
-    lifecycle: Review the lifecycle of an Ansible module or plugin
-    # TODO Think of filling the items below in data/links.yml, currently undefined
-    review: Review issues and PRs in an Ansible project
-    fix: Fix issues and implement new features in an Ansible project, collection, or module
-  test:
-    intro: Test Ansible to help fix bugs and enforce coding standards and requirements.
-    learn: Understand testing in Ansible
-    run: Run sanity tests
-    integration: Write integration tests
-    unit: Write unit tests
-  create_collection:
-    intro: Create a new collection that distributes Ansible content for specific use cases.
-    skeleton: Set things up with the collection skeleton
-    test: Test your collection for code quality
-    distribute: Publish your collection on a distribution server
-    gh_actions: Use GitHub actions to set up testing workflows
-    troubleshoot: Troubleshoot collections with ansible-navigator
-    request_inclusion: Request a collection be added to the Ansible package
 # Actions for community maintainer journeys
 maintainer:
   title: Maintainers

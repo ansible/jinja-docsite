@@ -22,9 +22,6 @@ quicklinks:
   yaml_syntax: "https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html"
   playbook_variables: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html"
   playbook_conditionals: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_conditionals.html"
-  developing_modules: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html"
-  python_three: "https://docs.ansible.com/ansible/latest/dev_guide/developing_python_3.html"
-  python_api: "https://docs.ansible.com/ansible/latest/dev_guide/developing_api.html"
   maintainer_news: "https://github.com/ansible-collections/news-for-maintainers/issues"
   community_topics: "https://github.com/ansible-community/community-topics/issues"
 # Novice actions
@@ -60,31 +57,6 @@ user:
   executor:
     build_ees: "https://ansible-builder.readthedocs.io/en/latest/index.html"
     use_ees: "https://ansible-runner.readthedocs.io/en/latest/execution_environments/"
-# Developer actions
-developer:
-  start:
-    setup: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html#environment-setup"
-    learn: "https://docs.ansible.com/ansible/latest/dev_guide/overview_architecture.html"
-    code: "https://docs.ansible.com/ansible/latest/dev_guide/developing_locally.html"
-  contribute:
-    first_contribution: "https://docs.ansible.com/ansible/latest/community/contributor_path.html#making-your-first-contribution"
-    collection_contrib_guide: "https://docs.ansible.com/ansible/latest/community/contributions_collections.html"
-    checklist: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_checklist.html"
-    lifecycle: "https://docs.ansible.com/ansible/latest/dev_guide/module_lifecycle.html"
-    review: ""
-    fix: ""
-  test:
-    learn: "https://docs.ansible.com/ansible/latest/dev_guide/testing.html#why-test-your-ansible-contributions"
-    run: "https://docs.ansible.com/ansible/latest/dev_guide/testing_sanity.html"
-    integration: "https://docs.ansible.com/ansible/latest/dev_guide/testing_integration.html#testing-integration"
-    unit: "https://docs.ansible.com/ansible/latest/dev_guide/testing_units.html#testing-units"
-  create_collection:
-    skeleton: "https://docs.ansible.com/ansible/latest/dev_guide/developing_collections_creating.html#creating-collections-skeleton"
-    test: "https://docs.ansible.com/ansible/latest/dev_guide/developing_collections_testing.html"
-    distribute: "https://docs.ansible.com/ansible/devel/dev_guide/developing_collections_distributing.html#initial-configuration-of-your-distribution-server-or-servers"
-    gh_actions: ""
-    troubleshoot: ""
-    request_inclusion: "https://github.com/ansible-collections/ansible-inclusion"
 # Community maintainer actions
 maintainer:
   learn:
