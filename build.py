@@ -18,18 +18,19 @@ def data():
         "controller_translations": load(open("data/controller_translations.yaml"), Loader=Loader)
     }
 
-buildpath = Path('build')
+buildpath = Path('output')
+
 if buildpath.exists() and buildpath.is_dir():
-    shutil.rmtree("build")
+    shutil.rmtree(buildpath)
 
 if __name__ == "__main__":
 
     site = Site.make_site()
-    site.outpath="build"
+    site.outpath=buildpath
     site.contexts=[(".*.html", data)]
     # disable automatic reloading
     site.render(use_reloader=False)
 
 
-    shutil.copytree('static', 'build/static')
-    sass.compile(dirname=('sass', 'build/static/css'))
+    shutil.copytree('static', buildpath / 'static')
+    sass.compile(dirname=('sass', buildpath / 'static/css'))

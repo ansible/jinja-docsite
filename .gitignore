@@ -130,3 +130,6 @@ dmypy.json
 
 # VScode stuff
 .vscode/
+
+# Generated HTML
+output/
