@@ -1,9 +1,9 @@
 # Base docsite page names
 site:
   index: index.html
-  user: users.html
-  developer: developers.html
-  maintainer: maintainers.html
+  users: users.html
+  developers: developers.html
+  maintainers: maintainers.html
   collections: collections.html
   community: community.html
   community_archive: ansible-prior-versions.html
@@ -11,12 +11,6 @@ site:
   core_ja: core-translated-ja.html
   ecosystem: ecosystem.html
   platform: platform.html
-pkg_docs:
-  index: "https://docs.ansible.com/ansible/latest/index.html"
-  install: "https://docs.ansible.com/ansible/latest/installation_guide/index.html"
-  inventory_guide: "https://docs.ansible.com/ansible/latest/inventory_guide/index.html"
-  playbook_guide: "https://docs.ansible.com/ansible/latest/playbook_guide/index.html"
-  developer_guide: "https://docs.ansible.com/ansible/latest/dev_guide/index.html"
 # Quicklinks
 quicklinks:
   yaml_syntax: "https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html"
@@ -27,12 +21,6 @@ quicklinks:
   python_api: "https://docs.ansible.com/ansible/latest/dev_guide/developing_api.html"
   maintainer_news: "https://github.com/ansible-collections/news-for-maintainers/issues"
   community_topics: "https://github.com/ansible-community/community-topics/issues"
-# Novice actions
-novice:
-  learn: "https://docs.ansible.com/ansible/latest/index.html"
-  setup: ""
-  install: "https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-and-upgrading-ansible"
-  start: "https://docs.ansible.com/ansible/latest/getting_started/index.html"
 # User actions
 user:
   automate:
