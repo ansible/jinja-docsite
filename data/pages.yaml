@@ -36,9 +36,6 @@ quicklinks:
   developing_modules: Developing modules
   python_three: Ansible and Python 3
   python_api: Python API
-  maintainer_news: News for maintainers
-  community_topics: Community topics
-  package_inclusion: Package inclusion requests
 # Actions for novice journeys
 novice:
   learn: Understand the fundamentals of Ansible automation
@@ -131,35 +128,10 @@ developer:
     gh_actions: Use GitHub actions to set up testing workflows
     troubleshoot: Troubleshoot collections with ansible-navigator
     request_inclusion: Request a collection be added to the Ansible package
-# Actions for community maintainer journeys
-maintainer:
+# Title and intro for maintainers.html
+maintainers:
   title: Maintainers
   intro: Ansible community maintainers are trusted contributors who oversee project lifecycle and overall health.
-  milestone:
-    learn: Learn about community maintainer responsibilities
-    build_community: Expand community around a collection
-    collection_inclusion: Get collections included in the Ansible package
-    participate: Participate in cross-project governance
-  learn:
-    intro: Interested in becoming a community maintainer? Find out what's involved.
-    guidelines: Review community maintainer responsibilities
-    backports: Backport merged pull requests to stable branches
-    release: Regularly release stable versions
-    documentation: Look after collection documentation
-  build_community:
-    intro: Community maintainers play a special role to enable and encourage contributors.
-    grow_community: Explore ways to grow community
-    documentation: Maintain good contributor documentation
-    contributor_paths: Understand Ansible contributor paths
-  collection_inclusion:
-    intro: Satisfy requirements to get collections included in the Ansible package.
-    process: Understand the inclusion process
-    review: Review other inclusion requests
-    submit: Submit your collection for inclusion
-  participate:
-    intro: Get involved in higher-level decision processes that guide the broader community.
-    community_topics: Discuss and vote on community topics
-    join: Join the Ansible community steering committee
 # Ansible core
 core:
   title: Ansible Core

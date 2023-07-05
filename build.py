@@ -11,6 +11,7 @@ def data():
         "base": load(open("data/base.yaml"), Loader=Loader),
         "ecosystem": load(open("data/ecosystem.yaml"), Loader=Loader),
         "links": load(open("data/links.yaml"), Loader=Loader),
+        "maintainers": load(open("data/maintainers.yaml"), Loader=Loader),
         "pages": load(open("data/pages.yaml"), Loader=Loader),
         "platform": load(open("data/platform.yaml"), Loader=Loader),
         "controller_archive": load(open("data/controller_archive.yaml"), Loader=Loader),

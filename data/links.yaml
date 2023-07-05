@@ -25,8 +25,6 @@ quicklinks:
   developing_modules: "https://docs.ansible.com/ansible/latest/dev_guide/developing_modules_general.html"
   python_three: "https://docs.ansible.com/ansible/latest/dev_guide/developing_python_3.html"
   python_api: "https://docs.ansible.com/ansible/latest/dev_guide/developing_api.html"
-  maintainer_news: "https://github.com/ansible-collections/news-for-maintainers/issues"
-  community_topics: "https://github.com/ansible-community/community-topics/issues"
 # Novice actions
 novice:
   learn: "https://docs.ansible.com/ansible/latest/index.html"
@@ -85,24 +83,6 @@ developer:
     gh_actions: ""
     troubleshoot: ""
     request_inclusion: "https://github.com/ansible-collections/ansible-inclusion"
-# Community maintainer actions
-maintainer:
-  learn:
-    guidelines: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html"
-    backports: "https://docs.ansible.com/ansible/latest/community/maintainers_workflow.html#backporting"
-    release: "https://docs.ansible.com/ansible/latest/community/collection_contributors/collection_releasing.html#releasing"
-    documentation: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#maintaining-good-collection-documentation"
-  build_community:
-    grow_community: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#expanding-the-collection-community"
-    contributor_paths: "https://docs.ansible.com/ansible/latest/community/contributor_path.html"
-    documentation: "https://docs.ansible.com/ansible/latest/community/maintainers_guidelines.html#maintaining-good-collection-documentation"
-  collection_inclusion:
-    process: "https://docs.ansible.com/ansible/devel/community/steering/community_steering_committee.html#collection-inclusion-requests-workflow"
-    review: "https://github.com/ansible-collections/ansible-inclusion/blob/main/README.md#review-process"
-    submit: "https://github.com/ansible-collections/ansible-inclusion/blob/main/README.md#submission-process"
-  participate:
-    community_topics: "https://github.com/ansible-community/community-topics/issues"
-    join: "https://docs.ansible.com/ansible/latest/community/contributor_path.html#become-a-steering-committee-member"
 # Ansible community
 community:
   collaborate:
