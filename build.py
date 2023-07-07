@@ -1,28 +1,21 @@
-import os
 import shutil
 import sass
+import glob
 
 from pathlib import Path
 from staticjinja import Site
-from yaml import Loader, load
+from yaml import load, Loader
 
 def data():
-    return {
-        "base": load(open("data/base.yaml"), Loader=Loader),
-        "developers": load(open("data/developers.yaml"), Loader=Loader),
-        "community": load(open("data/community.yaml"), Loader=Loader),
-        "ecosystem": load(open("data/ecosystem.yaml"), Loader=Loader),
-        "index": load(open("data/index.yaml"), Loader=Loader),
-        "links": load(open("data/links.yaml"), Loader=Loader),
-        "maintainers": load(open("data/maintainers.yaml"), Loader=Loader),
-        "pages": load(open("data/pages.yaml"), Loader=Loader),
-        "platform": load(open("data/platform.yaml"), Loader=Loader),
-        "controller_archive": load(open("data/controller_archive.yaml"), Loader=Loader),
-        "controller_i18n_links": load(open("data/controller_i18n_links.yaml"), Loader=Loader),
-        "controller_translations": load(open("data/controller_translations.yaml"), Loader=Loader),
-        "core_translations": load(open("data/core_translations.yaml"), Loader=Loader),
-        "users": load(open("data/users.yaml"), Loader=Loader),
-    }
+    data_dict = {}
+    yaml = glob.glob("data/*.yaml")
+
+    for file_path in yaml:
+        file_name = file_path.split("/")[-1].split(".")[0]
+        with open(file_path, "r") as file:
+            data_dict[file_name] = load(file, Loader=Loader)
+
+    return data_dict
 
 buildpath = Path('output')
 
