@@ -221,7 +221,6 @@ buttons:
   learn_more: Learn more
   archive: Visit the archive
 feedback: <i class="fas fa-comments"></i> Got thoughts or feedback on the new documentation landing pages? We want to hear from you! <br /> Join us in the <a href="https://matrix.to/#/#docs:ansible.com" target="_blank">docs channel</a> on <a href="https://docs.ansible.com/ansible/latest/community/communication.html#ansible-community-on-matrix" target="_blank">Matrix</a> or open a <a href="https://github.com/ansible/docsite/issues" target="_blank">GitHub issue</a> in the docsite repository.
-take_me_back: Restore the old layout
 # Translations
 translations:
   core_ja:
