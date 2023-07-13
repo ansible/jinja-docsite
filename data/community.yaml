@@ -1,5 +1,8 @@
 # Ansible community docs archive
 archive:
+  v_2_7:
+    heading: Ansible community documentation for version 2.7
+    link: "https://docs.ansible.com/archive/ansible/2.7/"
   v_2_6:
     heading: Ansible community documentation for version 2.6
     link: "https://docs.ansible.com/archive/ansible/2.6/"
