@@ -2,77 +2,41 @@
 <div class="container">
   <div class="full-width-bg component">
     <div class="grid-wrapper">
-      <!--<div class="width-3-12 width-12-12-m">
-        <img class="page-logo" src="static/images/community_logo.svg">
-      </div>-->
       <div class="width-9-12 width-12-12-m">
         <div class="page-title">
-          <h2>{{ pages.developer.title }}</h2>
-          <p>{{ pages.developer.intro }}</p>
+          <h2>{{ pages.developers.title }}</h2>
+          <p>{{ pages.developers.intro }}</p>
           <p class="feedback">{{ pages.feedback }}</p>
         </div>
       </div>
       <!-- Start quicklinks. -->
       <div class="width-3-12 width-12-12-m">
         <div class="quicklinks">
-          <h2>{{ pages.quicklinks.heading }}</h2>
+          <h2>{{ pages.quicklinks.title }}</h2>
           <ul class="fa-ul">
+            {%- for key, item in developers.quicklinks.items() %}
             <li>
               <span class="fa-li"><i class="fas fa-book"></i></span>
-              <a href="{{ links.quicklinks.developing_modules }}" target="_blank">{{ pages.quicklinks.developing_modules }}</a>
+              <a href="{{ item.link }}" target="_blank">{{ item.label }}</a>
             </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-book"></i></span>
-              <a href="{{ links.quicklinks.python_three }}" target="_blank">{{ pages.quicklinks.python_three }}</a>
-            </li>
-            <li>
-              <span class="fa-li"><i class="fas fa-book"></i></span>
-              <a href="{{ links.quicklinks.python_api }}" target="_blank">{{ pages.quicklinks.python_api }}</a>
-            </li>
+            {%- endfor %}
           </ul>
           <hr />
         </div>
       </div>
       <!-- End quicklinks. -->
+      <!-- Start developer journey. -->
+      {% for key, value in developers.milestones.items() -%}
       <div class="width-6-12 width-12-12-m">
-        <h3>{{ pages.developer.milestone.start }}</h3>
-        <!--<p>{{ pages.developer.start.intro }}</p>-->
+        <h3>{{ value.heading }}</h3>
         <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-          <a class="btn" href="{{ links.developer.start.setup }}" role="button">{{ pages.developer.start.setup }}</a>
-          <a class="btn" href="{{ links.developer.start.learn }}" role="button">{{ pages.developer.start.learn }}</a>
-          <a class="btn" href="{{ links.developer.start.code }}" role="button">{{ pages.developer.start.code }}</a>
+          {%- for action_key, action_value in value.actions.items() %}
+          <a class="btn" href="{{ action_value.link }}" role="button">{{ action_value.label }}</a>
+          {%- endfor %}
         </div>
       </div>
-      <div class="width-6-12 width-12-12-m">
-        <h3>{{ pages.developer.milestone.contribute }}</h3>
-        <!--<p>{{ pages.developer.contribute.intro }}</p>-->
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-          <a class="btn" href="{{ links.developer.contribute.first_contribution }}" role="button">{{ pages.developer.contribute.first_contribution }}</a>
-          <a class="btn" href="{{ links.developer.contribute.collection_contrib_guide }}" role="button">{{ pages.developer.contribute.collection_contrib_guide }}</a>
-          <a class="btn" href="{{ links.developer.contribute.checklist }}" role="button">{{ pages.developer.contribute.checklist }}</a>
-          <a class="btn" href="{{ links.developer.contribute.lifecycle }}" role="button">{{ pages.developer.contribute.lifecycle }}</a>
-        </div>
-      </div>
-      <div class="width-6-12 width-12-12-m">
-        <h3>{{ pages.developer.milestone.test }}</h3>
-        <!--<p>{{ pages.developer.test.intro }}</p>-->
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-          <a class="btn" href="{{ links.developer.test.learn }}" role="button">{{ pages.developer.test.learn }}</a>
-          <a class="btn" href="{{ links.developer.test.run }}" role="button">{{ pages.developer.test.run }}</a>
-          <a class="btn" href="{{ links.developer.test.integration }}" role="button">{{ pages.developer.test.integration }}</a>
-          <a class="btn" href="{{ links.developer.test.unit }}" role="button">{{ pages.developer.test.unit }}</a>
-        </div>
-      </div>
-      <div class="width-6-12 width-12-12-m">
-        <h3>{{ pages.developer.milestone.create_collection }}</h3>
-        <!--<p>{{ pages.developer.create_collection.intro }}</p>-->
-        <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
-          <a class="btn" href="{{ links.developer.create_collection.skeleton }}" role="button">{{ pages.developer.create_collection.skeleton }}</a>
-          <a class="btn" href="{{ links.developer.create_collection.test }}" role="button">{{ pages.developer.create_collection.test }}</a>
-          <a class="btn" href="{{ links.developer.create_collection.distribute }}" role="button">{{ pages.developer.create_collection.distribute }}</a>
-          <a class="btn" href="{{ links.developer.create_collection.request_inclusion }}" role="button">{{ pages.developer.create_collection.request_inclusion }}</a>
-        </div>
-      </div>
+      {% endfor -%}
+      <!-- End developer journey. -->
     </div>
   </div>
 </div>

@@ -14,10 +14,10 @@
       </div>
         <!-- Start Controller archive. -->
         <div class="width-8-12 width-12-12-m">
-          <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}"></div>
-          {% for key, item in controller_archive.items() %}
+          <div class="btn-group-vertical" role="group" aria-label="{{ pages.labels.button_group }}">
+          {% for key, item in controller_archive.items() -%}
             <a class="btn" href="{{ item.link }}" role="button">{{ item.button }}</a>
-          {% endfor %}
+          {% endfor -%}
           </div>
         </div>
         <!-- End Controller archive. -->
