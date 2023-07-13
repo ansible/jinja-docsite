@@ -13,13 +13,13 @@
           </div>
         </div>
         <!-- Start platform docs. -->
-        {% for key, item in platform.items() %}
+        {% for key, item in platform.items() -%}
         <div class="width-6-12 width-12-12-m">
           <h3>{{ item.name }}</h3>
           <p>{{ item.description }}</p>
           <a class="btn" href="{{ item.docs.link }}" role="button">{{ item.docs.button }}</a>
         </div>
-        {% endfor %}
+        {% endfor -%}
         <!-- End platform docs. -->
       </div>
     </div>
