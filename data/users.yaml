@@ -35,18 +35,27 @@ milestones:
       roles:
         label: Use roles to structure the automation project
         link: "https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html"
+  ees:
+    title: Use Ansible execution environments
+    actions:
+      get_started_ees:
+        label: Get started with execution environments
+        link: "https://docs.ansible.com/ansible/devel/getting_started_ee/index.html"
+      build_ees:
+        label: Build execution environments
+        link: "https://ansible.readthedocs.io/projects/builder/en/latest/"
   tooling:
     title: Use Ansible tooling
     actions:
+      navigator:
+        label: Create and test playbooks with Ansible Navigator
+        link: "https://ansible.readthedocs.io/projects/navigator/"
       lint:
         label: Use Ansible Lint to validate playbooks
         link: "https://ansible.readthedocs.io/projects/lint/"
       molecule:
         label: Install Molecule to develop and test Ansible roles
         link: "https://ansible.readthedocs.io/projects/molecule/"
-      navigator:
-        label: Create and test playbooks with Ansible Navigator
-        link: "https://ansible.readthedocs.io/projects/navigator/"
       vscode:
         label: Use Ansible with Visual Studio Code and OpenVSX compatible editors
         link: "https://marketplace.visualstudio.com/items?itemName=redhat.ansible"
@@ -83,12 +92,6 @@ milestones:
       schedule_jobs:
         label: Schedule automation jobs
         link: "https://github.com/ansible/awx/blob/devel/docs/schedules.md#scheduled-jobs"
-  ees:
-    title: Use Ansible execution environments
-    actions:
-      build_ees:
-        label: Build execution environments
-        link: "https://ansible.readthedocs.io/projects/builder/en/latest/"
       use_ees:
         label: Use execution environments with AWX jobs
         link: "https://ansible.readthedocs.io/projects/runner/en/latest/execution_environments/"
